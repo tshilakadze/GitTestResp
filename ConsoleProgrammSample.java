@@ -11,7 +11,7 @@ public class ConsoleProgrammSample extends ConsoleProgram {
 
 	public void run() {
 		// You fill this in
-		System.out.print("Hello World!");
+		print("Hello World!");
 	}
 
 }
