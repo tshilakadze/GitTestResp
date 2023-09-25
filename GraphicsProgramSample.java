@@ -5,12 +5,13 @@
  * draws a partial diagram of the acm.graphics hierarchy.
  */
 
+import acm.graphics.GLabel;
 import acm.program.*;
 
 public class GraphicsProgramSample extends GraphicsProgram {
 	
 	public void run() {
-		// You fill this in
+		add(new GLabel("hello, world", 20, 20));
 	}
 
 }
