@@ -5,7 +5,6 @@ public class problem02 extends Karel {
 		while(beepersPresent()){pickBeeper();}
 		move();
 		while(beepersInBag()){putBeeper();}
-		move();
 	}
 
 }
