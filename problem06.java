@@ -14,6 +14,16 @@ public class problem06 extends Karel{
 			turnLeft();
 			turnLeft();
 		}
+		move();
+		while(beepersPresent()){
+			pickBeeper();
+			move();
+			putBeeper();
+			turnLeft();
+			turnLeft();
+			move();
+			turnLeft();
+			turnLeft();
+		}
 	}
-
 }
