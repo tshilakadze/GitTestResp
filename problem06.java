@@ -1,5 +1,5 @@
-import stanford.karel.Karel;
-public class problem06 extends Karel{
+import stanford.karel.SuperKarel;
+public class problem06 extends SuperKarel{
 	public void run(){
 		move();
 		while(beepersPresent()){
@@ -7,23 +7,19 @@ public class problem06 extends Karel{
 			move();
 			move();
 			putBeeper();
-			turnLeft();
-			turnLeft();
+			turnAround();
 			move();
 			move();
-			turnLeft();
-			turnLeft();
+			turnAround();
 		}
 		move();
 		while(beepersPresent()){
 			pickBeeper();
 			move();
 			putBeeper();
-			turnLeft();
-			turnLeft();
+			turnAround();
 			move();
-			turnLeft();
-			turnLeft();
+			turnAround();
 		}
 	}
 }
