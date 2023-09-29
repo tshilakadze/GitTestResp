@@ -1,7 +1,7 @@
 import stanford.karel.SuperKarel;
 public class problem07_1 extends SuperKarel{
 	public void run(){
-		fillLine();
+		fillLine();}
 
 	private void fillLine(){
 		while(frontIsClear()){
@@ -12,5 +12,5 @@ public class problem07_1 extends SuperKarel{
 		}
 		if(noBeepersPresent()){
 		putBeeper();}
-	}}
+	}
 }
