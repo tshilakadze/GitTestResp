@@ -1,4 +1,4 @@
-import stanford.karel.Karel;
+import stanford.SuperKarel;
 public class problem06 extends Karel{
 	public void run(){
 		move();
