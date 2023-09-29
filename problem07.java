@@ -4,7 +4,12 @@ public class problem07 extends SuperKarel {
 	 */
 	public void run(){
 		fillLine();
-		returnHome();}
+		returnHome();
+		while(leftIsClear()){
+			fillLine();
+			returnHome();
+		}
+		}
 
 	private void fillLine(){
 		while(frontIsClear()){
