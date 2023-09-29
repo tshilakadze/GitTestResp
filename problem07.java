@@ -19,5 +19,6 @@ public class problem07 extends SuperKarel {
 	private void returnHome(){
 		turnAround();
 		while(frontIsClear()){move();}
+		turnAround();
 	}
 }
