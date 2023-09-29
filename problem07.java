@@ -13,7 +13,8 @@ public class problem07 extends SuperKarel {
 			returnHome();
 		}
 		}
-
+/* Karel learns how to fill a line with Beepers
+ */
 	private void fillLine(){
 		while(frontIsClear()){
 			if(noBeepersPresent()){putBeeper();
@@ -24,6 +25,8 @@ public class problem07 extends SuperKarel {
 		if(noBeepersPresent()){
 		putBeeper();}
 	}
+	/* Karel learns how to return to the 1st avenue after filling a line with beepers
+	 */
 	private void returnHome(){
 		turnAround();
 		while(frontIsClear()){move();}
