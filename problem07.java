@@ -15,4 +15,8 @@ public class problem07 extends SuperKarel {
 		if(noBeepersPresent()){
 		putBeeper();}
 	}
+	private void return(){
+		turnAround();
+		while(frontIsClear()){move();}
+	}
 }
