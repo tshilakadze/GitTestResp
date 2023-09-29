@@ -7,6 +7,7 @@ public class problem05 extends Karel {
 			}
 			else{move();}
 		}
+		putBeeper();
 		turnLeft();
 		move();
 	}
