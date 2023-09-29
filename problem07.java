@@ -6,6 +6,9 @@ public class problem07 extends SuperKarel {
 		fillLine();
 		returnHome();
 		while(leftIsClear()){
+			turnLeft();
+			move();
+			turnRight();
 			fillLine();
 			returnHome();
 		}
