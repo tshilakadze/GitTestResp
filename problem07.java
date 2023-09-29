@@ -9,7 +9,8 @@ public class problem07 extends SuperKarel {
 			}
 			else{move();}
 		}
-		putBeeper();
+		if(noBeepersPresent()){
+			putBeeper();}
 		while(leftIsClear()){
 			turnLeft();
 			move();
@@ -20,7 +21,8 @@ public class problem07 extends SuperKarel {
 				}
 				else{move();}
 			}
-			putBeeper();
+			if(noBeepersPresent()){
+				putBeeper();}
 		}
 		while(leftIsClear()){
 			turnRight();
@@ -32,7 +34,8 @@ public class problem07 extends SuperKarel {
 				}
 				else{move();}
 			}
-			putBeeper();
+			if(noBeepersPresent()){
+				putBeeper();}
 		}
 	}
 }
