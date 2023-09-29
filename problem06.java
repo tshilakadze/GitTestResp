@@ -7,17 +7,12 @@ public class problem06 extends Karel{
 			move();
 			move();
 			putBeeper();
-			turnAround();
-			move();
-			move();
-			turnAround();
-		}
-	}
-	private void run(){
-		turnAround(){
 			turnLeft();
 			turnLeft();
-			
+			move();
+			move();
+			turnLeft();
+			turnLeft();
 		}
 	}
 
