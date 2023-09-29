@@ -23,9 +23,9 @@ public class problem07 extends SuperKarel {
 			putBeeper();
 		}
 		while(leftIsClear()){
-			turnLeft();
-			move();
 			turnRight();
+			move();
+			turnLeft();
 			while(frontIsClear()){
 				if(noBeepersPresent()){putBeeper();
 				move();
