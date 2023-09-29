@@ -3,7 +3,7 @@ public class problem08 extends SuperKarel {
 	public void run(){
 		move();
 		move();
-		while(beepersPresent()){
+		if(beepersPresent()){
 			pickBeeper();
 			move();
 			putBeeper();
