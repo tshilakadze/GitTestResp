@@ -3,7 +3,8 @@ public class problem07 extends SuperKarel {
 	/* Karel places 1 beeper on every empty space
 	 */
 	public void run(){
-		fillLine();}
+		fillLine();
+		returnHome();}
 
 	private void fillLine(){
 		while(frontIsClear()){
