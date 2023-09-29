@@ -5,7 +5,7 @@ public class problem07 extends SuperKarel {
 	public void run(){
 		fillLine();
 		returnHome();
-		if(leftIsClear()){
+		while(leftIsClear()){
 			turnLeft();
 			move();
 			turnRight();
