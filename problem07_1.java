@@ -3,7 +3,7 @@ public class problem07_1 extends SuperKarel{
 	public void run(){
 		fillLine();
 
-	private void run(){
+	private void fillLine(){
 		while(frontIsClear()){
 			if(noBeepersPresent()){putBeeper();
 			move();
