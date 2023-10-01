@@ -26,4 +26,5 @@ public class problem07new extends SuperKarel{
 			putBeeper();
 		}
 	}
+	
 }
