@@ -8,6 +8,12 @@ public class problem07new extends SuperKarel{
 			turnLeft();
 			fillLine();
 		}
+		while(facingNorth()){
+			turnRight();
+			move();
+			turnRight();
+			fillLine();
+		}
 }
 	private void fillLine(){
 		while(frontIsClear()){
