@@ -6,14 +6,12 @@ public class problem07again extends SuperKarel{
 			turnLeft();
 			if(frontIsClear()){
 			move();}
-			else{}
 			turnLeft();
 			fillLine();
 		while(facingWest()){
 			turnRight();
 			if(frontIsClear()){
 			move();}
-			else{}
 			turnRight();
 			fillLine();
 		}
