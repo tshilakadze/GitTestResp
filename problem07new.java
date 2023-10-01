@@ -7,12 +7,12 @@ public class problem07new extends SuperKarel{
 			move();
 			turnLeft();
 			fillLine();
-		}
 		while(facingWest()){
 			turnRight();
 			move();
 			turnRight();
 			fillLine();
+		}
 		}
 }
 	private void fillLine(){
@@ -26,5 +26,4 @@ public class problem07new extends SuperKarel{
 			putBeeper();
 		}
 	}
-	
 }
