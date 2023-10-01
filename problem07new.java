@@ -2,7 +2,12 @@ import stanford.karel.SuperKarel;
 public class problem07new extends SuperKarel{
 	public void run(){
 		fillLine();
-		turnAround();
+		while(facingEast()){
+			turnLeft();
+			move();
+			turnLeft();
+			fillLine();
+		}
 }
 	private void fillLine(){
 		while(frontIsClear()){
