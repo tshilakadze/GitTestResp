@@ -8,7 +8,7 @@ public class problem07new extends SuperKarel{
 			turnLeft();
 			fillLine();
 		}
-		while(facingNorth()){
+		while(facingWest()){
 			turnRight();
 			move();
 			turnRight();
