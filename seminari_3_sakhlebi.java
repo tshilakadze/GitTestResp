@@ -9,6 +9,14 @@ public class seminari_3_sakhlebi extends SuperKarel{
 		move();
 		move();
 		move();}
+		returnHome();
+		for(int i=0; i<4; i++){
+			move();
+		}
+		turnLeft();
+		for(int i=0; i<3; i++){
+			putBeeper();
+		}
 	}
 	private void paintHouse(){
 		turnLeft();
@@ -27,5 +35,12 @@ public class seminari_3_sakhlebi extends SuperKarel{
 			move();
 			putBeeper();	
 		}
+	}
+	private void returnHome(){
+		turnAround();
+		while(frontIsClear()){
+			move();
+		}
+		turnAround();
 	}
 }
