@@ -8,7 +8,7 @@ public class seminari_3_sakhlebi extends SuperKarel{
 	private void paintHouse(){
 		turnLeft();
 		putBeeper();
-		for(int i=0; i<9; i++){
+		for(int i=0; i<8; i++){
 			move();
 			putBeeper();
 		}
