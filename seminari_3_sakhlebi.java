@@ -7,6 +7,7 @@ public class seminari_3_sakhlebi extends SuperKarel{
 		paintHouse();
 		turnLeft();
 		move();
+		move();
 		move();}
 	}
 	private void paintHouse(){
