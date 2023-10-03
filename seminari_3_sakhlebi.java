@@ -54,6 +54,9 @@ public class seminari_3_sakhlebi extends SuperKarel{
 		move();
 		putBeeper();
 		turnRight();
-		
+		for(int i=0; i<3; i++){
+			move();
+			putBeeper();
+		}
 	}
 }
