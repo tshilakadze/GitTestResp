@@ -82,6 +82,14 @@ public class seminari_3_sakhlebi extends SuperKarel{
 		}
 	}
 	private void drawWindow(){
-		
+		putBeeper();
+		move();
+		putBeeper();
+		turnRight();
+		move();
+		putBeeper();
+		turnRight();
+		move();
+		putBeeper();
 	}
 }
