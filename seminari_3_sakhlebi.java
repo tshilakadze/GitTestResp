@@ -20,7 +20,7 @@ public class seminari_3_sakhlebi extends SuperKarel{
 		for(int i=0; i<5; i++){
 			move();
 		}
-		for(int i=0; i<5; i++){
+		for(int i=0; i<1; i++){
 			drawWindow();
 		}
 	}
