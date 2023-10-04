@@ -5,18 +5,16 @@ public class problem09 extends SuperKarel {
 		while(beepersPresent()){
 			pickBeeper();
 			while(frontIsClear()){
-				move();
+				move();}
 			while(beepersPresent()){
 				pickBeeper();
 				move();
 				putBeeper();
 				turnAround();
 				move();
+				move();
 				turnAround();
-			}}
-			turnAround();
-			move();
-			turnAround();
+			}
 		}
 	}
 }
