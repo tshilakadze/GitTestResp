@@ -23,6 +23,9 @@ public class seminari_3_sakhlebi extends SuperKarel{
 		for(int i=0; i<5; i++){
 			drawWindow();
 		}
+		for(int i=0; i<5; i++){
+			drawRoof();
+			}
 	}
 	
 	
@@ -98,6 +101,9 @@ public class seminari_3_sakhlebi extends SuperKarel{
 			}
 		}
 		turnLeft();
+		
+	}
+	private void drawRoof(){
 		
 	}
 }
