@@ -7,6 +7,8 @@ public class seminari_3_sakhlebi extends SuperKarel{
 		drawHouse();
 		}
 		returnHome();
+		for(int i=0; i<4; i++){
+		move();}
 	}
 	private void drawHouse(){
 		turnLeft();
