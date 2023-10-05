@@ -24,7 +24,7 @@ public class problem06seminarze extends SuperKarel{
 		turnAround();
 		move();
 		move();
-		turnAround();
+		turnAround()
 	}
 	
 }
