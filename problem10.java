@@ -24,11 +24,10 @@ public class problem10 extends SuperKarel {
 				turnRight();
 				move();
 				putBeeper();
-				turnRight();
-				move();
-				turnRight();
+				turnAround();
 				move();
 				turnLeft();
+				move();
 			}
 		}
 	}
