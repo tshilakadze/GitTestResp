@@ -35,6 +35,11 @@ public class problem09 extends SuperKarel {
 		turnAround();
 		move();
 		}
+		turnAround();
+		move();
+		turnRight();
+		move();
+		turnAround();
 	}
 
 	private void backUpBeepersAndTakeThemToDestination() {
