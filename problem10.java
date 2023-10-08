@@ -5,6 +5,18 @@ public class problem10 extends SuperKarel {
 		 * Karel divides two numbers
 		 */
 		move();
-		
+		move();
+		divideBeepers();
+	}
+
+	private void divideBeepers() {
+		while(beepersPresent()){
+			pickBeeper();
+			turnLeft();
+			move();
+			putBeeper();
+			turnAround();
+			move();
+		}
 	}
 }
