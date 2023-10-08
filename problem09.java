@@ -6,6 +6,7 @@ public class problem09 extends SuperKarel {
 	public void run(){
 		move();
 		multiplyBeepers();
+		returnBeepersOn2x1();
 	}
 
 	private void multiplyBeepers() {
@@ -21,7 +22,6 @@ public class problem09 extends SuperKarel {
 			turnLeft();
 			backUpBeepersAndTakeThemToDestination();
 			returnBeepersOn3x1();
-			returnBeepersOn2x1();
 		}
 	}
 
