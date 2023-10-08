@@ -11,8 +11,7 @@ public class problem10 extends SuperKarel {
 	private void divideBeepers() {
 		while(beepersPresent()){
 		minusAndBackUpBeepers();
-		turnAround();
-		move();
+		
 		}
 	}
 
