@@ -30,6 +30,7 @@ public class problem09 extends SuperKarel {
 		while(beepersPresent()){
 		pickBeeper();
 		turnAround();
+		move();
 		putBeeper();
 		
 		}
