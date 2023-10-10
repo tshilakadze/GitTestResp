@@ -3,6 +3,6 @@ import acm.program.GraphicsProgram;
 
 public class seminari101023 extends GraphicsProgram{
 	public void run() {
-		add(new GOval (100, 200));
+		add(new GOval (100, 200), 100, 100);
 	}
 }
