@@ -15,6 +15,7 @@ public class seminari101023 extends GraphicsProgram{
 		add(secondOval, 200, 200);
 		secondOval.setFilled(true);
 		secondOval.setColor(Color.RED);
+		
 		GOval rugbyBall = new GOval (200, 200);
 		add(rugbyBall, 200, 200);
 		rugbyBall.setFilled(true);
