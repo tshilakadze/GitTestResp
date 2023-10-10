@@ -9,5 +9,7 @@ public class seminari101023 extends GraphicsProgram{
 		GOval secondOval = new GOval(100, 200);
 		
 		add(secondOval, 200, 200);
+		GOval rugbyBall = new GOval (200, 200);
+		add(rugbyBall, 200, 200);
 	}
 }
