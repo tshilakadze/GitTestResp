@@ -5,7 +5,7 @@ public class Problem13 extends GraphicsProgram{
 		drawLineInTheMiddle();
 	}
 	private void drawLineInTheMiddle(){
-		GLine middleLine = new GLine(0, 800, 1000, 800);
+		GLine middleLine = new GLine(0, 600, 3000, 800);
 		add(middleLine);
 	}
 }
