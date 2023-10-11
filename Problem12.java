@@ -2,14 +2,14 @@ import acm.graphics.*;
 import acm.program.GraphicsProgram;
 public class Problem12 extends GraphicsProgram{
 	public void run(){
-		drawAHouse();
+		drawHouse();
 		drawWindow();
 		drawDoor();
 		drawRoof();
 	}
 
 
-	private void drawAHouse() {
+	private void drawHouse() {
 		GRect myHouse = new GRect(600, 400);
 		add(myHouse, 200, 300);
 	}
