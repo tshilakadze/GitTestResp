@@ -9,7 +9,7 @@ public class Problem12 extends GraphicsProgram{
 	}
 
 	private void drawAHouse() {
-		GRect myHouse = new GRect(100, 200);
+		GRect myHouse = new GRect(200, 200);
 		add(myHouse, 200, 200);
 	}
 }
