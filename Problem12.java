@@ -17,6 +17,6 @@ public class Problem12 extends GraphicsProgram{
 	
 	private void drawWindow() {
 		GRect aWindow = new GRect(150, 150);
-		add(aWindow, 600, 300);
+		add(aWindow, 600, 400);
 	}
 }
