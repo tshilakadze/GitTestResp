@@ -24,8 +24,8 @@ public class Problem12 extends GraphicsProgram{
 		GRect aDoor = new GRect(150, 300);
 		add(aDoor, 300, 400);
 		
-		GLine aHandle = new GLine(300, 550, 350, 550);
-		add(aHandle);
+		GRect aHandle = new GRect(10, 10);
+		add(aHandle, 300, 550);
 		
 	}
 }
