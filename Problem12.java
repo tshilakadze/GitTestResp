@@ -11,7 +11,7 @@ public class Problem12 extends GraphicsProgram{
 	
 
 	private void drawAHouse() {
-		GRect myHouse = new GRect(400, 600);
+		GRect myHouse = new GRect(600, 400);
 		add(myHouse, 200, 200);
 	}
 	
