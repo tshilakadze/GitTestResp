@@ -22,6 +22,6 @@ public class Problem12 extends GraphicsProgram{
 	
 	private void drawDoor() {
 		GRect aDoor = new GRect(200, 300);
-		add(aDoor, 400, 400);
+		add(aDoor, 300, 400);
 	}
 }
