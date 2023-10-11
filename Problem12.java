@@ -7,6 +7,7 @@ public class Problem12 extends GraphicsProgram{
 		drawAHouse();
 		drawWindow();
 		drawDoor();
+		drawRoof();
 	}
 
 
@@ -28,5 +29,9 @@ public class Problem12 extends GraphicsProgram{
 		add(aHandle, 300, 550);
 		GOval aLock = new GOval(10, 10);
 		add(aLock, 305, 560);
+	}
+	
+	private void drawRoof(){
+	GLine firstLine = new GLine(200, 300, 500, 200);	
 	}
 }
