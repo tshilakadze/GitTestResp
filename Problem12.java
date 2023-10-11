@@ -27,6 +27,6 @@ public class Problem12 extends GraphicsProgram{
 		GRect aHandle = new GRect(35, 7);
 		add(aHandle, 300, 550);
 		GOval aLock = new GOval(10, 10);
-		add(aLock, 310, 550);
+		add(aLock, 310, 560);
 	}
 }
