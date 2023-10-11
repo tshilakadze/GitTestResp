@@ -34,5 +34,7 @@ public class Problem12 extends GraphicsProgram{
 	private void drawRoof(){
 	GLine firstLine = new GLine(200, 300, 500, 200);
 	add(firstLine);
+	GLine secondLine = new GLine(500, 200, 800, 300);
+	add(secondLine);
 	}
 }
