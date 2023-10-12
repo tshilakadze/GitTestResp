@@ -9,7 +9,7 @@ public class Seminari121023problem12 extends GraphicsProgram{
 			double b = 3;
 			b = 4;
 			b = a + 3;
-			GLabel label = new GLabel("a :" +a);
+			GLabel label = new GLabel("a :" +a, 20, 20);
 			add(label);
 		}
 
