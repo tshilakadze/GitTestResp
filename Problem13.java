@@ -2,8 +2,8 @@ import acm.graphics.*;
 import acm.program.GraphicsProgram;
 public class Problem13 extends GraphicsProgram {
 //	private static final double PI = 3.14;
-	private static final double HOUSE_WIDTH = 200;
-	private static final double HOUSE_HEIGT = 300;
+	private static final double HOUSE_WIDTH = 300;
+	private static final double HOUSE_HEIGT = 200;
 	private static final double DOOR_WIDTH = 40;
 	private static final double DOOR_HEIGT = 60;
 	
