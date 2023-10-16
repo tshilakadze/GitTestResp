@@ -15,8 +15,8 @@ public class Problem14 extends GraphicsProgram {
 	private void drawHead() {
 		double a = getWidth();
 		double b = getHeight();
-		GRect Head = new GRect(100, 100);
-		add(Head, a/2 - 50, b/2 - 50);
+		GRect Head = new GRect(200, 200);
+		add(Head, a/2 - 100, b/2 - 100);
 	}
 
 	private void drawNose() {
