@@ -3,7 +3,6 @@
  */
 
 import acm.program.ConsoleProgram;
-import acm.program.*;
 public class Problem15 extends ConsoleProgram{
 	public void run() {
 		double a = readInt("Enter a: ");
