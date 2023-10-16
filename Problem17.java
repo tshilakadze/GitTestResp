@@ -7,7 +7,7 @@ public class Problem17 extends ConsoleProgram{
 		for(double b = 0; b < a || b==a; b++){
 			if(b+1>a){
 				println("Integer number is " + b +".");	
-				double c = a -b;
+				double c = a - b;
 				println("Fraction is " + c + ".");
 				}
 			}
