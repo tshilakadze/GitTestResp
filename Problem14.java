@@ -40,8 +40,12 @@ public class Problem14 extends GraphicsProgram {
 	}
 
 	private void drawEyes() {
-		// TODO Auto-generated method stub
-		
+		double a = getWidth();
+		double b = getHeight();
+		double x = 30;
+		double y = 50;
+		GRect Eye1 = new GRect(x, y);
+		add(Eye1, a/2 - x, b/2 - y/2);
 	}
 
 }
