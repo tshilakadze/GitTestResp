@@ -22,7 +22,6 @@ public class Problem14 extends GraphicsProgram {
 	}
 
 	private void drawNose() {
-		// TODO Auto-generated method stub
 		
 	}
 
