@@ -55,7 +55,7 @@ public class Problem14 extends GraphicsProgram {
 		GRect Eye1 = new GRect(x, y);
 		add(Eye1, a/2 - x*3, b/2 - y*2);
 		Eye1.setFilled(true);
-		Eye.setColor(Color.YELLOW);
+		Eye1.setColor(Color.YELLOW);
 		GRect Eye2 = new GRect(x, y);
 		add(Eye2, a/2 + x*2, b/2 - y*2);
 	}
