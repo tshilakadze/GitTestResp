@@ -9,7 +9,7 @@ public class Problem17 extends ConsoleProgram{
 			else{
 				double b = a - 1;
 				while(b < 1){
-					println("Fraction of the number is " + b - 1 + ".");
+					println("Fraction of the number is " + a + ".");	
 					
 				}
 			}
