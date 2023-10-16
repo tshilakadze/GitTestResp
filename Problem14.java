@@ -24,10 +24,10 @@ public class Problem14 extends GraphicsProgram {
 	private void drawNose() {
 		double a = getWidth();
 		double b = getHeight();
-		double x = 40;
-		double y = 50;
-		GRect Nose = new GRect(x, y);
-		add(Nose, a/2 - x/2, b/2 - y/16);
+		double m = 30;
+		double n = 50;
+		GRect Nose = new GRect(m, n);
+		add(Nose, a/2 - m/2, b/2);
 	}
 
 	private void drawMouth() {
