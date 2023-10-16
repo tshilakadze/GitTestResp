@@ -27,7 +27,7 @@ public class Problem14 extends GraphicsProgram {
 		double m = 30;
 		double n = 50;
 		GRect Nose = new GRect(m, n);
-		add(Nose, a/2 - m/2, b/2 + 30);
+		add(Nose, a/2 - m/2, b/2 + 20);
 	}
 
 	private void drawMouth() {
