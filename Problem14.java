@@ -46,6 +46,8 @@ public class Problem14 extends GraphicsProgram {
 		double y = 50;
 		GRect Eye1 = new GRect(x, y);
 		add(Eye1, a/2 - x*3, b/2 - y*2);
+		GRect Eye2 = new GRect(x, y);
+		add(Eye2, a/2 + x*3, b/2 - y*2);
 	}
 
 }
