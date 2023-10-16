@@ -34,9 +34,9 @@ public class Problem14 extends GraphicsProgram {
 		double a = getWidth();
 		double b = getHeight();
 		double k = 100;
-		double l = 50;
+		double l = 25;
 		GRect Mouth = new GRect(k, l);
-		add(Mouth, a/2 - k/2, b/2 + l);
+		add(Mouth, a/2 - k/2, b/2 + l*4);
 	}
 
 	private void drawEyes() {
