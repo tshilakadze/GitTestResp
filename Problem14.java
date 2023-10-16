@@ -31,6 +31,8 @@ public class Problem14 extends GraphicsProgram {
 		double n = 50;
 		GRect Nose = new GRect(m, n);
 		add(Nose, a/2 - m/2, b/2 + 20);
+		Nose.setFilled(true);
+		Nose.setColor(Color.BLACK);
 	}
 
 	private void drawMouth() {
