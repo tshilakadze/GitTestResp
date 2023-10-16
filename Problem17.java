@@ -12,7 +12,7 @@ public class Problem17 extends ConsoleProgram{
 				}
 			}
 		}
-		else{
+		if(a < 0){
 			for(double b = 0; b > a || b==a; b--){
 				if(b+1<a){
 					println("Integer number is " + b +".");	
