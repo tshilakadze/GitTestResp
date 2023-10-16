@@ -1,8 +1,6 @@
 import acm.program.*;
 import acm.graphics.*;
 public class Problem14 extends GraphicsProgram {
-	double a = getWidth();
-	double b = getHeight();
 	public void run() {
 		drawRobot();
 	}
@@ -15,7 +13,8 @@ public class Problem14 extends GraphicsProgram {
 	}
 
 	private void drawHead() {
-		
+		double a = getWidth();
+		double b = getHeight();
 		double c = 250;		// Face width
 		double d = 300;		// Face height
 		GRect Head = new GRect(c, d);
@@ -32,7 +31,12 @@ public class Problem14 extends GraphicsProgram {
 	}
 
 	private void drawMouth() {
-		
+		double a = getWidth();
+		double b = getHeight();
+		double k = 100;
+		double l = 50;
+		GRect Mouth = new GRect(k, l);
+		add(Mouth, a/2 - k/2, b/2 + l/2)
 	}
 
 	private void drawEyes() {
