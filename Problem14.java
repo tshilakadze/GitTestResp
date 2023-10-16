@@ -1,4 +1,5 @@
 import acm.program.*;
+import java.awt.Color;
 import acm.graphics.*;
 public class Problem14 extends GraphicsProgram {
 	public void run() {
@@ -19,6 +20,8 @@ public class Problem14 extends GraphicsProgram {
 		double d = 300;		// Face height
 		GRect Head = new GRect(c, d);
 		add(Head, a/2 - c/2, b/2 - d/2);
+		Head.setFilled(true);
+		Head.setColor(Color.GRAY);
 	}
 
 	private void drawNose() {
