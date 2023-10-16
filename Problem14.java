@@ -22,7 +22,8 @@ public class Problem14 extends GraphicsProgram {
 	}
 
 	private void drawNose() {
-		
+		GRect Nose = new GRect(c/5, d/5);
+		add(Nose);
 	}
 
 	private void drawMouth() {
