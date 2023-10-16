@@ -22,8 +22,12 @@ public class Problem14 extends GraphicsProgram {
 	}
 
 	private void drawNose() {
+		double a = getWidth();
+		double b = getHeight();
+		double c = 250;		// Face width
+		double d = 300;		// Face height
 		GRect Nose = new GRect(c/5, d/5);
-		add(Nose);
+		add(Nose, a/2, b/2);
 	}
 
 	private void drawMouth() {
