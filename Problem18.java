@@ -4,12 +4,11 @@ public class Problem18 extends ConsoleProgram {
 	public void run() {
 		int a = readInt("Enter a: ");
 		int b = readInt("Enter b: ");
-		int c = a - b;
-		if(c > 0){
+		if(a > b){
 			println("The biggest number is " + a + ".");
 		}
 		else{
-			if(c == 0){
+			if(a == b){
 				println("These numbers are equal");
 			}
 			else{
