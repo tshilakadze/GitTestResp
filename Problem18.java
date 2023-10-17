@@ -15,7 +15,7 @@ public class Problem18 extends ConsoleProgram {
 			println("The biggest number is " + b + ".");
 		}}
 		
-		println(Math.max(a,  b));
+		println(Math.max(a,  b));  // Remember this!
 		
 		
 	}
