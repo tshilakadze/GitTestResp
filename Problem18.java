@@ -11,6 +11,9 @@ public class Problem18 extends ConsoleProgram {
 		else{
 			println("The biggest number is " + b + ".");
 		}
+		if(c == 0){
+			
+		}
 	}
 
 }
