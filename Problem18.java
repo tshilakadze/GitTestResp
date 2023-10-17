@@ -12,7 +12,7 @@ public class Problem18 extends ConsoleProgram {
 			println("The biggest number is " + b + ".");
 		}
 		if(c == 0){
-			
+			println("These numbers are equal");
 		}
 	}
 
