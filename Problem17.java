@@ -18,8 +18,8 @@ public class Problem17 extends ConsoleProgram{
 					println("Integer is " + b +".");	
 					double c = a - b;
 					println("Fraction is " + c + ".");
-					}
 				}
 			}
 		}
 	}
+}
