@@ -7,6 +7,6 @@ public class Problem20 extends ConsoleProgram {
 	for(int i = 0; i < n; i++){
 		readInt("Enter an integer ");
 		}
-	println("The sum is ");
+	
 	}
 }
