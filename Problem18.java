@@ -5,15 +5,16 @@ public class Problem18 extends ConsoleProgram {
 		int a = readInt("Enter a: ");
 		int b = readInt("Enter b: ");
 		int c = a - b;
-		if(c == 0){
-			println("These numbers are equal");
-		}
 		if(c > 0){
 			println("The biggest number is " + a + ".");
 		}
 		else{
+			if(c == 0){
+				println("These numbers are equal");
+			}
+			else{
 			println("The biggest number is " + b + ".");
-		}
+		}}
 		
 	}
 
