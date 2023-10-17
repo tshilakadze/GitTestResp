@@ -18,7 +18,6 @@ public class Problem17sem extends ConsoleProgram{
 		int intA = decimal.intValue();
 		
 		println(intA);
-		println(b);
 	}
 
 	private void calculateInBouble (double a) {
