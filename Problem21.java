@@ -11,13 +11,6 @@ public class Problem21 extends GraphicsProgram{
 			GLine HorLine = new GLine(0, n, getWidth(), n);
 			add(HorLine);
 		}
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }
