@@ -9,7 +9,7 @@ public class Problem20 extends ConsoleProgram {
 		int value = readInt("Enter an integer ");
 		total += value;
 		}
-	println(total);
+	println("Total of numbers is " + total);
 	
 	}
 }
