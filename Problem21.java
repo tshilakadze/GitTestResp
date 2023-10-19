@@ -3,6 +3,30 @@ import acm.program.GraphicsProgram;
 
 public class Problem21 extends GraphicsProgram{
 	public void run(){
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		double a = getWidth()/10;
 		GLine line = new GLine(a, 0, a, getHeight());
 		add(line);
