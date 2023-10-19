@@ -3,12 +3,15 @@ import acm.program.GraphicsProgram;
 
 public class Problem21 extends GraphicsProgram{
 	public void run(){
-		GLine line = new GLine(getWidth()/10, 0, getWidth()/10, getHeight());
+		double a = getWidth()/10;
+		GLine line = new GLine(a, 0, a, getHeight());
 		add(line);
-		;
+		
 		for(int i = 0; i < 9; i++){
-			GLine OtherLines = new GLine(getWidth()/10+getWidth()/10, 0, getWidth()/10+getWidth()/10, getHeight());
-			add(OtherLines);
+		double b = a + getWidth()/10;
+		GLine OtherLines = new GLine(b, 0, b, getHeight());
+		add(OtherLines);
+		
 		}
 	}
 
