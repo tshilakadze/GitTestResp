@@ -8,8 +8,8 @@ public class Problem20 extends ConsoleProgram {
 	for(int i = 0; i < n; i++){
 		int value = readInt("Enter an integer ");
 		total += value;
-		
 		}
+	println(total);
 	
 	}
 }
