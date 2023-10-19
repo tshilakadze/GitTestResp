@@ -9,7 +9,7 @@ public class Problem22 extends GraphicsProgram {
 
 				double x = j * length;
 				double y = i * length;
-				boolean isFilled = true;
+				boolean isFilled = (i + j) % 2 == 1;
 				drawSquare(x, y, length, isFilled);
 			}
 		}
