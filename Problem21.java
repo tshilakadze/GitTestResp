@@ -7,6 +7,7 @@ public class Problem21 extends GraphicsProgram{
 		add(line);
 		GLine OtherLines = new GLine(getWidth()/10+getWidth()/10, 0, getWidth()/10+getWidth()/10, getHeight());
 		for(int i = 0; i < 9; i++){
+			GLine OtherLines = new GLine(getWidth()/10+getWidth()/10, 0, getWidth()/10+getWidth()/10, getHeight());
 			add(OtherLines);
 		}
 	}
