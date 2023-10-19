@@ -11,5 +11,10 @@ public class Problem20 extends ConsoleProgram {
 		}
 	println("Total of numbers is " + total);
 	
+	
+	
+	for(int i = 0; i < 5; i++){
+		println(i);
+	}
 	}
 }
