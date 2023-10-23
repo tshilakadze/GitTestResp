@@ -9,9 +9,8 @@ public class Problem26 extends ConsoleProgram {
 		for(int i = a + 1; i <= b; i++){
 			if(b % i == 0 && i % a != 0){
 				a *= i;
-				println(a);
 			}
 		}
-		
+		println(a);
 	}
 }
