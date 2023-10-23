@@ -6,14 +6,14 @@ public class Problem25 extends ConsoleProgram {
 		
 		int m = readInt("Enter the first number: ");
 		int n = readInt("Enter the second number: ");
-		int a = 0;
+		int HCF = 0;		// highest common factor
 		for(int i = 1; i <= m && i <= n; i++){
 			if(m % i == 0 && n % i == 0){
-				a = i;
+				HCF = i;
 			}
 			
 		}
-		println(a);
+		println("Hieghest common factor is "+ HCF);
 		
 	}
 }
