@@ -8,5 +8,6 @@ public class Problem23 extends ConsoleProgram {
 	int num = i;
 	sum += i;
 	}
+	println("The sum is " + sum);
 	}
 }
