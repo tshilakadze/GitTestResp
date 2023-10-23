@@ -7,7 +7,7 @@ public class Problem26 extends ConsoleProgram {
 		int a = Math.min(m, n);
 		int b = Math.max(m, n);
 		for(int i = a + 1; i <= b; i++){
-			if(b % i == 0){
+			if(b % i == 0 && a % i != 0){
 				a *= i;
 			}
 		}
