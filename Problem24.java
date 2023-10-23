@@ -9,6 +9,7 @@ public class Problem24 extends ConsoleProgram {
 				a += 1;
 			}
 		}
+		println(a);
 		
 	}
 }
