@@ -9,7 +9,7 @@ public class Problem25 extends ConsoleProgram {
 		int a = 1;
 		for(int i = 1; i <= m && i <= n; i++){
 			if(m % i == 0 && n % i == 0){
-				a *=i;
+				a = i;
 			}
 			
 		}
