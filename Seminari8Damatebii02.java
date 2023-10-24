@@ -3,7 +3,7 @@ import acm.graphics.*;
 
 public class Seminari8Damatebii02 extends GraphicsProgram {
 	
-	private static final int LENGTH = 100;
+	private static final int LENGTH = 200;
 	
 	public void run() {
 		drawSquare();
