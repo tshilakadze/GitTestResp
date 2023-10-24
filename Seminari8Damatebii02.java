@@ -15,5 +15,6 @@ public class Seminari8Damatebii02 extends GraphicsProgram {
 		double b = getHeight();
 		GRect square = new GRect(LENGTH, LENGTH);
 		add(square, a/2 - LENGTH/2, b/2 - LENGTH/2);
+		square.setFilled(true);
 	}
 }
