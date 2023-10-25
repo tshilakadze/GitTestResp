@@ -17,7 +17,12 @@ public class Problem28 extends ConsoleProgram {
 				a = a+1;
 				println(a);
 				if(m < 0){
-					
+					for(int i = 0; i <= a; i++){
+						if(m % 2 == 0){
+							NOE +=1;
+						}
+						println(NOE);
+					}
 					return 0;
 				}
 			}
