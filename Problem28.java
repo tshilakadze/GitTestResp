@@ -13,7 +13,7 @@ public class Problem28 extends ConsoleProgram {
 			while(n >= 0){
 				int m = readInt("Enter a number ");
 				if(m < 0){
-					println("Noooooooooooooooooooooooooooooooooooooooooooooo");
+					
 					return 0;
 				}
 			}
