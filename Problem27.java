@@ -10,12 +10,11 @@ public class Problem27 extends ConsoleProgram {
 	}
 
 	private int a(int n, int m) {
-		for(int i = 0; i <= m; i++){
 		int b = 1;
+		for(int i = 0; i <= m; i++){
 		b *= n;	
-		return b;
 		}
-		return 0;
+		return b;
 	}
 	
 }
