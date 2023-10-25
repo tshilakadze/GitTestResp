@@ -14,11 +14,11 @@ public class Problem28 extends ConsoleProgram {
 				int m = readInt("Enter a number ");
 				if(m < 0){
 					println("Noooooooooooooooooooooooooooooooooooooooooooooo");
-					
+					return 0;
 				}
 			}
 			}
-		
+		return 0;
 	}
 
 	
