@@ -5,6 +5,9 @@ public class Problem28 extends ConsoleProgram {
 		int n = readInt("Enter a number ");
 		while(n >= 0){
 			readInt("Enter a number ");
+			if(n <= 0){
+				println("Nooooooooooooooooooooooo");
+			}
 		}
 		if(n <= 0){
 			println("Nooooooooooooooooooooooo");
