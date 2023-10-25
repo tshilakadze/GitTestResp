@@ -18,7 +18,7 @@ public class Problem28 extends ConsoleProgram {
 				println(a);
 				if(m < 0){
 					for(int i = 0; i <= a; i++){
-						if(m % 2 == 0){
+						if(m % 2 == 0 && m > 0){
 							NOE +=1;
 							println(NOE);
 						}
