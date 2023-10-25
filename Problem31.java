@@ -22,6 +22,7 @@ public class Problem31 extends ConsoleProgram {
 			}
 			else{
 				println("This is a prime number");
+				return 0;
 			}
 		}
 		return 0;		
