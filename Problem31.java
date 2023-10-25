@@ -20,10 +20,8 @@ public class Problem31 extends ConsoleProgram {
 				println("This is not a prime number");
 				
 			}
-			else{
-				println("This is a prime number");
-				return 0;
-			}
+			return 0;
+			
 		}
 		return 0;		
 	}
