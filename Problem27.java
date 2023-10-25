@@ -11,7 +11,7 @@ public class Problem27 extends ConsoleProgram {
 
 	private int a(int n, int m) {
 		int b = 1;
-		for(int i = 0; i <= m; i++){
+		for(int i = 1; i <= m; i++){
 		b *= n;	
 		}
 		return b;
