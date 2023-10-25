@@ -18,7 +18,7 @@ public class Problem28 extends ConsoleProgram {
 				}
 			}
 			}
-		return 0;
+		
 	}
 
 	
