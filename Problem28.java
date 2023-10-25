@@ -8,8 +8,11 @@ public class Problem28 extends ConsoleProgram {
 
 	private int readPositiveInt(String string) {
 		int n = readInt(string);
-		while(n >= 0){
+		if(n >= 0){
 			readInt();
+		}
+		else{
+			println("stop");
 		}
 		return 0;
 	}
