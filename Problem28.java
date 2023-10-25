@@ -14,10 +14,10 @@ public class Problem28 extends ConsoleProgram {
 				int m = readInt(string);
 				
 				if(m < 0){
-					if(m >= 0 && m % 2 == 0){
-						println(m);
-					}
 					return 0;
+				}
+				if(m >= 0 && m % 2 == 0){
+					println(m);
 				}
 			}
 			
