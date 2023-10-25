@@ -14,7 +14,7 @@ public class Problem31 extends ConsoleProgram {
 		
 	}
 
-	private void primeOrNot(int n) {
+	private int primeOrNot(int n) {
 		for(int i = 1; i <= n; i++){
 			if(n % i == 0){
 				println("This is not a prime number");
@@ -23,6 +23,7 @@ public class Problem31 extends ConsoleProgram {
 			else{
 				println("This is a prime number");
 			}
-		}		
+		}
+		return 0;		
 	}
 }
