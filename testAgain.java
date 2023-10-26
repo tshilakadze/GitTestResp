@@ -13,7 +13,7 @@ public class testAgain extends ConsoleProgram {
 			while(true){
 				int m = readInt("? ");
 				if(m == ZERO){
-					return 0;
+					println(Math.max(m, m));
 				}
 
 			}
