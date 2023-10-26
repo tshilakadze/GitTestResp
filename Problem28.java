@@ -5,7 +5,7 @@ public class Problem28 extends ConsoleProgram {
 	public void run() {
 		int a = readInt("Enter a number ");
 		if(a == SENTINEL){
-			println("sdjvbsibvs");
+			println("0");
 		}
 		else{
 			
