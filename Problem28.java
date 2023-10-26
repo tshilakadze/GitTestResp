@@ -8,8 +8,15 @@ public class Problem28 extends ConsoleProgram {
 			println("0");
 		}
 		else{
-			
+			int b = readPositiveInts("Enter a number ");
 		}
+	}
+	private int readPositiveInts(String string) {
+		int b = readInt(string);
+		while(b != SENTINEL){
+			b = readInt(string);
+		}
+		return 0;
 	}
 
 }
