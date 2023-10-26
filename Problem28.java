@@ -16,6 +16,10 @@ public class Problem28 extends ConsoleProgram {
 		while(b != SENTINEL){
 			b = readInt(string);
 		}
+		while(b < 0){
+			println("No negative numbers please");
+			b = readInt(string);
+		}
 		return 0;
 	}
 
