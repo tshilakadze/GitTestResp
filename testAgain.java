@@ -5,15 +5,12 @@ public class testAgain extends ConsoleProgram {
 
 	public void run() {
 		int n = readInt("Enter a number: ");
-		while(n != SENTINEL){
-			if(n % 2 != 0){
+		if(n != SENTINEL){
+			while(n % 2 != 0){
 				int b = 3*n + 1;
 				println(n + " is odd, so I make 3n + 1: " + b);
 			}
-			else{
-				int b = n / 2;
-				println(n + " is even, so i take half: " + b);
-			}
+			
 		}
 	}
 }
