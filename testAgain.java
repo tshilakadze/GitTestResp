@@ -1,16 +1,23 @@
 import acm.program.ConsoleProgram;
 
 public class testAgain extends ConsoleProgram {
-	private static final int SENTINEL = 1;
+	private static final int ZERO = 0;
 
-	public void run() {
-		int n = readInt("Enter a number: ");
-		if(n != SENTINEL){
-			while(n % 2 != 0){
-				int b = 3*n + 1;
-				println(n + " is odd, so I make 3n + 1: " + b);
+	public void run(){
+		int n = readInt("? ");
+		printNewNumbers(n);
+	}
+
+	private int printNewNumbers(int n) {
+		if(n != ZERO){
+			while(true){
+				int m = readInt("? ");
+				if(m == ZERO){
+					return 0;
+				}
+
 			}
-			
 		}
+		return 0;
 	}
 }
