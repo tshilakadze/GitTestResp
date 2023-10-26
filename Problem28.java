@@ -16,6 +16,7 @@ public class Problem28 extends ConsoleProgram {
 		while(b != SENTINEL){
 			b = readInt(string);
 		}
+		
 		return 0;
 	}
 
