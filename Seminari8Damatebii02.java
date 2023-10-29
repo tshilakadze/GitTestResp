@@ -6,8 +6,7 @@ public class Seminari8Damatebii02 extends GraphicsProgram {
 	private static final int LENGTH = 200;
 	
 	public void run() {
-		drawSquare();
-		
+		drawSquare();		
 	}
 
 	private void drawSquare() {
