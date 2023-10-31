@@ -10,7 +10,7 @@ public class Problem28 extends ConsoleProgram {
 				break;
 			}
 			while(n < 0){
-				println("enter positive number ");
+				println("enter a positive number ");
 				n = readInt("Enter a number ");
 			}
 			if(n % 2 == 0){
