@@ -17,12 +17,7 @@ public class Problem28 extends ConsoleProgram {
 		while(b != SENTINEL){
 			int c = 0;
 			b = readInt(string);
-			if(b % 2 == 0){
-				
-				c += 1;
-				
-			}
-			println(c);	
+			
 		}
 		return 0;
 	}
