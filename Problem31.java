@@ -22,7 +22,6 @@ public class Problem31 extends ConsoleProgram {
 			}
 			}
 			
-		
 		return 0;		
 	}
 }
