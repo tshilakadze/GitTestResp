@@ -20,9 +20,9 @@ public class Problem28 extends ConsoleProgram {
 			if(b % 2 == 0){
 				
 				c += 1;
-				println(c);
+				
 			}
-			
+			println(c);	
 		}
 		return 0;
 	}
