@@ -4,6 +4,10 @@ public class Problem29 extends ConsoleProgram{
 	
 	public void run(){
 		int n = readInt("Enter the number n ");
+		while(n < 0){
+				println("enter a positive number ");
+				n = readInt("Enter a number ");
+			}
 		
 		int fibN = fib(n);
 		println(fibN);
