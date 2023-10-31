@@ -20,9 +20,6 @@ public class Problem31 extends ConsoleProgram {
 				println("This is not a prime number");
 				break;	
 			}
-			if(n % i != 0){
-				println("This is a prime number.");
-				break;
 			}
 			
 		}
