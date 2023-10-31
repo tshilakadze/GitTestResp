@@ -9,6 +9,10 @@ public class Problem28 extends ConsoleProgram {
 			if(n == SENTINEL){
 				break;
 			}
+			while(n < 0){
+				println("enter positive number ");
+				n = readInt("Enter a number ");
+			}
 			if(n % 2 == 0){
 				numEvens += 1;
 			}
