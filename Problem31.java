@@ -18,6 +18,7 @@ public class Problem31 extends ConsoleProgram {
 		for(int i = 2; i < n; i++){
 			if(n % i == 0){
 				println("This is not a prime number");
+				break;
 				
 			}
 			
