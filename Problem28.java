@@ -9,12 +9,19 @@ public class Problem28 extends ConsoleProgram {
 		}
 		else{
 			int b = readPositiveInts("Enter a number ");
+			
 		}
 	}
 	private int readPositiveInts(String string) {
 		int b = readInt(string);
 		while(b != SENTINEL){
 			b = readInt(string);
+			if(b % 2 == 0){
+				int c = 0;
+				c += 1;
+				println(c);
+			}
+			
 		}
 		return 0;
 	}
