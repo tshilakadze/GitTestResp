@@ -24,6 +24,6 @@ public class Problem29 extends ConsoleProgram{
 			prev2 = prev1;
 			prev1 = curr;
 		}
-		return 0;
+		return prev1;
 	}
 }
