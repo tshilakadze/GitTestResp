@@ -15,9 +15,10 @@ public class Problem28 extends ConsoleProgram {
 	private int readPositiveInts(String string) {
 		int b = readInt(string);
 		while(b != SENTINEL){
+			int c = 0;
 			b = readInt(string);
 			if(b % 2 == 0){
-				int c = 0;
+				
 				c += 1;
 				println(c);
 			}
