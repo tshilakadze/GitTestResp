@@ -1,7 +1,7 @@
 import acm.program.ConsoleProgram;
 
 public class Problem32 extends ConsoleProgram {
-	private static final int MAX_NUM = 10000;
+	private static final int MAX_NUM = 1000;
 	public void run() {
 		for(int i = 1; i < MAX_NUM; i++){
 			if(isPrime(i)){
