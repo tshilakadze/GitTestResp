@@ -3,23 +3,17 @@ import acm.program.ConsoleProgram;
 public class Problem28 extends ConsoleProgram {
 	private static final int SENTINEL = -1;
 	public void run() {
-		int a = readInt("Enter a number ");
-		if(a == SENTINEL){
-			println("0");
+		int numEvens = 0;
+		while(true){
+			int n = readInt("Enter a number ");
+			if(n == SENTINEL){
+				break;
+			}
+			if(n % 2 == 0){
+				numEvens += 1;
+			}
 		}
-		else{
-			int b = readPositiveInts("Enter a number ");
-			
-		}
-	}
-	private int readPositiveInts(String string) {
-		int b = readInt(string);
-		while(b != SENTINEL){
-			int c = 0;
-			b = readInt(string);
-			
-		}
-		return 0;
+		println(numEvens);
 	}
 
 }
