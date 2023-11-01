@@ -13,7 +13,7 @@ public class Problem28 extends ConsoleProgram {
 				println("enter a positive number ");
 				n = readInt("Enter a number ");
 			}
-				numEvens = Math.max(n, n);
+				numEvens = Math.max(n, n+1);
 			
 		}
 		println(numEvens);
