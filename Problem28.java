@@ -13,9 +13,8 @@ public class Problem28 extends ConsoleProgram {
 				println("enter a positive number ");
 				n = readInt("Enter a number ");
 			}
-			if(n % 2 == 0){
-				numEvens += 1;
-			}
+				numEvens = Math.max(n, n);
+			
 		}
 		println(numEvens);
 	}
