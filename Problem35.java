@@ -8,7 +8,7 @@ public class Problem35 extends ConsoleProgram {
 		double sumFlips = 0;
 		for(int i = 0; i < NUM_EXPERIMENTS; i++){
 			int currFlips = holdExperiment();
-			sumFlips += sumFlips;
+			sumFlips += currFlips;
 		}
 		double avgFlips = sumFlips / NUM_EXPERIMENTS;
 		println(avgFlips);
