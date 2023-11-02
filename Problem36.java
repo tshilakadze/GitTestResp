@@ -17,7 +17,7 @@ public class Problem36 extends ConsoleProgram {
 		int numFlips = 0;
 		int numConsecutiveHeads = 0;
 		while(true){
-			numFlips++;
+			numFlips += 1;
 			boolean isHeads = rgen.nextBoolean();
 			if(isHeads){
 				numConsecutiveHeads += 1;
