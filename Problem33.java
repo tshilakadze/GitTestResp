@@ -16,7 +16,7 @@ public class Problem33 extends ConsoleProgram {
 
 	private void makeItOne(int n) {
 		for(int i = n; i == 1; i++){
-			if(i % 2 == 0){
+			if(n % 2 == 0){
 				println(i/2);
 			}
 			else{
