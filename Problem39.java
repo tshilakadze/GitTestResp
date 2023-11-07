@@ -11,7 +11,7 @@ public class Problem39 extends GraphicsProgram {
 		while(ball.getX() <= getWidth() - SIZE - 10){
 			ball.move(10, 0);
 			pause(15);
-			if(ball.getX() == getWidth() - SIZE - 10){
+			if(ball.getX() <= getWidth() - SIZE - 10){
 				ball.move(-10, 0);
 				pause(15);
 			}
