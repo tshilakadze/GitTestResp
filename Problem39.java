@@ -1,11 +1,12 @@
 import acm.program.GraphicsProgram;
 
-import acm.program.*;
+import acm.graphics.*;
 
 public class Problem39 extends GraphicsProgram {
 	private static final int SIZE = 100;
 
 	public void run() {
-		Glabel ball = new GLabel(SIZE, SIZE);
+		GOval ball = new GOval(SIZE, SIZE);
+		add(ball, 0, getHeight()/2 - SIZE/2);
 	}
 }
