@@ -7,7 +7,7 @@ public class Problem39 extends GraphicsProgram {
 
 	public void run() {
 		drawCircle();
-		
+		moveCircle();
 		
 		
 		
@@ -18,6 +18,10 @@ public class Problem39 extends GraphicsProgram {
 			ball.move(10, 0);
 			pause(15);
 		}
+	}
+
+	private void moveCircle() {
+			
 	}
 
 	private void drawCircle() {
