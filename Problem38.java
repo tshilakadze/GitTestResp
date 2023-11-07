@@ -18,7 +18,7 @@ public class Problem38 extends ConsoleProgram {
 			println("This number is not allowed.");
 			myNum = readInt("Choose number: ");
 		}
-		
+		for(int i = 0; i < 2; i++){
 		int num = casino.nextInt(0, 36);
 		println("The number is " + num);
 		if(num == myNum){
@@ -27,7 +27,7 @@ public class Problem38 extends ConsoleProgram {
 		else{
 			println("You lose! Try again! You have " + left + " left.");
 		}
-		
+		}
 	}
 
 }
