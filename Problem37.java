@@ -15,7 +15,7 @@ public class Problem37 extends ConsoleProgram {
 			println("You win!");
 		}
 		else{
-			println("You lose! Try again.");
+			println("You lose! Try again!");
 		}
 	}
 
