@@ -9,5 +9,6 @@ public class Bonus13_3 extends GraphicsProgram {
 	public void run() {
 		GOval ball = new GOval(DIAMETER, DIAMETER);
 		add(ball, getWidth()/2 - DIAMETER/2, getHeight()/2 - DIAMETER/2);
+		ball.setFilled(true);
 	}
 }
