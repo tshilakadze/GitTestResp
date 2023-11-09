@@ -1,5 +1,6 @@
 import acm.program.GraphicsProgram;
 
+import java.awt.Color;
 import java.awt.event.MouseEvent;
 
 import acm.graphics.*;
@@ -23,7 +24,7 @@ public class GraphicsEventsSample extends GraphicsProgram {
 		GObject obj = getElementAt(e.getX(), e.getY());
 		
 		if(obj != null){
-			pbj.setColor(Color.RED);
+			obj.setColor(Color.RED);
 		}
 	}
 
