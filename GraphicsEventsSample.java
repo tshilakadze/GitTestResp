@@ -1,6 +1,7 @@
 import acm.program.GraphicsProgram;
 
 import java.awt.Color;
+import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 
 import acm.graphics.*;
@@ -20,6 +21,7 @@ public class GraphicsEventsSample extends GraphicsProgram {
 		add(rect2, 200, 200);
 		
 		addMouseListeners();
+		addKeyListeners();
 	}
 	
 	public void mouseClicked(MouseEvent e){
@@ -37,6 +39,11 @@ public class GraphicsEventsSample extends GraphicsProgram {
 		else if(obj == rect2) {
 			obj.setColor(Color.BLUE);
 		}
+	}
+	
+	
+	public void keyTyped(KeyEvent e) {
+		
 	}
 
 }
