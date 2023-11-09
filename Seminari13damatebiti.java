@@ -1,4 +1,6 @@
+import acm.program.GraphicsProgram;
 
-public class Seminari13damatebiti {
+public class Seminari13damatebiti extends GraphicsProgram {
+	
 
 }
