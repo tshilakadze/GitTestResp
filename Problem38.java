@@ -19,6 +19,11 @@ public class Problem38 extends ConsoleProgram {
 			myNum = readInt("Choose number: ");
 		}
 		
+		spinRoulette(myNum, myBet, left);
+		
+		
+	}
+	private void spinRoulette(int myNum, int myBet, int left) {
 		int num = casino.nextInt(0, 36);
 		println("The number is " + num);
 		if(num == myNum){
