@@ -5,7 +5,7 @@ public class Problem38 extends ConsoleProgram {
 	private RandomGenerator casino = RandomGenerator.getInstance();
 	public void run(){
 		
-		int myBet = readBet("Choose your bet: ");
+		int myBet = readInt("Choose your bet: ");
 		int left = MYMONEY - myBet;
 		
 		while(myBet <= 0 || myBet > MYMONEY){
@@ -27,10 +27,6 @@ public class Problem38 extends ConsoleProgram {
 		else{
 			println("You lose! Try again! You have " + left + " left.");
 		}
-	}
-	private int readBet(String string) {
-		
-		return 0;
 	}
 
 }
