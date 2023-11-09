@@ -26,6 +26,13 @@ public class GraphicsEventsSample extends GraphicsProgram {
 		if(obj != null){
 			obj.setColor(Color.RED);
 		}
+		
+		if(obj == rect){
+			obj.setColor(Color.RED);
+		}
+		else if(obj == rect2) {
+			obj.setColor(Color.BLUE);
+		}
 	}
 
 }
