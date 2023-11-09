@@ -11,6 +11,7 @@ public class Seminari13damatebiti extends GraphicsProgram {
 			removeAll();
 			GLine mLine = new GLine(x1, y1, x2, y2);
 			add(mLine);
+			pause(20);
 		}
 		
 	}
