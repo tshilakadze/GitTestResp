@@ -28,5 +28,4 @@ public class Problem38 extends ConsoleProgram {
 			println("You lose! Try again! You have " + left + " left.");
 		}
 	}
-
 }
