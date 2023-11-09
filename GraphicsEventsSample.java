@@ -6,6 +6,10 @@ import java.awt.event.MouseEvent;
 import acm.graphics.*;
 
 public class GraphicsEventsSample extends GraphicsProgram {
+	
+	private GRect rect1;
+	private GRect rect2;
+	
 	public void run() {
 		GRect rect1 = new GRect(100, 100);
 		rect1.setFilled(true);
@@ -27,7 +31,7 @@ public class GraphicsEventsSample extends GraphicsProgram {
 			obj.setColor(Color.RED);
 		}
 		
-		if(obj == rect){
+		if(obj == rect1){
 			obj.setColor(Color.RED);
 		}
 		else if(obj == rect2) {
