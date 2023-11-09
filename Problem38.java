@@ -20,7 +20,12 @@ public class Problem38 extends ConsoleProgram {
 		}
 		
 		spinRoulette(myNum, myBet, left);
-		
+		while(true){
+			spinRoulette(myNum, myBet, left);
+			if(left == 0){
+				break;
+			}
+		}
 		
 	}
 	private void spinRoulette(int myNum, int myBet, int left) {
