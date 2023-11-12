@@ -10,6 +10,7 @@ public class Problem38 extends ConsoleProgram {
 		
 		while(myBet <= 0 || myBet > MYMONEY){
 			println("no");
+			myBet = readInt("Choose your bet: ");
 		}
 		
 		int myNum = readInt("Choose number: ");
