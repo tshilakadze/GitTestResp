@@ -9,7 +9,7 @@ public class Problem37 extends ConsoleProgram {
 			println("This number is not allowed.");
 			myNum = readInt("Choose number: ");
 		}
-		int num = casino.nextInt(0, 36);
+		int num = casino.nextInt(0, 1);
 		println("The number is " + num);
 		if(num == myNum){
 			println("You win!");
