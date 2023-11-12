@@ -8,11 +8,6 @@ public class Problem38 extends ConsoleProgram {
 		int myBet = readInt("Choose your bet: ");
 		int left = MYMONEY - myBet;
 		
-		while(myBet <= 0 || myBet > MYMONEY){
-			println("no");
-			myBet = readInt("Choose your bet: ");
-		}
-		
 		int myNum = readInt("Choose number: ");
 		
 		while(myNum < 0 || myNum > 36){
