@@ -14,7 +14,7 @@ public class Problem39 extends GraphicsProgram {
 			if(ball.getX() + SIZE >= getWidth()){
 				x = -x;
 			}
-			ball.move(x, y);
+			
 		}
 	}
 
