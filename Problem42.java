@@ -1,9 +1,17 @@
-import acm.program.*;
+import acm.program.GraphicsProgram;
 
 import acm.graphics.*;
 
 import java.awt.event.*;
 
 public class Problem42 extends GraphicsProgram {
-	addMouseListeners();
+	public void run() {
+		addMouseListeners();
+	}
+	
+	public void mousePressed(MouseEvent e) {
+		GOval circle = new GOval(SIZE, SIZE);
+		circle.setFilled(true);
+	}
+	
 }
