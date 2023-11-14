@@ -18,4 +18,10 @@ public class Problem41 extends GraphicsProgram {
 		add(ball, e.getX() - SIZE/2, e.getY() - SIZE/2);
 	}
 	
+	public void mousePressed(MouseEvent e) {
+		GOval circle = new GOval(SIZE, SIZE);
+		circle.setFilled(true);
+		add(circle, e.getX() - SIZE/2, e.getY() - SIZE/2);
+	}
+	
 }
