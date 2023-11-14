@@ -6,6 +6,8 @@ import java.awt.event.*;
 
 public class Problem43 extends GraphicsProgram {
 	private GOval circle;
+	private int prevX;
+	private int prevY;
 	private static final int DIAMETER = 50;
 	public void run() {
 		circle = new GOval(DIAMETER, DIAMETER);
@@ -15,9 +17,21 @@ public class Problem43 extends GraphicsProgram {
 	}
 	
 	public void mousePressed(MouseEvent e) {
+		GObject obj = getElementAt(e.getX(), e.getY());
+		if(obj == null){
+			prevX = e.getX();
+			prevY = e.getY();
+		}
 	}
 	
 	public void mouseDragged(MouseEvent e) {
-		
+		GObject obj = getElementAt(e.getX(), e.getY());
+		if(obj != null){
+			
+			obj.move(e.getX() - prevX, e.getY() - prevY);
+			
+			prevX = e.getX();
+			prevY = e.getY();
+		}
 	}
 }
