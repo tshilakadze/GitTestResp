@@ -3,7 +3,7 @@ import acm.program.GraphicsProgram;
 import acm.graphics.*;
 
 public class Problem39 extends GraphicsProgram {
-	private static final int SIZE = 100;
+	private static final int SIZE = 50;
 
 	public void run() {		
 		GOval ball = new GOval(SIZE, SIZE);
