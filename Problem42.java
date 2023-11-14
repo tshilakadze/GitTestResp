@@ -7,14 +7,14 @@ import java.awt.event.*;
 public class Problem42 extends GraphicsProgram {
 	
 	private static final int SIZE = 10;
+	GLine line;
 	
 	public void run() {
 		addMouseListeners();
 	}
 	
 	public void mousePressed(MouseEvent e) {
-		GOval circle = new GOval(SIZE, SIZE);
-		circle.setFilled(true);
+		line = new GLine(e.getX(), e.getY(), e.getX(), e.getY());
 	}
 	
 }
