@@ -6,6 +6,7 @@ import java.awt.event.*;
 
 public class Problem43 extends GraphicsProgram {
 	private GOval circle;
+	
 	private int prevX;
 	private int prevY;
 	private static final int DIAMETER = 50;
