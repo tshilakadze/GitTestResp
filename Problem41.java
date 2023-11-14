@@ -1,4 +1,7 @@
+import acm.program.GraphicsProgram;
 
-public class Problem41 {
+import acm.graphics.*;
 
+public class Problem41 extends GraphicsProgram {
+	
 }
