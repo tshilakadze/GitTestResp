@@ -8,13 +8,13 @@ public class Problem43 extends GraphicsProgram {
 	private GOval circle;
 	private static final int DIAMETER = 50;
 	public void run() {
-		add(circle, getWidth()/2, 0);
+		circle = new GOval(DIAMETER, DIAMETER);
+		circle.setFilled(true);
+		add(circle, getWidth()/2 - DIAMETER/2, getHeight()/2 - DIAMETER/2);
 		addMouseListeners();
 	}
 	
 	public void mousePressed(MouseEvent e) {
-		circle = new GOval(DIAMETER, DIAMETER);
-		circle.setFilled(true);
 	}
 	
 	public void mouseDragged(MouseEvent e) {
