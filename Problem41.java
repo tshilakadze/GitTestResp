@@ -6,7 +6,7 @@ import java.awt.event.*;
 
 public class Problem41 extends GraphicsProgram {
 	
-	private static final int SIZE = 100;
+	private static final int SIZE = 10;
 	
 	public void run() {
 		addMouseListeners();
