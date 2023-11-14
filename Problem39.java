@@ -8,13 +8,13 @@ public class Problem39 extends GraphicsProgram {
 	public void run() {		
 		GOval ball = new GOval(SIZE, SIZE);
 		add(ball, 0, getHeight()/2 - SIZE/2);
-		while(ball.getX() <= getWidth() - SIZE - 10){
-			ball.move(10, 0);
-			pause(15);
-			if(ball.getX() >= 0){
-				ball.move(-10, 0);
-				pause(15);
+		int x = 5;
+		int y = 0;
+		while(true){
+			if(ball.getX() + SIZE >= getWidth()){
+				x = -x;
 			}
+			ball.move(x, y);
 		}
 	}
 
