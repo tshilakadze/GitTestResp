@@ -1,4 +1,7 @@
+import acm.graphics.*;
 
-public class Problem42 {
+import java.awt.event.*;
+
+public class Problem42 extends GraphicsProgram {
 
 }
