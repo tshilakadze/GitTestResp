@@ -9,7 +9,7 @@ public class Problem41 extends GraphicsProgram {
 	private static final int SIZE = 10;
 	
 	public void run() {
-		addMouseListeners();
+		addMotionListeners();
 	}
 	
 	public void MouseDragged(MouseEvent e){
