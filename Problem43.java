@@ -8,7 +8,7 @@ public class Problem43 extends GraphicsProgram {
 	private GOval circle;
 	private static final int DIAMETER = 50;
 	public void run() {
-		add(circle);
+		add(circle, getWidth()/2, 0);
 		addMouseListeners();
 	}
 	
