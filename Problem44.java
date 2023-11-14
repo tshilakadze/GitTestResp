@@ -1,4 +1,12 @@
+import acm.program.GraphicsProgram;
 
-public class Problem44 {
+import acm.graphics.*;
+
+import java.awt.event.*;
+
+public class Problem44 extends GraphicsProgram {
+	public void run() {
+		
+	}
 
 }
