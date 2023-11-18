@@ -35,5 +35,8 @@ public class Problem43 extends GraphicsProgram {
 			prevX = e.getX();
 			prevY = e.getY();
 		}
+		if(lastPressedObj != null && circle.getX() + DIAMETER >= getWidth()){
+			lastPressedObj.move(-1, 0);
+		}
 	}
 }
