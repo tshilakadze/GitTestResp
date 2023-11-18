@@ -28,7 +28,7 @@ public class Problem43 extends GraphicsProgram {
 	}
 	
 	public void mouseDragged(MouseEvent e) {
-		if(lastPressedObj != null && e.getX() +10 <= getWidth()){
+		if(lastPressedObj != null && e.getX() + DIAMETER <= getWidth()){
 			
 			lastPressedObj.move(e.getX() - prevX, e.getY() - prevY);
 			
