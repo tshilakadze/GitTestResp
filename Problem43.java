@@ -5,26 +5,35 @@ import acm.graphics.*;
 import java.awt.event.*;
 
 public class Problem43 extends GraphicsProgram {
-	private GOval ball;
-	private static final int SIZE = 20;
-	private static final int DELAY = 30;
-	private int vy = 5;
-	public void run(){
-		ball = new GOval(SIZE, SIZE);
-		ball.setFilled(true);
-		add(ball);
+	private GOval circle;
+	
+	private int prevX;
+	private int prevY;
+	private GObject lastPressedObj;
+	private static final int DIAMETER = 50;
+	public void run() {
+		circle = new GOval(DIAMETER, DIAMETER);
+		circle.setFilled(true);
+		add(circle, getWidth()/2 - DIAMETER/2, getHeight()/2 - DIAMETER/2);
 		addMouseListeners();
-		makeAnimation();
 	}
-
-	private void makeAnimation() {
-		while(true){
-			ball.move(0, vy);
-			pause(DELAY);
+	
+	public void mousePressed(MouseEvent e) {
+		GObject obj = getElementAt(e.getX(), e.getY());
+		lastPressedObj = obj;
+		if(obj != null){
+			prevX = e.getX();
+			prevY = e.getY();
 		}
 	}
-
-	public void mouseClicked(MouseEvent e){
-		ball.setLocation(e.getX(), e.getY());
+	
+	public void mouseDragged(MouseEvent e) {
+		if(lastPressedObj != null){
+			
+			lastPressedObj.move(e.getX() - prevX, e.getY() - prevY);
+			
+			prevX = e.getX();
+			prevY = e.getY();
+		}
 	}
 }
