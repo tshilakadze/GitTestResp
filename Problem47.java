@@ -1,7 +1,7 @@
 import acm.program.ConsoleProgram;
 public class Problem47 extends ConsoleProgram {
 	public void run() {
-		String text = "mariami";
+		String text = "abba";
 		boolean isPalindrom = isPalindrom(text);
 		println(text + " is palindrome: " + isPalindrom);
 	}
