@@ -12,7 +12,7 @@ public class Problem47 extends ConsoleProgram {
 				return false;
 			}
 		}
-		return false;
+		return true;
 	}
 
 }
