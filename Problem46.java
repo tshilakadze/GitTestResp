@@ -17,6 +17,7 @@ public class Problem46 extends ConsoleProgram {
 				mostFrequent = text.charAt(i);
 			}
 		}
+		println(mostFrequent);
 	}
 	private int countSymbols(String text2, char symbol) {
 		int numSym = 0;
