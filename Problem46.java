@@ -2,20 +2,30 @@ import acm.program.ConsoleProgram;
 
 public class Problem46 extends ConsoleProgram {
 	private String text; 
+	private char mostFrequent;
 	public void run() {
 		text = readLine("Text: ");
-		countSymbols();
+		frequentSymbol();
 		
 	}
-	private void countSymbols() {
-		int numOfSym = 0;
+	private void frequentSymbol() {
+		int maxSymbolNum = 0;
 		for(int i = 0; i < text.length(); i++){
-			for(int l = 0; l < text.length(); l++){
-				if(text.charAt(l) == text.charAt(l)){
-					
-				}
+			int currNum = countSymbols(text, text.charAt(i));
+			if(currNum > maxSymbolNum){
+				maxSymbolNum = currNum;
+				mostFrequent = text.charAt(i);
 			}
 		}
+	}
+	private int countSymbols(String text2, char symbol) {
+		int numSym = 0;
+		for(int i = 0; i < text.length(); i++){
+			if(text.charAt(i) == symbol){
+				numSym = numSym + 1;
+			}
+		}
+		return numSym;
 	}
 
 }
