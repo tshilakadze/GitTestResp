@@ -9,8 +9,9 @@ public class Problem47 extends ConsoleProgram {
 	private boolean palindromeOrNot(String text) {
 		for(int i = 0; i < text.length()/2; i++){
 			if(text.charAt(i) == text.charAt(text.length() - i)){
-				return true;
+				
 			}
+			return true;
 		}
 		return false;
 	}
