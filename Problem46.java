@@ -16,6 +16,7 @@ public class Problem46 extends ConsoleProgram {
 				}
 			}
 		}
+		println(numOfSym);
 	}
 
 }
