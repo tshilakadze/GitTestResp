@@ -12,7 +12,10 @@ public class Problem45 extends ConsoleProgram {
 	private void countSymbol() {
 		int numOfSym = 0;
 		for(int i = 0; i < text.length(); i++){
-			
+			if(symbol == text.charAt(i)){
+				numOfSym = numOfSym + 1;
+			}
 		}
+		println(numOfSym);
 	}
 }
