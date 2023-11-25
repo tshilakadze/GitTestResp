@@ -11,12 +11,11 @@ public class Problem46 extends ConsoleProgram {
 		int numOfSym = 0;
 		for(int i = 0; i < text.length(); i++){
 			for(int l = 0; l < text.length(); l++){
-				if(text.charAt(i) == text.charAt(l)){
-					numOfSym = numOfSym +1;
+				if(text.charAt(l) == text.charAt(l)){
+					
 				}
 			}
 		}
-		println(numOfSym);
 	}
 
 }
