@@ -6,6 +6,8 @@ public class Problem50 extends ConsoleProgram {
 	public void run() {
 		String text = readLine("Enter the text: ");
 		StringTokenizer tokenizer = new StringTokenizer(text);
-		println(tokenizer);
+		while(tokenizer.hasMoreTokens()){
+			println(tokenizer.nextToken());
+		}
 	}
 }
