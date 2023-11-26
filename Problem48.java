@@ -22,9 +22,12 @@ public class Problem48 extends ConsoleProgram {
 	}
 
 	private boolean firstTime(String text, int i) {
-		char ch = text.charAt(i);
-		int firstI = text.indexOf(ch);
-		return firstI == i;
+		for(int l = 0; l < text.length(); l++){
+			if(text.charAt(l) == text.charAt(i)){
+				return false;
+			}
+		}
+		return true;
 	}
 
 	
