@@ -9,10 +9,10 @@ public class Problem49 extends ConsoleProgram {
 	}
 
 	private double stringToInteger(String numStr) {
-		double num = 1;
+		double num = 0;
 		for(int i = 0; i < numStr.length(); i++){
 			int currDigit = charToInteger(numStr.charAt(i));
-			num = currDigit * Math.pow(10, numStr.length() - i);
+			num = num * 10 + currDigit;
 		}
 		return num;
 	}
