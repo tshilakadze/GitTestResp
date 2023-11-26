@@ -11,5 +11,6 @@ public class Problem50 extends ConsoleProgram {
 			println(tokenizer.nextToken());
 			numOfWords += 1;
 		}
+		println(numOfWords);
 	}
 }
