@@ -5,6 +5,7 @@ public class Problem49 extends ConsoleProgram {
 	public void run() {
 		String numStr = readLine("Enter a number: ");
 		double finalNum = stringToInteger(numStr);
+		println(finalNum);
 	}
 
 	private double stringToInteger(String numStr) {
