@@ -4,10 +4,10 @@ public class Problem49 extends ConsoleProgram {
 	
 	public void run() {
 		String numStr = readLine("Enter a number: ");
-		int finalNum = stringToInteger(numStr);
+		double finalNum = stringToInteger(numStr);
 	}
 
-	private int stringToInteger(String numStr) {
+	private double stringToInteger(String numStr) {
 		double num = 1;
 		for(int i = 0; i < numStr.length(); i++){
 			int currDigit = charToInteger(numStr.charAt(i));
