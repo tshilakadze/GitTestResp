@@ -21,9 +21,9 @@ public class Problem48 extends ConsoleProgram {
 		println(symNum);
 	}
 
-	private boolean firstTime(String text, int i) {
+	private boolean firstTime(String text, int index) {
 		for(int l = 0; l < text.length(); l++){
-			if(text.charAt(l) == text.charAt(i)){
+			if(text.charAt(l) == text.charAt(index)){
 				return false;
 			}
 		}
