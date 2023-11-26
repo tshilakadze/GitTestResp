@@ -3,28 +3,32 @@ import acm.program.ConsoleProgram;
 public class Problem48 extends ConsoleProgram {
 	public void run() {
 		String text = readLine("The text: ");
-		for(int i = 0; i < text.length(); i++){
-			countSymbols(text, text.charAt(i));
-		}
-		
+		printStatistics(text);	
 	}
 
-	private void countSymbols(String text, char charAt) {
-		int symNum = 0;
+	private void printStatistics(String text) {
+		String used = "";
 		for(int i = 0; i < text.length(); i++){
-			if(text.charAt(i) == charAt){
-				if(firstTime(text, i)){
-					symNum = symNum + 1;
-				}
+			char ch = text.charAt(i);
+			if(!used.contains("" + ch)){
+				int num = countSymbols(text, ch);
+				println(ch + ": " + num);
+				used += ch;
 			}
 		}
-		println(symNum);
 	}
 
-	private boolean firstTime(String text, int index) {
-		
-		return true;
+	private int countSymbols(String text, char ch) {
+		int numOfSymbol = 0;
+		for(int i = 0; i < text.length(); i++){
+			if(ch == text.charAt(i)){
+				numOfSymbol += 1;
+			}
+		}
+		return numOfSymbol;
 	}
+
+	
 
 	
 	
