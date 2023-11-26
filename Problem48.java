@@ -13,10 +13,18 @@ public class Problem48 extends ConsoleProgram {
 		int symNum = 0;
 		for(int i = 0; i < text.length(); i++){
 			if(text.charAt(i) == charAt){
-				symNum = symNum + 1;
+				if(firstTime(text, i)){
+					symNum = symNum + 1;
+				}
 			}
 		}
 		println(symNum);
+	}
+
+	private boolean firstTime(String text, int i) {
+		char ch = text.charAt(i);
+		int firstI = text.indexOf(ch);
+		return firstI == i;
 	}
 
 	
