@@ -6,6 +6,7 @@ public class Problem49 extends ConsoleProgram {
 		String numStr = readLine("Enter a number: ");
 		int finalNum = stringToInteger(numStr);
 		println(finalNum);
+		println(finalNum - 1);
 	}
 
 	private int stringToInteger(String numStr) {
