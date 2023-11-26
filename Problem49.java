@@ -8,10 +8,12 @@ public class Problem49 extends ConsoleProgram {
 	}
 
 	private int stringToInteger(String numStr) {
+		double num = 1;
 		for(int i = 0; i < numStr.length(); i++){
 			int currDigit = charToInteger(numStr.charAt(i));
+			num = currDigit * Math.pow(10, numStr.length() - i);
 		}
-		return 0;
+		return num;
 	}
 
 	private int charToInteger(char charAt) {
