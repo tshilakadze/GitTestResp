@@ -18,11 +18,11 @@ public class stringForMidT2 extends ConsoleProgram {
 						secondPart = secondPart.substring(l + 1);
 						result = firstPart + "[.]" + secondPart;
 					}
+					println(result);
 				}
 				
 			}
 		}
-		println(result);
 	}
 
 	
