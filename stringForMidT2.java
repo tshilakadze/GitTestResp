@@ -12,11 +12,11 @@ public class stringForMidT2 extends ConsoleProgram {
 				String firstPart = IP.substring(0, i);
 				String secondPart = IP.substring(i + 1);
 				result = firstPart + "[.]" + secondPart;
+				findPoints(IP);
 				println(result);
 				
 			}
 		}
-		findPoints(IP);
 		
 	}
 
