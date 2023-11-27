@@ -2,10 +2,22 @@ import acm.program.*;
 public class stringForMidT2 extends ConsoleProgram {
 	public void run() {
 		String IP = readLine("adress = ");
-		findPoints(IP);
+		
 	}
 
-	private void findPoints(String IP) {
+	
+
+	
+
+}
+
+
+
+
+
+
+/*
+ * private void findPoints(String IP) {
 		String result = "";
 		for(int i = 0; i < IP.length(); i++){
 			if(IP.charAt(i) == '.'){
@@ -24,7 +36,4 @@ public class stringForMidT2 extends ConsoleProgram {
 			}
 		}
 	}
-
-	
-
-}
+ */
