@@ -6,17 +6,18 @@ public class stringForMidT2 extends ConsoleProgram {
 	}
 
 	private void findPoints(String IP) {
+		String result = "";
 		for(int i = 0; i < IP.length(); i++){
 			if(IP.charAt(i) == '.'){
-				replaceIt(IP, i);
+				replaceIt(IP, result, i);
 			}
 		}
 	}
 
-	private void replaceIt(String IP, int i) {
+	private void replaceIt(String IP, String result, int i) {
 		String firstPart = IP.substring(0, i);
 		String secondPart = IP.substring(i + 1);
-		String result = firstPart + "[.]" + secondPart;
+		result = firstPart + "[.]" + secondPart;
 		println(result);
 	}
 
