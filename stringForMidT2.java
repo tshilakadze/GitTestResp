@@ -15,7 +15,7 @@ public class stringForMidT2 extends ConsoleProgram {
 				IP = result;
 			}
 		}
-		println(result);
+		println(IP);
 		
 	}
 
