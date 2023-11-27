@@ -22,7 +22,7 @@ public class stringForMidT2 extends ConsoleProgram {
 				
 			}
 		}
-		
+		println(result);
 	}
 
 	
