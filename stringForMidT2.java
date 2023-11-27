@@ -9,17 +9,18 @@ public class stringForMidT2 extends ConsoleProgram {
 		String result = "";
 		for(int i = 0; i < IP.length(); i++){
 			if(IP.charAt(i) == '.'){
-				replaceIt(IP, result, i);
+				String firstPart = IP.substring(0, i);
+				String secondPart = IP.substring(i + 1);
+				result = firstPart + "[.]" + secondPart;
 			}
 		}
+		println(result);
 		
 	}
 
 	private void replaceIt(String IP, String result, int i) {
-		String firstPart = IP.substring(0, i);
-		String secondPart = IP.substring(i + 1);
-		result = firstPart + "[.]" + secondPart;
-		println(result);
+		
+		
 	}
 
 	
