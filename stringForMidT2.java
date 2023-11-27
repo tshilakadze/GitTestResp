@@ -2,13 +2,13 @@ import acm.program.*;
 public class stringForMidT2 extends ConsoleProgram {
 	public void run() {
 		String IP = readLine("adress = ");
-		replacePoints(IP);
-		println(IP);
+		replaceSymbol(IP);
 	}
 
-	private String replacePoints(String IP) {
-		
+	public String replaceSymbol(String IP){
 		return IP.replace('.', '[');
+		
+		
 	}
 
 	
