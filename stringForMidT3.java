@@ -10,6 +10,7 @@ public class stringForMidT3 extends ConsoleProgram {
 					jewelNum += 1;
 				}
 			}
+			println(jewelNum);
 		}
 	}
 
