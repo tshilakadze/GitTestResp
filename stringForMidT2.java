@@ -3,12 +3,12 @@ public class stringForMidT2 extends ConsoleProgram {
 	public void run() {
 		String IP = readLine("adress = ");
 		replacePoints(IP);
-
+		
 	}
 
 	private String replacePoints(String IP) {
-		IP.replace('.', '[');
-		return IP;
+		
+		return IP.replace('.', '[');
 	}
 
 	
