@@ -11,6 +11,7 @@ public class stringForMidT2 extends ConsoleProgram {
 				IP.replace('.', '[');
 			}
 		}
+		println(IP);
 	}
 
 }
