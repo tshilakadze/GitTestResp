@@ -12,14 +12,10 @@ public class stringForMidT2 extends ConsoleProgram {
 				String firstPart = IP.substring(0, i);
 				String secondPart = IP.substring(i + 1);
 				result = firstPart + "[.]" + secondPart;
+				IP = result;
 			}
 		}
 		println(result);
-		
-	}
-
-	private void replaceIt(String IP, String result, int i) {
-		
 		
 	}
 
