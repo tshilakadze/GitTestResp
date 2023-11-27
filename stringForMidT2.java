@@ -12,7 +12,13 @@ public class stringForMidT2 extends ConsoleProgram {
 				String firstPart = IP.substring(0, i);
 				String secondPart = IP.substring(i + 1);
 				result = firstPart + "[.]" + secondPart;
-				println(result);
+				for(int l = 0; l < secondPart.length(); l++){
+					if(secondPart.charAt(l) == '.'){
+						firstPart = secondPart.substring(0, l);
+						secondPart = secondPart.substring(l + 1);
+						result = firstPart + "[.]" + secondPart;
+					}
+				}
 				
 			}
 		}
