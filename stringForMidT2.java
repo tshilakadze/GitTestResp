@@ -2,8 +2,8 @@ import acm.program.*;
 public class stringForMidT2 extends ConsoleProgram {
 	public void run() {
 		String IP = readLine("adress = ");
-		String a = IP.replace('.', '[');
-		println(a);
+		IP = IP.replace('.', '[');
+		println(IP);
 	}
 
 	
