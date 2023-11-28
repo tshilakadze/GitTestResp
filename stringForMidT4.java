@@ -14,6 +14,7 @@ public class stringForMidT4 extends ConsoleProgram {
 	private String reverseString(String part1, String text) {
 		String result = "";
 		for(int i = 0; i < part1.length(); i++){
+			result = part1.replace(part1.charAt(i), part1.charAt(part1.length() - i));
 			
 		}
 		return result;
