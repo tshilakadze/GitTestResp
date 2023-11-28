@@ -9,11 +9,12 @@ public class stringForMidT4 extends ConsoleProgram {
 				String part1 = text.substring(0, i);
 				String part2 = text.substring(i+1);
 				for(int l = 0; l < part1.length(); l++){
-					result = result + part1.charAt(part1.length() - l - 1);
+					part1 = result + part1.charAt(part1.length() - l - 1);
 				}
+				text = part1 + part2;
 			}
 		}
-		println(result);
+		println(text);
 		
 	}
 }
