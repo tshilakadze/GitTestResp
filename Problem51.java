@@ -16,5 +16,4 @@ public class Problem51 extends ConsoleProgram {
 		println(used);
 		
 	}
-
 }
