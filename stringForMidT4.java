@@ -8,9 +8,8 @@ public class stringForMidT4 extends ConsoleProgram {
 			if(text.charAt(i) == 'i'){
 				String part1 = text.substring(0, i);
 				String part2 = text.substring(i);
-				for(int l = 0; l < part1.length(); l++){
-					part1 = part1.replace(part1.charAt(l), part1.charAt(text.length() - part2.length() - l - 1));
-					result = part1;
+				for(int l = part1.length() - 1; l <= 0 ; l--){
+					result = result + part1.charAt(l);
 				}
 			}
 		}
