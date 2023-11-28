@@ -10,7 +10,7 @@ public class stringForMidT4 extends ConsoleProgram {
 				String part2 = text.substring(i + 1);
 				for(int l = 0; l < part1.length(); l++){
 					part1 = part1.replace(part1.charAt(l), part1.charAt(part1.length() - l - 1));
-					result = part1 + 
+					result = part1 + part2;
 				}
 			}
 		}
