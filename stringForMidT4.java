@@ -11,7 +11,7 @@ public class stringForMidT4 extends ConsoleProgram {
 				for(int l = 0; l < part1.length(); l++){
 					part1 = result + part1.charAt(part1.length() - l - 1);
 				}
-				text = part1 + part2;
+				text = part1;
 			}
 		}
 		println(text);
