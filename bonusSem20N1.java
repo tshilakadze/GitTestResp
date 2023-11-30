@@ -22,10 +22,10 @@ public class bonusSem20N1 extends GraphicsProgram {
 		addMouseListeners();
 		addRandomCircle();
 		while(true){
-			if(circle.getX() < 0 || circle.getX() + 2 * radius > getWidth()){
+			if(circle.getX() < 0 || circle.getX() + 2 * radius > getWidth()){		// bug!!!!!!!!!!
 				vx = -vx;
 			}
-			if(circle.getY() < 0 || circle.getY() + 2 * radius > getHeight()){
+			if(circle.getY() < 0 || circle.getY() + 2 * radius > getHeight()){		// bug!!!!!!!!!!!
 				vy = -vy;
 			}
 			circle.move(vx, vy);
