@@ -1,5 +1,9 @@
 import acm.program.*;
+
 import acm.util.RandomGenerator;
+
+import java.awt.event.MouseEvent;
+
 import acm.graphics.*;
 
 public class bonusSem20N1 extends GraphicsProgram {
@@ -31,5 +35,14 @@ public class bonusSem20N1 extends GraphicsProgram {
 		circle.setFilled(true);
 		circle.setColor(rgen1.nextColor());
 		add(circle, x, y);
+	}
+	
+	public void mouseClicked(MouseEvent e){
+		GObject obj = getElementAt(e.getX(), e.getY());
+		if(obj == circle){
+			vx = rgen1.nextDouble(MINSPEED, MAXSPEED);
+			vy = rgen1.nextDouble(MINSPEED, MAXSPEED);
+		}
+		
 	}
 }
