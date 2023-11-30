@@ -12,6 +12,7 @@ public class midTPracProblem2 extends ConsoleProgram {
 				text.replaceFirst(a, "");
 			}
 		}
+		println(text);
 	}
 
 	
