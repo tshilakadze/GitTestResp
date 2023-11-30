@@ -6,14 +6,15 @@ public class midTPracProblem2 extends ConsoleProgram {
 		String text = readLine("enter text: ");
 		for(int i = 0; i < text.length(); i++){
 			char ch = text.charAt(i);
-			if(Character.isLowerCase(ch)){
-				checkNextChar(text, ch, i);
+			char nextCh = text.charAt(i + 1);
+			if(Character.isLowerCase(ch) && Character.isLowerCase(nextCh)){
+				checkNextChar(text, ch, nextCh);
 			}
 		}	
 	}
 
-	private void checkNextChar(String text, char ch, int i) {
-		if(ch > text.charAt(i + 1)){
+	private void checkNextChar(String text, char ch, char nextCh) {
+		if(ch > nextCh){
 			println("false");
 		}
 		else{
