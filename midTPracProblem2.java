@@ -8,7 +8,10 @@ public class midTPracProblem2 extends ConsoleProgram {
 			char ch = text.charAt(i);
 			if(Character.isLowerCase(ch)){
 				if(ascendingOrder(text, ch)){
-					
+					println(true);
+				}
+				else{
+					println(false);
 				}
 			}
 		}	
