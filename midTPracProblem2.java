@@ -19,7 +19,7 @@ public class midTPracProblem2 extends ConsoleProgram {
 
 	private boolean ascendingOrder(String text, char ch) {
 		for(int i = 0; i < text.length(); i++){
-			if(text.charAt(i) < text.charAt(i + 1)){
+			if(text.charAt(i) > text.charAt(i + 1)){
 				return false;
 			}
 		}
