@@ -9,7 +9,7 @@ public class midTPracProblem2 extends ConsoleProgram {
 			String a = "" + ch;
 	//		char nextCh = text.charAt(i + 1);
 			if(Character.isUpperCase(ch)){
-				text.replaceFirst(a, "");
+				text = text.replaceFirst(a, "");
 			}
 		}
 		println(text);
