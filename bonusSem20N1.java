@@ -18,6 +18,7 @@ public class bonusSem20N1 extends GraphicsProgram {
 		addRandomCircle();
 		while(true){
 			circle.move(vx, vy);
+			pause(50);
 		}
 	}
 
