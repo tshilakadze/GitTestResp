@@ -6,19 +6,12 @@ public class midTPracProblem2 extends ConsoleProgram {
 		String text = readLine("enter text: ");
 		for(int i = 0; i < text.length(); i++){
 			char ch = text.charAt(i);
-			char nextCh = text.charAt(i + 1);
+			String a = "" + ch
+	//		char nextCh = text.charAt(i + 1);
 			if(Character.isUpperCase(ch)){
-				String part1 = text.substring(0, i);
-				String part2 = text.substring(i+1);
-				text = part1 + part2;
-			}
-			if(Character.isUpperCase(ch) && Character.isUpperCase(nextCh)){
-				String part1 = text.substring(0, i);
-				String part2 = text.substring(i + 2);
-				text = part1 + part2;
+				text.replaceFirst(a, "");
 			}
 		}
-		println(text);
 	}
 
 	
