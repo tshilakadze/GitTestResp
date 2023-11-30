@@ -41,6 +41,8 @@ public class bonusSem20N1 extends GraphicsProgram {
 		GObject obj = getElementAt(e.getX(), e.getY());
 		if(obj == circle){
 			vx = rgen1.nextDouble(MINSPEED, MAXSPEED);
+			if (rgen1.nextBoolean(0.5))
+				vx = -vx;
 			vy = rgen1.nextDouble(MINSPEED, MAXSPEED);
 		}
 		
