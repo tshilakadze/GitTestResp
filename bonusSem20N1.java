@@ -13,7 +13,7 @@ public class bonusSem20N1 extends GraphicsProgram {
 	private static final double MAXRADIUS = 50;
 	private static final double MINSPEED = 1;
 	private static final double MAXSPEED = 5;
-	private static final int DELAY = 50;
+	private static final int DELAY = 20;
 	private GOval circle = null;
 	private double vx = 0;
 	private double vy = 0;
