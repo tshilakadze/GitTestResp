@@ -15,6 +15,7 @@ public class midTPracProblem2 extends ConsoleProgram {
 			if(Character.isUpperCase(ch) && Character.isUpperCase(nextCh)){
 				String part1 = text.substring(0, i);
 				String part2 = text.substring(i + 2);
+				text = part1 + part2;
 			}
 		}
 		println(text);
