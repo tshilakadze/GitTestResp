@@ -17,10 +17,14 @@ public class bonusSem20N1 extends GraphicsProgram {
 	private GOval circle = null;
 	private double vx = 0;
 	private double vy = 0;
+	double radius;
 	public void run() {
 		addMouseListeners();
 		addRandomCircle();
 		while(true){
+			if(circle.getX() < 0 || circle.getX() + 2 * radius > getWidth()){
+				
+			}
 			circle.move(vx, vy);
 			pause(50);
 		}
@@ -28,7 +32,7 @@ public class bonusSem20N1 extends GraphicsProgram {
 
 	
 	private void addRandomCircle(){
-		double radius = rgen1.nextDouble(MINRADIUS, MAXRADIUS);
+		radius = rgen1.nextDouble(MINRADIUS, MAXRADIUS);
 		double x = rgen1.nextDouble(0, getWidth() - 2 * radius);
 		double y = rgen1.nextDouble(0, getHeight() - 2 * radius);
 		circle = new GOval(2 * radius, 2 * radius);
