@@ -23,7 +23,7 @@ public class bonusSem20N1 extends GraphicsProgram {
 		addRandomCircle();
 		while(true){
 			if(circle.getX() < 0 || circle.getX() + 2 * radius > getWidth()){
-				
+				vx = -vx;
 			}
 			circle.move(vx, vy);
 			pause(50);
