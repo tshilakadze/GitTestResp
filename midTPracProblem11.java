@@ -1,7 +1,7 @@
 import acm.program.*;
 public class midTPracProblem11 extends ConsoleProgram {
 	
-	private static final String ZERO = "0000000000000000";
+	private static final String ZERO = "00000000000000000000000000000000";
 	
 	public void run() {
 		int num = readInt("Enter a number: ");
