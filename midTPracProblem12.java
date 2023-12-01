@@ -1,4 +1,11 @@
-
-public class midTPracProblem12 {
+import acm.program.*;
+public class midTPracProblem12 extends ConsoleProgram {
+	public void run() {
+		int n = readInt("Enter the number n: ");
+		int k = readInt("Enter the number between 2 and 9: ");
+		while(k < 2 || k > 9){
+			k = readInt("Can you read you fucking imbecile?");
+		}
+	}
 
 }
