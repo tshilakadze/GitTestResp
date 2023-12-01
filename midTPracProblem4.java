@@ -13,7 +13,6 @@ public class midTPracProblem4 extends ConsoleProgram {
 		while(true){
 			text = readLine("enter the text: ");
 			seperateSentence();
-			println(finalSentence);
 		}
 		
 	}
@@ -27,7 +26,7 @@ public class midTPracProblem4 extends ConsoleProgram {
 			word = tokenizer.nextToken();
 			reverseWords();
 			finalSentence += newWord;
-			
+			println(finalSentence);
 		}
 		
 		return finalSentence;
