@@ -4,12 +4,14 @@ public class midTPracProblem1 extends ConsoleProgram {
 	
 	private String text;
 	private String result;
+	private char mostFrequent;
 	
 	public void run() {
 		text = readLine("enter the text = ");
 		text = text.toLowerCase();
 		leaveOnlyLetters();
 		findMostFrequent();
+		println(mostFrequent);
 	}
 	
 	
@@ -26,7 +28,7 @@ public class midTPracProblem1 extends ConsoleProgram {
 	
 	
 	private char findMostFrequent() {
-		char mostFrequent = 'a';
+		mostFrequent = 'a';
 		int maxNum = 0;
 		int currNum = 0;
 		for(int i = 0; i < result.length(); i++){
