@@ -9,8 +9,8 @@ public class midTPracProblem11 extends ConsoleProgram {
 		
 	}
 	
-	private int binary(int num){
-		String result = "";
+	private String binary(int num){
+		String resultStr = "";
 		String numInString = "";
 		int stringToInt = 0;
 		int dividend = num;
@@ -18,10 +18,11 @@ public class midTPracProblem11 extends ConsoleProgram {
 			int remainder = dividend % 2;
 			dividend = dividend / 2;
 			numInString = remainder + "";
-			result += numInString;
+			resultStr += numInString;
+			
 		}
 		
-		return stringToInt;
+		return resultStr;
 	}
 
 }
