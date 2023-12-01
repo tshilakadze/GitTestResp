@@ -7,13 +7,13 @@ public class midTPracProblem2 extends ConsoleProgram {
 	public void run() {
 		String text = readLine("enter text: ");
 		onlyLowerCase(text);
-/*		if(ascendingOrder()){
+		if(ascendingOrder()){
 			println("true");
 		}
 		else{
 			println("false");
-		} */
-		println(result);
+		}
+	//	println(result);
 		
 		
 	}
@@ -31,17 +31,18 @@ public class midTPracProblem2 extends ConsoleProgram {
 		
 	}
 
-/*	private boolean ascendingOrder() {
+	private boolean ascendingOrder() {
 		char prevCh = 'a' - 1;
 		for(int i = 0; i < result.length(); i++){
 			char ch = result.charAt(i);
-			if(){
+			if(ch < prevCh){
 				return false;
 			}
+			prevCh = ch;
 		}
 		return true;
 	}
-*/
+
 
 	
 
