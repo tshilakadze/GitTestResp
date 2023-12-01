@@ -29,12 +29,13 @@ public class midTPracProblem4 extends ConsoleProgram {
 	
 	private String reverseWords() {
 		finalSentence = "";
+		String newWord = "";
 		for(int i = 0; i < word.length(); i++){
 			char ch = word.charAt(word.length() - i - 1);
 			String letter = "" + ch;
-			word += letter;
-			word = word + " ";
-			finalSentence += word;
+			newWord += letter;
+			newWord = newWord + " ";
+			finalSentence += newWord;
 		}
 		return finalSentence;
 	}
