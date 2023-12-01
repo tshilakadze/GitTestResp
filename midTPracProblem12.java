@@ -8,11 +8,10 @@ public class midTPracProblem12 extends ConsoleProgram {
 	}
 
 	private int sumOfNumbers(int n, int k) {
-		int divident = 1;
 		int sum = 0;
-		while(divident != 0){
+		while(n != 0){
 			int remainder = n % k;
-			divident = n / k;
+			n = n / k;
 			sum += remainder;
 		}
 		println(sum);
