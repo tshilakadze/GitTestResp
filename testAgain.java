@@ -11,7 +11,7 @@ public class testAgain extends ConsoleProgram {
 	}
 
 	private String beautify(String s) {
-		StringTokenizer tokenizer = new StringTokenizer(s);
+		StringTokenizer tokenizer = new StringTokenizer(s, " ,.");
 		String beautifulS = "";
 		while (tokenizer.hasMoreTokens()) {
 			String currentWord = tokenizer.nextToken();
