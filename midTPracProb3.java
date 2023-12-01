@@ -25,8 +25,8 @@ public class midTPracProb3 extends ConsoleProgram {
 			String firstLetter = word.substring(0, 1);
 			String restOfWord = word.substring(1);
 			firstLetter = firstLetter.toUpperCase();
-			word = firstLetter + restOfWord;
-			result = word + " ";
+			word = firstLetter + restOfWord + " ";
+			result += word;
 			println(result);
 		}
 		
