@@ -34,7 +34,7 @@ public class midTPracProblem11 extends ConsoleProgram {
 		}
 		int size = reversed.length();
 		int zeroSize = ZERO.length();
-		String part1 = ZERO.substring(0, zeroSize - size + 1);
+		String part1 = ZERO.substring(0, zeroSize - size);
 		reversed = part1 + reversed;
 		return reversed;
 	}
