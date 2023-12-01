@@ -6,7 +6,7 @@ public class midTPracProblem12 extends ConsoleProgram {
 		while(k < 2 || k > 9){
 			k = readInt("Can you read you fucking imbecile? Enter a proper number: ");
 		}
-		println(sumOfNumbers(n, k));
+		println("output: " + sumOfNumbers(n, k));
 	}
 
 	private int sumOfNumbers(int n, int k) {
