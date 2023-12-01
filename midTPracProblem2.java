@@ -8,7 +8,7 @@ public class midTPracProblem2 extends ConsoleProgram {
 		String text = readLine("enter text: ");
 		onlyLowerCase(text);
 		if(ascendingOrder()){
-			println("true");
+		//	println("true");
 		}
 		else{
 			println("false");
