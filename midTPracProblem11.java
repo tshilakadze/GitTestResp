@@ -34,7 +34,7 @@ public class midTPracProblem11 extends ConsoleProgram {
 			if(ch == '1'){
 				resultStr = resultStr.replace(ch, '0');
 			}
-			else{
+			else if(ch == '0'){
 				resultStr = resultStr.replace(ch, '1');
 			}
 		}
