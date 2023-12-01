@@ -12,11 +12,8 @@ public class midTPracProblem4 extends ConsoleProgram {
 	public void run() {
 		text = readLine("enter the text: ");
 		println(seperateSentence());
-		
-		
+			
 	}
-
-	
 	
 	private String seperateSentence() {
 		
@@ -27,7 +24,6 @@ public class midTPracProblem4 extends ConsoleProgram {
 			reverseWords();
 			finalSentence += newWord;
 		}
-		
 		return finalSentence;
 	}
 	
