@@ -6,12 +6,14 @@ public class midTPracProb3 extends ConsoleProgram {
 	
 	private String text;
 	private String word;
+	private String result;
 	
 	public void run() {
 		text = readLine("Enter text: ");
 		text = text.toLowerCase();
 		seperateWords();
-		
+		println(word);
+		finalSentence();
 		
 	}
 	
@@ -24,10 +26,13 @@ public class midTPracProb3 extends ConsoleProgram {
 			String restOfWord = word.substring(1);
 			firstLetter.toUpperCase();
 			word = firstLetter + restOfWord;
-			println(word);
 		}
 		
 		return word;
+	}
+	
+	private void finalSentence() {
+		
 	}
 
 }
