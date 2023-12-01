@@ -32,6 +32,8 @@ public class midTPracProblem1 extends ConsoleProgram {
 		for(int i = 0; i < result.length(); i++){
 			char ch = result.charAt(i);
 			currNum = countSymbols(ch);
+			maxNum = currNum;
+			mostFrequent = ch;
 		}
 		
 		return mostFrequent;
@@ -41,7 +43,9 @@ public class midTPracProblem1 extends ConsoleProgram {
 	private int countSymbols(char ch) {
 		int num = 0;
 		for(int i = 0; i < result.length(); i++){
-			
+			if(result.charAt(i) == ch){
+				num += 1;
+			}
 		}
 		return num;
 	}
