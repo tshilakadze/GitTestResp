@@ -9,13 +9,15 @@ public class midTPracProblem11 extends ConsoleProgram {
 		
 	}
 	
-	private int binary(int num){
-		int result = 0;
+	private String binary(int num){
+		String result = "";
+		String numInString = "";
 		int dividend = num;
 		while(dividend != 0){
 			int remainder = dividend % 2;
 			dividend = dividend / 2;
-			result += remainder;
+			numInString = remainder + "";
+			result += numInString;
 		}
 		
 		return result;
