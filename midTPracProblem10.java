@@ -20,10 +20,11 @@ public class midTPracProblem10 extends ConsoleProgram {
 			else{
 				oddSum += b;
 			}
+			if(evenSum == oddSum){
+				return true;
+			}
 		}
-		if(evenSum == oddSum){
-			return true;
-		}
+		
 		return false;
 	}
 
