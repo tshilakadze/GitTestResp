@@ -11,6 +11,7 @@ public class midTPracProblem4 extends ConsoleProgram {
 	public void run() {
 		text = readLine("enter the text: ");
 		seperateSentence();
+		reverseWords();
 		println(finalSentence);
 	}
 
@@ -21,7 +22,6 @@ public class midTPracProblem4 extends ConsoleProgram {
 		StringTokenizer tokenizer = new StringTokenizer(text);
 		while(tokenizer.hasMoreTokens()){
 			word = tokenizer.nextToken();
-			reverseWords();
 		}
 		return word;
 	}
