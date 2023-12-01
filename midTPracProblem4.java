@@ -7,6 +7,7 @@ public class midTPracProblem4 extends ConsoleProgram {
 	private String text;
 	private String word;
 	private String finalSentence;
+	private String newWord;
 	
 	public void run() {
 		text = readLine("enter the text: ");
@@ -22,21 +23,22 @@ public class midTPracProblem4 extends ConsoleProgram {
 		while(tokenizer.hasMoreTokens()){
 			word = tokenizer.nextToken();
 			reverseWords();
+			finalSentence += newWord;
+			
 		}
-		return word;
+		return finalSentence;
 	}
 	
 	
 	private String reverseWords() {
 		finalSentence = "";
-		String newWord = "";
+		newWord = "";
 		for(int i = 0; i < word.length(); i++){
 			char ch = word.charAt(word.length() - i - 1);
 			String letter = "" + ch;
 			newWord += letter;
 			newWord = newWord + " ";
-			finalSentence += newWord;
 		}
-		return finalSentence;
+		return newWord;
 	}
 }
