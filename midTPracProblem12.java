@@ -3,7 +3,7 @@ public class midTPracProblem12 extends ConsoleProgram {
 	public void run() {
 		int n = readInt("Enter the number n: ");
 		int k = readInt("Enter the number between 2 and 9: ");
-		println("output: " + sumOfNumbers(n, k));
+		println("output: " + mOfNumbers(n, k));
 		
 	}
 
