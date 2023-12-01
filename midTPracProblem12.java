@@ -15,7 +15,7 @@ public class midTPracProblem12 extends ConsoleProgram {
 		while(divident != 0){
 			int remainder = n % k;
 			divident = n / k;
-			sum += 1;
+			sum += remainder;
 		}
 		return sum;
 	}
