@@ -12,7 +12,8 @@ public class midTPracProblem10 extends ConsoleProgram {
 		int evenSum = 0;
 		for(int i = 0; i < a.length(); i++){
 			char ch = a.charAt(i);
-			int b = ch + 0;
+			String c = ch + "";
+			int b = Integer.parseInt(c);
 			println(b);
 		}
 		return true;
