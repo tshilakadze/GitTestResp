@@ -12,7 +12,7 @@ public class midTPracProb3 extends ConsoleProgram {
 		text = readLine("Enter text: ");
 		text = text.toLowerCase();
 		seperateWords();
-		
+		println(result);
 		finalSentence();
 		
 	}
@@ -27,10 +27,10 @@ public class midTPracProb3 extends ConsoleProgram {
 			firstLetter = firstLetter.toUpperCase();
 			word = firstLetter + restOfWord + " ";
 			result += word;
-			println(result);
+			
 		}
 		
-		return word;
+		return result;
 	}
 	
 	private void finalSentence() {
