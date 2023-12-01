@@ -9,18 +9,20 @@ public class midTPracProblem11 extends ConsoleProgram {
 		
 	}
 	
-	private String binary(int num){
+	private int binary(int num){
 		String result = "";
 		String numInString = "";
+		int stringToInt = 0;
 		int dividend = num;
 		while(dividend != 0){
 			int remainder = dividend % 2;
 			dividend = dividend / 2;
 			numInString = remainder + "";
 			result += numInString;
+			stringToInt = Integer.parseInt(result);
 		}
 		
-		return result;
+		return stringToInt;
 	}
 
 }
