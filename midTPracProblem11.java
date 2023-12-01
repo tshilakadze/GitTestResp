@@ -10,13 +10,15 @@ public class midTPracProblem11 extends ConsoleProgram {
 	}
 	
 	private int binary(int num){
+		int result = 0;
 		int dividend = num;
 		while(dividend != 0){
 			int remainder = dividend % 2;
 			dividend = dividend / 2;
+			result += remainder;
 		}
 		
-		return 0;
+		return result;
 	}
 
 }
