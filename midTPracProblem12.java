@@ -6,6 +6,18 @@ public class midTPracProblem12 extends ConsoleProgram {
 		while(k < 2 || k > 9){
 			k = readInt("Can you read you fucking imbecile? Enter a proper number: ");
 		}
+		println(sumOfNumbers(n, k));
+	}
+
+	private int sumOfNumbers(int n, int k) {
+		int divident = 1;
+		int sum = 0;
+		while(divident != 0){
+			int remainder = n % k;
+			divident = n / k;
+			sum += 1;
+		}
+		return sum;
 	}
 
 }
