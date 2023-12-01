@@ -9,10 +9,11 @@ public class midTPracProblem16 extends ConsoleProgram{
 
 	
 	
-	private double findNthMember(double n, double a, double q){
+	private int findNthMember(double n, double a, double q){
 		n = n - 1;
 		double b = Math.pow(q, n);
 		double nthMember = a * b;
-		return nthMember;
+		nthMember = (int)nthMember;
+		return (int) nthMember;
 	}
 }
