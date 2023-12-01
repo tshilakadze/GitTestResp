@@ -8,16 +8,15 @@ public class midTPracProblem2 extends ConsoleProgram {
 		String text = readLine("enter text: ");
 		onlyLowerCase(text);
 		if(ascendingOrder()){
-		//	println("true");
+			println("true");
 		}
 		else{
 			println("false");
 		}
-	//	println(result);
-		
-		
 	}
 
+	
+	
 	private String onlyLowerCase(String text) {
 		result = "";
 		for(int i = 0; i < text.length(); i++){
@@ -31,6 +30,8 @@ public class midTPracProblem2 extends ConsoleProgram {
 		
 	}
 
+	
+	
 	private boolean ascendingOrder() {
 		char prevCh = 'a' - 1;
 		for(int i = 0; i < result.length(); i++){
@@ -42,8 +43,4 @@ public class midTPracProblem2 extends ConsoleProgram {
 		}
 		return true;
 	}
-
-
-	
-
 }
