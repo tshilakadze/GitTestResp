@@ -20,7 +20,7 @@ public class midTPracProblem4 extends ConsoleProgram {
 	
 	private String seperateSentence() {
 		
-		StringTokenizer tokenizer = new StringTokenizer(text, " ");
+		StringTokenizer tokenizer = new StringTokenizer(text,  " ,.", true);
 		finalSentence = "";
 		while(tokenizer.hasMoreTokens()){
 			word = tokenizer.nextToken();
