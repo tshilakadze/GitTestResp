@@ -19,10 +19,20 @@ public class midTPracProblem11 extends ConsoleProgram {
 			dividend = dividend / 2;
 			numInString = remainder + "";
 			resultStr += numInString;
+			resultStr = reverseString(resultStr);
 			
 		}
 		
 		return resultStr;
+	}
+
+	private String reverseString(String resultStr) {
+		String reversed = "";
+		for(int i = 0; i < resultStr.length(); i++){
+			char ch = resultStr.charAt(resultStr.length() - i - 1);
+			reversed += ch;
+		}
+		return reversed;
 	}
 
 }
