@@ -13,7 +13,6 @@ public class midTPracProblem16 extends ConsoleProgram{
 		n = n - 1;
 		double b = Math.pow(q, n);
 		double nthMember = a * b;
-		nthMember = (int)nthMember;
 		return (int) nthMember;
 	}
 }
