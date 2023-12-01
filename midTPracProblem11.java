@@ -2,6 +2,7 @@ import acm.program.*;
 public class midTPracProblem11 extends ConsoleProgram {
 	
 	private static final String ZERO = "00000000000000000000000000000000";
+	String reversed;
 	
 	public void run() {
 		int num = readInt("Enter a number: ");
@@ -20,14 +21,28 @@ public class midTPracProblem11 extends ConsoleProgram {
 			numInString = remainder + "";
 			resultStr += numInString;
 			resultStr = reverseString(resultStr);
-			
+			println(resultStr);
+			println(reversedResultStr(resultStr));
 		}
 		
 		return resultStr;
 	}
 
+	private String reversedResultStr(String resultStr) {
+		for(int i = 0; i < reversed.length(); i++){
+			char ch = reversed.charAt(i);
+			if(ch == '1'){
+				resultStr = resultStr.replace(ch, '0');
+			}
+			else{
+				resultStr = resultStr.replace(ch, '1');
+			}
+		}
+		return null;
+	}
+
 	private String reverseString(String resultStr) {
-		String reversed = "";
+		reversed = "";
 		for(int i = 0; i < resultStr.length(); i++){
 			char ch = resultStr.charAt(resultStr.length() - i - 1);
 			reversed += ch;
