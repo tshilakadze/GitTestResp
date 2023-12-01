@@ -24,7 +24,7 @@ public class midTPracProb3 extends ConsoleProgram {
 			word = tokenizer.nextToken();
 			String firstLetter = word.substring(0, 1);
 			String restOfWord = word.substring(1);
-			firstLetter.toUpperCase();
+			firstLetter = firstLetter.toUpperCase();
 			word = firstLetter + restOfWord;
 			println(word);
 		}
