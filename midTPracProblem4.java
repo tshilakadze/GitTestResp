@@ -23,8 +23,9 @@ public class midTPracProblem4 extends ConsoleProgram {
 			word = tokenizer.nextToken();
 			reverseWords();
 			finalSentence += newWord;
-			println(finalSentence);
+			
 		}
+		println(finalSentence);
 		return finalSentence;
 	}
 	
