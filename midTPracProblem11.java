@@ -1,7 +1,7 @@
 import acm.program.*;
 public class midTPracProblem11 extends ConsoleProgram {
 	
-	private static final String ZERO = "00000000000000000000000000000000";
+	private static final String ZERO = "0000000000000000";
 	
 	public void run() {
 		int num = readInt("Enter a number: ");
@@ -35,7 +35,7 @@ public class midTPracProblem11 extends ConsoleProgram {
 		int size = reversed.length();
 		int zeroSize = ZERO.length();
 		String part1 = ZERO.substring(0, zeroSize - size);
-	//	reversed = part1 + reversed;
+		reversed = part1 + reversed;
 		return reversed;
 	}
 
