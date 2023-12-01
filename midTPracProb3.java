@@ -13,7 +13,6 @@ public class midTPracProb3 extends ConsoleProgram {
 		text = text.toLowerCase();
 		seperateWords();
 		println(result);
-		finalSentence();
 		
 	}
 	
@@ -31,10 +30,6 @@ public class midTPracProb3 extends ConsoleProgram {
 		}
 		
 		return result;
-	}
-	
-	private void finalSentence() {
-		
 	}
 
 }
