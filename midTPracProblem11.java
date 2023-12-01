@@ -10,18 +10,13 @@ public class midTPracProblem11 extends ConsoleProgram {
 	}
 	
 	private int binary(int num){
-		String finalNum = "";
-		while(true){
-			int remainder = num % 2;
-			num = num / 2;
-			if(num / 2 == 0){
-				break;
-			}
-			String number = remainder + "";
-			finalNum += number;
+		int dividend = num;
+		while(dividend != 0){
+			int remainder = dividend % 2;
+			dividend = dividend / 2;
 		}
-		int realNumber = Integer.parseInt(finalNum);
-		return realNumber;
+		
+		return 0;
 	}
 
 }
