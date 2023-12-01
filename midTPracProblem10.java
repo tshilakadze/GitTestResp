@@ -14,9 +14,17 @@ public class midTPracProblem10 extends ConsoleProgram {
 			char ch = a.charAt(i);
 			String c = ch + "";
 			int b = Integer.parseInt(c);
-			println(b);
+			if(i % 2 == 0){
+				evenSum += b;
+			}
+			else{
+				oddSum += b;
+			}
 		}
-		return true;
+		if(evenSum == oddSum){
+			return true;
+		}
+		return false;
 	}
 
 }
