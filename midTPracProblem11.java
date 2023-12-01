@@ -19,7 +19,6 @@ public class midTPracProblem11 extends ConsoleProgram {
 			dividend = dividend / 2;
 			numInString = remainder + "";
 			result += numInString;
-			stringToInt = Integer.parseInt(result);
 		}
 		
 		return stringToInt;
