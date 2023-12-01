@@ -21,6 +21,7 @@ public class midTPracProblem4 extends ConsoleProgram {
 	private String seperateSentence() {
 		
 		StringTokenizer tokenizer = new StringTokenizer(text);
+		finalSentence = "";
 		while(tokenizer.hasMoreTokens()){
 			word = tokenizer.nextToken();
 			reverseWords();
@@ -32,7 +33,6 @@ public class midTPracProblem4 extends ConsoleProgram {
 	
 	
 	private String reverseWords() {
-		finalSentence = "";
 		newWord = "";
 		for(int i = 0; i < word.length(); i++){
 			char ch = word.charAt(word.length() - i - 1);
