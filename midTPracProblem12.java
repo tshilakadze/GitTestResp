@@ -14,7 +14,6 @@ public class midTPracProblem12 extends ConsoleProgram {
 			n = n / k;
 			sum += remainder;
 		}
-		println(sum);
 		return sum;
 	}
 
