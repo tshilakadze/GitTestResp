@@ -4,9 +4,7 @@ public class midTPracProblem12 extends ConsoleProgram {
 		int n = readInt("Enter the number n: ");
 		int k = readInt("Enter the number between 2 and 9: ");
 		println("output: " + sumOfNumbers(n, k));
-		while(k < 2 || k > 9){
-			k = readInt("Can you read you fucking imbecile? Enter a proper number: ");
-		}
+		
 	}
 
 	private int sumOfNumbers(int n, int k) {
