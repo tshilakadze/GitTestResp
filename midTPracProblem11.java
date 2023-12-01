@@ -38,7 +38,7 @@ public class midTPracProblem11 extends ConsoleProgram {
 				resultStr = resultStr.replace(ch, '1');
 			}
 		}
-		return null;
+		return resultStr;
 	}
 
 	private String reverseString(String resultStr) {
