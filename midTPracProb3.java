@@ -10,7 +10,9 @@ public class midTPracProb3 extends ConsoleProgram {
 		text = readLine("Enter text: ");
 		text = text.toLowerCase();
 		StringTokenizer tokenizer = new StringTokenizer(text);
-		println(tokenizer.nextToken());
+		while(tokenizer.hasMoreTokens()){
+			println(tokenizer.nextToken());
+		}
 	}
 
 }
