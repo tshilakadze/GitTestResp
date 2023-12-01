@@ -1,14 +1,22 @@
 import acm.program.*;
 
-
-/*
- * This is a solution for problem 2.
- */
-
 public class midTPracProblem1 extends ConsoleProgram {
+	private String text;
 	public void run() {
-		String text = readLine("enter the text = ");
+		text = readLine("enter the text = ");
 		text = text.toLowerCase();
-		println(text);
+		leaveOnlyLetters();
+	}
+	
+	
+	private String leaveOnlyLetters(){
+		String result = "";
+		for(int i = 0; i < text.length(); i++){
+			char ch = text.charAt(i);
+			if(Character.isLetter(ch)){
+				result += ch;
+			}
+		}
+		return result;
 	}
 }
