@@ -10,8 +10,12 @@ public class midTPracProblem4 extends ConsoleProgram {
 	private String newWord;
 	
 	public void run() {
-		text = readLine("enter the text: ");
-		seperateSentence();
+		while(true){
+			text = readLine("enter the text: ");
+			seperateSentence();
+			println(finalSentence);
+		}
+		
 	}
 
 	
@@ -25,7 +29,7 @@ public class midTPracProblem4 extends ConsoleProgram {
 			finalSentence += newWord;
 			
 		}
-		println(finalSentence);
+		
 		return finalSentence;
 	}
 	
