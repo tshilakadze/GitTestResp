@@ -18,7 +18,7 @@ public class midTPracProb3 extends ConsoleProgram {
 	}
 	
 	private String seperateWords() {
-		
+		result = "";
 		StringTokenizer tokenizer = new StringTokenizer(text);
 		while(tokenizer.hasMoreTokens()){
 			word = tokenizer.nextToken();
@@ -26,7 +26,8 @@ public class midTPracProb3 extends ConsoleProgram {
 			String restOfWord = word.substring(1);
 			firstLetter = firstLetter.toUpperCase();
 			word = firstLetter + restOfWord;
-			println(word);
+			result += word;
+			println(result);
 		}
 		
 		return word;
