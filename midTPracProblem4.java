@@ -32,7 +32,7 @@ public class midTPracProblem4 extends ConsoleProgram {
 		for(int i = 0; i < word.length(); i++){
 			char ch = word.charAt(word.length() - i - 1);
 			String letter = "" + ch;
-			word += ch;
+			word += letter;
 			finalSentence = word + " ";
 		}
 		return finalSentence;
