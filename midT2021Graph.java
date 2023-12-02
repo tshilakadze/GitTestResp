@@ -18,20 +18,18 @@ public class midT2021Graph extends GraphicsProgram {
 	 }
 	
 	public void mousePressed(MouseEvent e){
-		x1 = e.getX();
-		y1 = e.getY();
-		line = new GLine(x, y, x1, y1);
+		line = new GLine(x, y, e.getX(), e.getY());
 		add(line);
 	}
 	
 	
 	public void mouseDragged(MouseEvent e){
-		line.setEndPoint(x1, y1);
+		line.setEndPoint(e.getX(), e.getY());
 	}
 	
 	public void mouseReleased(MouseEvent e){
-		x = x1;
-		y = y1;
+		x = e.getX();
+		y = e.getY();
 	}
 
 }
