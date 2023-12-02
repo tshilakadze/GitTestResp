@@ -14,6 +14,6 @@ public class midT2021log extends ConsoleProgram {
 			m = m / n;
 			result += 1;
 		}
-		return result;
+		return result - 1;
 }
 }
