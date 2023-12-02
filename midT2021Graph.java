@@ -7,6 +7,10 @@ import acm.graphics.*;
 public class midT2021Graph extends GraphicsProgram {
 	 private int x;
 	 private int y;
+	 private int x1;
+	 private int y1;
+	 private GLine line;
+	 
 	public void run() {
 		 x = 0;
 		 y = 0;
@@ -14,10 +18,20 @@ public class midT2021Graph extends GraphicsProgram {
 	 }
 	
 	public void mousePressed(MouseEvent e){
-		int x1 = e.getX();
-		int y1 = e.getY();
-		GLine line = new GLine(x, y, x1, y1);
+		x1 = e.getX();
+		y1 = e.getY();
+		line = new GLine(x, y, x1, y1);
 		add(line);
+	}
+	
+	
+	public void mouseDragged(MouseEvent e){
+		line.setEndPoint(x1, y1);
+	}
+	
+	public void mouseReleased(MouseEvent e){
+		x = x1;
+		y = y1;
 	}
 
 }
