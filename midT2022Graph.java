@@ -31,9 +31,9 @@ public class midT2022Graph extends GraphicsProgram {
 	}
 	
 	public void mouseClicked(MouseEvent e){
-		GObject obj = (GRect)getElementAt(e.getX(), e.getY());
+		GObject obj = (GRect) getElementAt(e.getX(), e.getY());
 		if(obj != null){
-			obj.setColor(Color.BLACK);
+			((GRect) obj).setFillColor(Color.BLACK);
 		}
 	}
 
