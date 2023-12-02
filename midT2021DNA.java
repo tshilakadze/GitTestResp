@@ -11,7 +11,7 @@ public class midT2021DNA extends ConsoleProgram {
 
 	private boolean amIYourFatherLuke(String lukeDNA, String anakinDNA){
 	String result = "";
-	if(lukeDNA.length() < anakinDNA.length()/2){
+	if(lukeDNA.length() <= anakinDNA.length()/2){
 		return false;
 	}
 	else{
@@ -30,7 +30,7 @@ public class midT2021DNA extends ConsoleProgram {
 			}
 		}
 		println(result);
-			if(result.length() >= anakinDNA.length()/2){
+			if(result.length() > anakinDNA.length()/2){
 				return true;
 			}
 	}
