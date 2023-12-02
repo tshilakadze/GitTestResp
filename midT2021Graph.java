@@ -7,8 +7,6 @@ import acm.graphics.*;
 public class midT2021Graph extends GraphicsProgram {
 	 private int x;
 	 private int y;
-	 private int x1;
-	 private int y1;
 	 private GLine line;
 	 
 	public void run() {
