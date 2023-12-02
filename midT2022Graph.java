@@ -10,6 +10,8 @@ public class midT2022Graph extends GraphicsProgram {
 	private static final double ROWS = 8;
 	private static final double COLUMNS = 8;
 	private GRect rect;
+	private GRect firstBlack = null;
+	private GRect secondBlack = null;
 	public void run(){
 		drawRects();
 		addMouseListeners();
@@ -34,6 +36,7 @@ public class midT2022Graph extends GraphicsProgram {
 		GObject obj = (GRect) getElementAt(e.getX(), e.getY());
 		if(obj != null){
 			((GRect) obj).setFillColor(Color.BLACK);
+			firstBlack = (GRect) obj;
 		}
 	}
 
