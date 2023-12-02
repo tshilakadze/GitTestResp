@@ -2,7 +2,7 @@ import acm.program.ConsoleProgram;
 
 public class eval extends ConsoleProgram{
 	public void run(){
-		String s = "2 + 5 + 5 - 3";
+		String s = "2  + 5 - 3";
 		System.out.println(eval(s));
 	}
 	private int eval(String s){
