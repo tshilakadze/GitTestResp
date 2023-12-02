@@ -3,7 +3,7 @@ public class midT2021log extends ConsoleProgram {
 	public void run(){
 		int n = readInt("Enter the first number: ");
 		int m = readInt("Enter the second number: ");
-		println(findLog(n, m,));
+		println(findLog(n, m));
 		
 }
 
