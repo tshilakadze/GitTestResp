@@ -1,4 +1,7 @@
+import java.awt.Color;
+
 import acm.graphics.*;
+
 import acm.program.GraphicsProgram;
 
 public class midT2022Graph extends GraphicsProgram {
@@ -17,6 +20,9 @@ public class midT2022Graph extends GraphicsProgram {
 				double y = l*size;
 				GRect rect = new GRect(size, size);
 				add(rect, x, y);
+				rect.setFilled(true);
+				rect.setColor(Color.WHITE);
+				
 			}
 		}
 	}
