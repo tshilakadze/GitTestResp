@@ -13,8 +13,8 @@ public class midT2022Graph extends GraphicsProgram {
 		double size = Math.min(getHeight(), getWidth())/COLUMNS;
 		for(int i = 0; i < ROWS; i++){
 			for(int l = 0; l < COLUMNS; l++){
-				int x = i;
-				int y = l;
+				double x = i*size;
+				double y = l*size;
 				GRect rect = new GRect(size, size);
 				add(rect, x, y);
 			}
