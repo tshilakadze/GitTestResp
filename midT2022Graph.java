@@ -21,7 +21,7 @@ public class midT2022Graph extends GraphicsProgram {
 				GRect rect = new GRect(size, size);
 				add(rect, x, y);
 				rect.setFilled(true);
-				rect.setColor(Color.WHITE);
+				rect.setFillColor(Color.WHITE);
 				
 			}
 		}
