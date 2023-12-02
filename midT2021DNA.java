@@ -22,9 +22,9 @@ public class midT2021DNA extends ConsoleProgram {
 			else{
 				result = "";
 			}
-			println(result);
 		}
 	}
+	println(result);
 		if(result.length() >= anakinDNA.length()/2){
 			return true;
 		}
