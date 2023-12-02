@@ -16,8 +16,8 @@ public class midT2021DNA extends ConsoleProgram {
 		for(int l = 0; l < anakinDNA.length(); l++){
 			char aCh = anakinDNA.charAt(l);
 			if(lCh == aCh){
-				String a = lCh + "";
-				result += a;
+				
+				result += lCh;
 			}
 			else{
 				result = "";
