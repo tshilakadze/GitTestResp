@@ -13,7 +13,7 @@ public class midT2021Graph extends GraphicsProgram {
 		 addMouseListeners();
 	 }
 	
-	public void mouseClicked(MouseEvent e){
+	public void mousePressed(MouseEvent e){
 		int x1 = e.getX();
 		int y1 = e.getY();
 		GLine line = new GLine(x, y, x1, y1);
