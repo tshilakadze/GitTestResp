@@ -16,10 +16,10 @@ public class Problem56 extends ConsoleProgram {
 	}
 
 	private void sortArray(int[] arr) {
-		for(int l = 0; l < n; l++){
-			min = arr[l];
-			if(arr[l + 1] < min){
-				min = arr[l + 1];
+		for(int i = 0; i < 0; i++){
+			min = arr[0];
+			if(arr[i] < min){
+				min = arr[i];
 			}
 		}
 		println(min);
