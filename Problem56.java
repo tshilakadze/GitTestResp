@@ -22,9 +22,9 @@ public class Problem56 extends ConsoleProgram {
 				min = arr[i];
 				
 			}
-			println(min);
+			
 		}
-		
+		println(min);
 		
 	}
 
