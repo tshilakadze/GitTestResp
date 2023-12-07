@@ -20,8 +20,9 @@ public class Problem56 extends ConsoleProgram {
 			min = arr[0];
 			if(arr[i] < min){
 				min = arr[i];
-				println(min);
+				
 			}
+			println(min);
 		}
 		
 		
