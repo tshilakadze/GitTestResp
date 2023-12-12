@@ -15,6 +15,7 @@ public class Problem60 extends ConsoleProgram{
 				break;
 			}
 		}
+		println(myList);
 	}
 
 }
