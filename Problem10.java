@@ -1,5 +1,5 @@
 import stanford.karel.SuperKarel;
-public class problem10 extends SuperKarel {
+public class Problem10 extends SuperKarel {
 	public void run(){
 		/*
 		 * Karel divides two numbers
