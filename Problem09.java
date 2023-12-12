@@ -1,5 +1,5 @@
 import stanford.karel.SuperKarel;
-public class problem09 extends SuperKarel {
+public class Problem09 extends SuperKarel {
 	/*
 	 * Karel multiplies two numbers and puts the product on 4x1
 	 */
