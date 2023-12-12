@@ -33,7 +33,6 @@ public class Problem53 extends ConsoleProgram {
 
 	private void countStatistics(String text) {
 		
-		
 	}
 	
 }
