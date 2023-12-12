@@ -1,5 +1,5 @@
 import stanford.karel.SuperKarel;
-public class problem08 extends SuperKarel {
+public class Problem08 extends SuperKarel {
 	public void run(){
 		move();
 		move();
