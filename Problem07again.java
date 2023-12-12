@@ -1,5 +1,5 @@
 import stanford.karel.SuperKarel;
-public class problem07again extends SuperKarel{
+public class Problem07again extends SuperKarel{
 	public void run(){
 		fillLine();
 		while(facingEast()){
