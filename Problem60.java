@@ -14,6 +14,7 @@ public class Problem60 extends ConsoleProgram{
 			if(n == SENTINEL){
 				break;
 			}
+			myList.add(n);
 		}
 		println(myList);
 	}
