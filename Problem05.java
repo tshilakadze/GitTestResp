@@ -1,5 +1,5 @@
 import stanford.karel.Karel;
-public class problem05 extends Karel {
+public class Problem05 extends Karel {
 	public void run(){
 		while(frontIsClear()){
 			if(noBeepersPresent()){putBeeper();
