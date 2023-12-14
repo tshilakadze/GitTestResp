@@ -24,6 +24,8 @@ public class Problem54 extends ConsoleProgram {
 				max2 = next;
 			}
 		}
+		println(max1);
+		println(max2);
 	}
 
 }
