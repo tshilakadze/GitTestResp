@@ -6,12 +6,12 @@ public class Problem55 extends ConsoleProgram{
 		int[] arr = new int[n];
 		for(int i = 0; i < n; i++){
 			arr[i] = readInt("? ");
-			if(isSorted(arr)){
-				println("sorted");
-			}
-			else{
-				println("not sorted");
-			}
+		}
+		if(isSorted(arr)){
+			println("sorted");
+		}
+		else{
+			println("not sorted");
 		}
 	}
 
