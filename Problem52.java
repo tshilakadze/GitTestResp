@@ -9,7 +9,7 @@ import java.io.IOException;
 public class Problem52 extends ConsoleProgram {
 	public void run() {
 		try {
-			BufferedReader rd = new BufferedReader(new FileReader("Problem52.java"));
+			BufferedReader rd = new BufferedReader(new FileReader("Problem54.java"));
 			while(true){
 				String line = rd.readLine();
 				if(line == null){
