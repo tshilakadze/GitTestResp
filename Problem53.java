@@ -20,6 +20,7 @@ public class Problem53 extends ConsoleProgram {
 				}
 				text += line + " ";
 			}
+			println(text);
 			countStatistics(text);
 			
 		} catch (FileNotFoundException e) {
