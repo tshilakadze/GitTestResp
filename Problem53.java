@@ -58,6 +58,9 @@ public class Problem53 extends ConsoleProgram {
 		}
 		println("There are " + words + " words");
 		println("There are " + sentences + " sentences");
+		println("There are " + sym1 + " !-s");
+		println("?: " + sym2);
+		println(". " + sym3);
 	}
 	
 }
