@@ -54,6 +54,9 @@ public class Problem53 extends ConsoleProgram {
 			if(ch == '.'){
 				sym2 += 1;
 			}
+			
+			println("There are " + words + " words");
+			println("There are " + sentences + " sentences");
 		}
 	}
 	
