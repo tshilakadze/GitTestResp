@@ -55,9 +55,9 @@ public class Problem53 extends ConsoleProgram {
 				sym2 += 1;
 			}
 			
-			println("There are " + words + " words");
-			println("There are " + sentences + " sentences");
 		}
+		println("There are " + words + " words");
+		println("There are " + sentences + " sentences");
 	}
 	
 }
