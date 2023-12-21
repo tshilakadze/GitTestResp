@@ -32,7 +32,29 @@ public class Problem53 extends ConsoleProgram {
 	}
 
 	private void countStatistics(String text) {
-		
+		int words = 0;
+		int sentences = 0;
+		int sym1 = 0;		// !
+		int sym2 = 0;		// ?
+		int sym3 = 0;		// .
+		for(int i = 0; i < text.length(); i++){
+			char ch = text.charAt(i);
+			if(ch == ' '){
+				words += 1;
+			}
+			if(ch == '.' || ch == '?' || ch == '!'){
+				sentences += 1;
+			}
+			if(ch == '!'){
+				sym1 += 1;
+			}
+			if(ch == '?'){
+				sym2 += 1;
+			}
+			if(ch == '.'){
+				sym2 += 1;
+			}
+		}
 	}
 	
 }
