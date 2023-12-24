@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 import acm.program.*;
 import acm.util.RandomGenerator;
 
@@ -11,6 +13,6 @@ public class testAgain extends ConsoleProgram{
 			int num = rgen.nextInt(1, 6);
 			arr[i] = num;
 		}
-		println(arr);
+		println(Arrays.toString(arr));
 	}
 }
