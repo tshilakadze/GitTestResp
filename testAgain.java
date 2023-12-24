@@ -25,5 +25,6 @@ public class testAgain extends ConsoleProgram{
 		println(sumOfDice);
 		Arrays.sort(arr);
 		println(Arrays.toString(arr));
+		println(sumOfDice);
 	}
 }
