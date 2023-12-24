@@ -14,5 +14,7 @@ public class testAgain extends ConsoleProgram{
 			arr[i] = num;
 		}
 		println(Arrays.toString(arr));
+		Arrays.sort(arr);
+		println(Arrays.toString(arr));
 	}
 }
