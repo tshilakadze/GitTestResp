@@ -13,6 +13,7 @@ public class testAgain extends ConsoleProgram{
 		for(int i = 0; i < arr.length; i++){
 			int num = rgen.nextInt(1, 6);
 			arr[i] = num;
+			sumOfDice += arr[i];
 		}
 	/*	arr[0] = 1;
 		arr[1] = 2;
