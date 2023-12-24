@@ -10,10 +10,12 @@ public class testAgain extends ConsoleProgram{
 	public void run() {
 		int sumOfDice = 0;
 		int[] arr = new int[5];
-		for(int i = 0; i < arr.length; i++){
-			int num = rgen.nextInt(1, 6);
-			arr[i] = num;
-			sumOfDice += arr[i];
+		for(int j = 0; j < 13; j++){
+			for(int i = 0; i < arr.length; i++){
+				int num = rgen.nextInt(1, 6);
+				arr[i] = num;
+				sumOfDice += arr[i];
+			}
 		}
 	/*	arr[0] = 1;
 		arr[1] = 2;
