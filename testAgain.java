@@ -11,5 +11,6 @@ public class testAgain extends ConsoleProgram{
 			int num = rgen.nextInt(1, 6);
 			arr[i] = num;
 		}
+		println(arr);
 	}
 }
