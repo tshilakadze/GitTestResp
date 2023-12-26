@@ -29,7 +29,7 @@ public class Problem56 extends ConsoleProgram {
 
 	private int MinIndex(int[] arr, int i) {
 		int currIndex = i;
-		for(int l = 0; l < arr.length; i++){
+		for(int l = i; l < arr.length; i++){
 			if(arr[l] < arr[currIndex]){
 				currIndex = l;
 			}
