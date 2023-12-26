@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 import acm.program.ConsoleProgram;
 
 public class Problem57 extends ConsoleProgram {
@@ -25,7 +27,8 @@ public class Problem57 extends ConsoleProgram {
 			chToString2 = ch + "";
 			arr2[i] = chToString2;
 		}
-		
+		Arrays.sort(arr1);
+		Arrays.sort(arr2);
 		if(!arr1.equals(arr2)){
 			return false;
 		}
