@@ -16,16 +16,28 @@ public class Problem56 extends ConsoleProgram {
 	}
 
 	private void sortArray(int[] arr) {
-		min = arr[0];
-		for(int i = 0; i < 0; i++){
-			if(arr[i] < min){
-				min = arr[i];
-				
-			}
-			
+		for(int i = 0; i < arr.length; i++){
+			int min = MinIndex(arr, i);
+			swapIndex(arr, i, min);
 		}
-		println(min);
-		
+	}
+
+
+	private int MinIndex(int[] arr, int i) {
+		int currIndex = i;
+		for(int l = 0; l < arr.length; i++){
+			if(arr[l] < arr[currIndex]){
+				currIndex = l;
+			}
+		}
+		return currIndex;
+	}
+	
+	
+	private void swapIndex(int[] arr, int i, int min2) {
+		int curr = arr[i];
+		arr[i] = arr[min2];
+		arr[min2] = curr;
 	}
 
 }
