@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 import acm.program.ConsoleProgram;
 
 public class Problem56 extends ConsoleProgram {
@@ -12,6 +14,7 @@ public class Problem56 extends ConsoleProgram {
 			arr[i] = readInt("Enter a number: ");
 		}
 		sortArray(arr);
+		println(Arrays.toString(arr));
 		
 	}
 
