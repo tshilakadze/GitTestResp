@@ -8,6 +8,9 @@ public class Problem57 extends ConsoleProgram {
 	}
 	
 	private boolean anagramsOrNot(String text1, String text2){
+		if(text1.length() != text2.length()){
+			return false;
+		}
 		
 		return true;
 	}
