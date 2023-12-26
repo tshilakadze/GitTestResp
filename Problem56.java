@@ -13,9 +13,8 @@ public class Problem56 extends ConsoleProgram {
 		for(int i = 0; i < n; i++){
 			arr[i] = readInt("Enter a number: ");
 		}
-		println(Arrays.toString(arr));
 		sortArray(arr);
-		
+		println(Arrays.toString(arr));
 		
 	}
 
