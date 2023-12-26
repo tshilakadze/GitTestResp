@@ -52,7 +52,7 @@ public class Problem53 extends ConsoleProgram {
 				sym2 += 1;
 			}
 			if(ch == '.'){
-				sym2 += 1;
+				sym3 += 1;
 			}
 			
 		}
