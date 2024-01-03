@@ -38,7 +38,7 @@ public class Problem58 extends ConsoleProgram {
 				return false;
 			}
 			else{
-				continue;
+				return true;
 				
 			}
 		}
