@@ -30,4 +30,9 @@ public class Problem59 extends ConsoleProgram {
 		return maxSize;
 	}
 
+	private boolean justOnes(int[][] matrix, int r1, int c1, int r2, int c2) {
+		
+		return false;
+	}
+
 }
