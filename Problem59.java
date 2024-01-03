@@ -34,10 +34,12 @@ public class Problem59 extends ConsoleProgram {
 		int count = 0;
 		for(int i = r1; i <= r2; i++){
 			for(int j = c1; j <= c2; j++){
-				
+				if(matrix[i][j] != 1){
+					return false;
+				}
 			}
 		}
-		return false;
+		return true;
 	}
 
 }
