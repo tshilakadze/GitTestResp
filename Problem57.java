@@ -10,30 +10,15 @@ public class Problem57 extends ConsoleProgram {
 	}
 	
 	private boolean anagramsOrNot(String text1, String text2){
-		if(text1.length() != text2.length()){
-			return false;
-		}
-		String chToString1 = "";
-		String chToString2 = "";
-		String[] arr1 = new String[text1.length()];
-		String[] arr2 = new String[text2.length()];
+		char[] first = new char[text1.length()];
+		char[] second = new char[text2.length()];
 		for(int i = 0; i < text1.length(); i++){
-			char ch = text1.charAt(i);
-			chToString1 = ch + "";
-			arr1[i] = chToString1;
+			first[i] = text1.charAt(i);
 		}
 		for(int i = 0; i < text2.length(); i++){
-			char ch = text1.charAt(i);
-			chToString2 = ch + "";
-			arr2[i] = chToString2;
+			second[i] = text2.charAt(i);
 		}
-		Arrays.sort(arr1);
-		Arrays.sort(arr2);
-		if(!arr1.equals(arr2)){
-			return false;
-		}
-		
-		return true;
+		return false;
 	}
 
 }
