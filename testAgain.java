@@ -16,7 +16,7 @@ public class testAgain extends ConsoleProgram{
 		for(int i = 0; i < arr2.length; i++){
 			for(int r = 0; r < arr.length; r++){
 				for(int c = 0; c < arr[0].length; c++){
-					arr2[i] = arr[r][c];
+					arr2[i] = arr[r][c] + 1;
 				}
 			}
 		}
