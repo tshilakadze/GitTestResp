@@ -13,6 +13,7 @@ public class testAgain extends ConsoleProgram{
 			println();
 		}
 		int[] arr2 = new int[6];
+		
 		for(int i = 0; i < arr2.length; i++){
 			for(int r = 0; r < arr.length; r++){
 				for(int c = 0; c < arr[0].length; c++){
