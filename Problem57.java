@@ -20,6 +20,9 @@ public class Problem57 extends ConsoleProgram {
 		}
 		Arrays.sort(first);
 		Arrays.sort(second);
+		if(first.equals(second)){
+			return true;
+		}
 		return false;
 	}
 
