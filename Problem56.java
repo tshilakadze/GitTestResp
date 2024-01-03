@@ -2,11 +2,9 @@ import java.util.Arrays;
 
 import acm.program.ConsoleProgram;
 
-public class Problem56 extends ConsoleProgram {
-	private int n;
-	
+public class Problem56 extends ConsoleProgram {	
 	public void run() {
-		n = readInt("? ");
+		int n = readInt("? ");
 		int[] arr = new int[n];
 		
 		for(int i = 0; i < n; i++){
