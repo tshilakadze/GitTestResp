@@ -4,7 +4,11 @@ import acm.program.ConsoleProgram;
 
 public class Problem58 extends ConsoleProgram {
 	public void run() {
-		
+		int[][] matrix1 = {
+				{1, 2, 3},
+				{9, 7, 8},
+				{4, 5, 6}};
+		println(isMagicalMatrix(matrix1));
 	}
 	
 	private boolean isMagicalMatrix(int [][] matrix){
