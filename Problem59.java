@@ -8,9 +8,19 @@ public class Problem59 extends ConsoleProgram {
 			{0,0,1,1,1,1,0,0}, 
 			{0,0,1,1,1,1,0,0},
 		};
+		int[][] matrix2 = new int[][] {
+			{0,1,1,1,1,1,1,1,1,1,1,1,0}, 
+			{0,0,1,1,1,1,1,1,1,1,1,0,0},
+			{0,0,0,1,1,1,1,1,1,1,0,0,0}, 
+			{0,0,0,0,1,1,1,1,1,0,0,0,0},
+			{0,0,0,0,0,1,1,1,0,0,0,0,0},
+			{0,0,0,1,1,1,1,1,1,1,1,0,0},
+		};
 		
 		int answ1 = largestRect(matrix1);
+		int answ2 = largestRect(matrix2);
 		println("First largest: " + answ1);
+		println("First largest 2: " + answ2);
 	}
 
 	private int largestRect(int[][] matrix) {
