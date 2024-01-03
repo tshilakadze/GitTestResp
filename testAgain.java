@@ -9,6 +9,7 @@ public class testAgain extends ConsoleProgram{
 			for(int l = 0; l < arr[0].length; l++){
 				print(arr[i][l] + "");
 			}
+			println();
 		}
 	}
 }
