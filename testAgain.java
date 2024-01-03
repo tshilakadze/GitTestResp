@@ -10,6 +10,7 @@ public class testAgain extends ConsoleProgram{
 		for(int i = 0; i < a.length(); i++){
 			c[i] = a.charAt(i);
 		}
+		Arrays.sort(c);
 		println(Arrays.toString(c));
 	}
 }
