@@ -18,5 +18,8 @@ public class testAgain extends ConsoleProgram{
 		Arrays.sort(d);
 		println(Arrays.toString(c));
 		println(Arrays.toString(d));
+		if(c.equals(d)){
+			println("true");
+		}
 	}
 }
