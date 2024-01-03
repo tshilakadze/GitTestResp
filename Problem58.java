@@ -24,7 +24,7 @@ public class Problem58 extends ConsoleProgram {
 		println(Arrays.toString(allNums));
 		
 		int count = 0;
-		int[] matrixToArray = new int[matSize*matSize + 1];
+		int[] matrixToArray = new int[matSize*matSize];
 		for(int r = 0; r < matSize; r++){
 			for(int c = 0; c < matSize; c++){
 				matrixToArray[count] = matrix[r][c];
