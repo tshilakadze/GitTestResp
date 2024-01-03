@@ -30,7 +30,7 @@ public class Problem58 extends ConsoleProgram {
 		for(int i = 0; i < allNums.length; i++){
 			allNums[i] = i + 1;
 		}
-		println(Arrays.toString(allNums));
+	//	println(Arrays.toString(allNums));
 		
 		int count = 0;
 		int[] matrixToArray = new int[matSize*matSize];
@@ -41,7 +41,7 @@ public class Problem58 extends ConsoleProgram {
 			}
 		}
 		Arrays.sort(matrixToArray);
-		println(Arrays.toString(matrixToArray));
+	//	println(Arrays.toString(matrixToArray));
 		for(int i = 0; i < matrixToArray.length; i++){
 			if(matrixToArray[i] == allNums[i]){
 				continue;
