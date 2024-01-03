@@ -4,7 +4,7 @@ import acm.program.ConsoleProgram;
 
 public class testAgain extends ConsoleProgram{
 	public void run(){
-		int[][] arr = new int[4][5];
+		int[][] arr = new int[2][3];
 		for(int i = 0; i < arr.length; i++){
 			for(int l = 0; l < arr[0].length; l++){
 				arr[i][l] = 1;
@@ -13,7 +13,7 @@ public class testAgain extends ConsoleProgram{
 			println();
 		}
 		arr[0][4] = 2;
-		int[] arr2 = new int[20];
+		int[] arr2 = new int[6];
 		for(int i = 0; i < arr2.length; i++){
 			for(int r = 0; r < arr.length; r++){
 				for(int c = 0; c < arr[0].length; c++){
