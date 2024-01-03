@@ -4,7 +4,6 @@ import acm.program.ConsoleProgram;
 
 public class Problem56 extends ConsoleProgram {
 	private int n;
-	private int min;
 	
 	public void run() {
 		n = readInt("? ");
