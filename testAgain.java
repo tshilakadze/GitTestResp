@@ -12,12 +12,6 @@ public class testAgain extends ConsoleProgram{
 			}
 			println();
 		}
-		for(int i = 0; i < arr.length; i++){
-			for(int l = 0; l < arr[0].length; l++){
-				print(arr[i][l]);
-			}
-			println();
-		}
 		int[] arr2 = new int[20];
 		for(int i = 0; i < arr2.length; i++){
 			for(int r = 0; r < arr.length; r++){
