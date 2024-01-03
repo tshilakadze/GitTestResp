@@ -34,11 +34,11 @@ public class Problem58 extends ConsoleProgram {
 		Arrays.sort(matrixToArray);
 		println(Arrays.toString(matrixToArray));
 		for(int i = 0; i < matrixToArray.length; i++){
-			if(matrixToArray[i] != allNums[i]){
-				println("false");
+			if(matrixToArray[i] == allNums[i]){
+				return true;
 			}
 			else{
-				return true;
+				return false;
 			}
 		}
 		return false;
