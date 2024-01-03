@@ -12,6 +12,7 @@ public class testAgain extends ConsoleProgram {
 			}
 			println();
 		}
+		arr[0][2] = 3;
 		int[] arr2 = new int[6];
 		int count = 0;
 		for (int r = 0; r < arr.length; r++) {
