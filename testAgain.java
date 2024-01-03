@@ -7,7 +7,7 @@ public class testAgain extends ConsoleProgram {
 		int[][] arr = new int[2][3];
 		for (int i = 0; i < arr.length; i++) {
 			for (int l = 0; l < arr[0].length; l++) {
-				arr[i][l] = readInt("? ");
+				arr[i][l] = 4;
 				print(arr[i][l]);
 			}
 			println();
