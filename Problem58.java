@@ -5,7 +5,7 @@ import acm.program.ConsoleProgram;
 public class Problem58 extends ConsoleProgram {
 	public void run() {
 		int[][] matrix1 = {
-				{0, 2, 3},
+				{1, 2, 3},
 				{9, 7, 8},
 				{4, 6, 6}};
 		println(isMagicalMatrix(matrix1));
@@ -35,7 +35,7 @@ public class Problem58 extends ConsoleProgram {
 		println(Arrays.toString(matrixToArray));
 		for(int i = 0; i < matrixToArray.length; i++){
 			if(matrixToArray[i] != allNums[i]){
-				
+				println("false");
 			}
 			else{
 				return true;
