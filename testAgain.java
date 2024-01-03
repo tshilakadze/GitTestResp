@@ -5,7 +5,7 @@ import acm.program.ConsoleProgram;
 public class testAgain extends ConsoleProgram{
 	public void run(){
 		int[][] arr = new int[4][5];
-		arr[2][4] = 23;
+		arr[2][4] = 1;
 		for(int i = 0; i < arr.length; i++){
 			for(int l = 0; l < arr[0].length; l++){
 				print(arr[i][l]);
