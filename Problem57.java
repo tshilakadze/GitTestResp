@@ -24,14 +24,14 @@ public class Problem57 extends ConsoleProgram {
 		Arrays.sort(first);
 		Arrays.sort(second);
 		for(int i = 0; i < text1.length(); i++){
-			if(first[i] != second[i]){
-				return false;
+			if(first[i] == second[i]){
+				continue;
 			}
 			else{
-				return true;
+				return false;
 			}
 		}
-		return false;
+		return true;
 	}
 
 }
