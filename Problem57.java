@@ -10,6 +10,9 @@ public class Problem57 extends ConsoleProgram {
 	}
 	
 	private boolean anagramsOrNot(String text1, String text2){
+		if(text1.length() != text2.length()){
+			return false;
+		}
 		char[] first = new char[text1.length()];
 		char[] second = new char[text2.length()];
 		for(int i = 0; i < text1.length(); i++){
