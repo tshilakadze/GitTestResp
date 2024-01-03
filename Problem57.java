@@ -18,6 +18,8 @@ public class Problem57 extends ConsoleProgram {
 		for(int i = 0; i < text2.length(); i++){
 			second[i] = text2.charAt(i);
 		}
+		Arrays.sort(first);
+		Arrays.sort(second);
 		return false;
 	}
 
