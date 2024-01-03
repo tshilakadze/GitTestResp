@@ -14,15 +14,20 @@ public class Problem59 extends ConsoleProgram {
 	}
 
 	private int largestRect(int[][] matrix) {
-		int size = 0;
-		int length = 0;
-		int width = 0;
-		for(int r = 0; r < matrix.length; r++){
-			for(int c = 0; c < matrix[0].length; c++){
-				
+		int maxSize = 0;
+		for(int r1 = 0; r1 < matrix.length; r1++){
+			for(int c1 = 0; c1 < matrix[0].length; c1++){
+				for(int r2 = 0; r2 < matrix.length; r2++){
+					for(int c2 = 0; c2 < matrix[0].length; c2++){
+						if(justOnes(matrix, r1, c1, r2, c2)){
+							int size = (r2 - r1 + 1)*(c2 - c1 + 1);
+							maxSize = Math.max(maxSize, size);
+						}
+					}
+				}
 			}
 		}
-		return size;
+		return maxSize;
 	}
 
 }
