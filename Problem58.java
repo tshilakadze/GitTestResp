@@ -11,12 +11,30 @@ public class Problem58 extends ConsoleProgram {
 		if(matrix.length != matrix[0].length){
 			return false;
 		}
+		
 		int matSize = matrix.length;
 		int[] allNums = new int[matSize*matSize];
 		for(int i = 0; i < allNums.length; i++){
 			allNums[i] = i + 1;
 		}
 		
+		int count = 0;
+		int[] matrixToArray = new int[matSize*matSize];
+		for(int r = 0; r < matSize; r++){
+			for(int c = 0; c < matSize; c++){
+				matrixToArray[count] = matrix[r][c];
+				count++;
+			}
+		}
+		Arrays.sort(matrixToArray);
+		for(int i = 0; i < matrixToArray.length; i++){
+			if(matrixToArray[i] != allNums[i]){
+				return false;
+			}
+			else{
+				return true;
+			}
+		}
 		return false;
 	}
 
