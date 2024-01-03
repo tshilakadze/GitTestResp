@@ -31,7 +31,6 @@ public class Problem59 extends ConsoleProgram {
 	}
 
 	private boolean justOnes(int[][] matrix, int r1, int c1, int r2, int c2) {
-		int count = 0;
 		for(int i = r1; i <= r2; i++){
 			for(int j = c1; j <= c2; j++){
 				if(matrix[i][j] != 1){
