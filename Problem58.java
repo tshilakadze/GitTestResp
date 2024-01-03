@@ -11,8 +11,8 @@ public class Problem58 extends ConsoleProgram {
 		if(matrix.length != matrix[0].length){
 			return false;
 		}
-		int a = matrix.length;
-		int[] allNums = new int[a*a];
+		int matSize = matrix.length;
+		int[] allNums = new int[matSize*matSize];
 		for(int i = 0; i < allNums.length; i++){
 			allNums[i] = i + 1;
 		}
