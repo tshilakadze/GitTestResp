@@ -7,8 +7,17 @@ public class Problem58 extends ConsoleProgram {
 		int[][] matrix1 = {
 				{1, 2, 3},
 				{9, 7, 8},
-				{4, 5, 5}};
+				{4, 5, 6}};
+		int[][] matrix2 = {
+				{1, 2, 3},
+				{9, 7, 8},
+				{4, 5, 10}};
+		int[][] matrix3 = {
+				{1, 2, 3},
+				{4, 5, 6}};
 		println(isMagicalMatrix(matrix1));
+		println(isMagicalMatrix(matrix2));
+		println(isMagicalMatrix(matrix3));
 	}
 	
 	private boolean isMagicalMatrix(int [][] matrix){
