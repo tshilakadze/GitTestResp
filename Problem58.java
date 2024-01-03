@@ -35,7 +35,7 @@ public class Problem58 extends ConsoleProgram {
 		println(Arrays.toString(matrixToArray));
 		for(int i = 0; i < matrixToArray.length; i++){
 			if(matrixToArray[i] == allNums[i]){
-				return true;
+				continue;
 			}
 			else{
 				return false;
