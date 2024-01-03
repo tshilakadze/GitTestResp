@@ -7,7 +7,7 @@ public class Problem58 extends ConsoleProgram {
 		int[][] matrix1 = {
 				{1, 2, 3},
 				{9, 7, 8},
-				{4, 6, 6}};
+				{4, 5, 5}};
 		println(isMagicalMatrix(matrix1));
 	}
 	
