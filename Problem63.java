@@ -35,7 +35,11 @@ public class Problem63 extends ConsoleProgram {
 
 	private int countFollowers(HashMap<String, String> followers, String string) {
 		int numFollowers = 0;
-		
+		for(int i = 0; i < followers.size(); i++){
+			if(followers.containsKey(string)){
+				
+			}
+		}
 		return numFollowers;
 	}
 
