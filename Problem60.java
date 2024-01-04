@@ -7,7 +7,7 @@ public class Problem60 extends ConsoleProgram{
 	private static final int SENTINEL = -1;
 	
 	public void run() {
-		ArrayList<String> numbers = new ArrayList<String>();
+		ArrayList<Integer> numbers = new ArrayList<Integer>();
 	}
 
 }
