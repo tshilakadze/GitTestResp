@@ -8,7 +8,7 @@ public class Problem62 extends ConsoleProgram {
 		String name;
 		while(true){
 			names.add(name = readLine("? "));
-			if(name == ""){
+			if(name.equals("")){
 				break;
 			}
 		}
