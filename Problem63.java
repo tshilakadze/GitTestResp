@@ -34,8 +34,9 @@ public class Problem63 extends ConsoleProgram {
 	}
 
 	private int countFollowers(HashMap<String, String> followers, String string) {
-		// TODO Auto-generated method stub
-		return 0;
+		int numFollowers = 0;
+		
+		return numFollowers;
 	}
 
 }
