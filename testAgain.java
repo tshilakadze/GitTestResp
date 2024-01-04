@@ -8,6 +8,6 @@ public class testAgain extends ConsoleProgram {
 	public void run() {
 		HashMap<String, String> testMap = new HashMap<String, String>();
 		testMap.put("dog", "woof");
-		
+		testMap.get("dog");
 	}
 }
