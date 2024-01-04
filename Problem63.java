@@ -37,7 +37,5 @@ public class Problem63 extends ConsoleProgram {
 		}
 		println("Person with most followers is " + mostPopular);
 		
-		int count = 0;
-		
 	}
 }
