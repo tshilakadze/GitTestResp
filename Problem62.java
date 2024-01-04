@@ -11,13 +11,13 @@ public class Problem62 extends ConsoleProgram {
 			names.add(name = readLine("? "));
 			if(name.equals("")){
 				names.remove(names.size() - 1);
-				countNames(names);
+				printStatistics(names);
 				break;
 			}
 		}
 	}
 
-	private void countNames(ArrayList<String> names) {
+	private void printStatistics(ArrayList<String> names) {
 		
 	}
 
