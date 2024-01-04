@@ -22,7 +22,7 @@ public class Problem63 extends ConsoleProgram {
 		}
 	}
 
-	private personWithMostFollowers(HashMap<String, String> followers) {
+	private void personWithMostFollowers(HashMap<String, String> followers) {
 		int mostFollowers = 0;
 		for(int i = 0; i < followers.size(); i++){
 			int currNum = countFollowers(followers, followers.get(i));
