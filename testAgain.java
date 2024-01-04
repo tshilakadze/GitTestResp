@@ -9,6 +9,6 @@ public class testAgain extends ConsoleProgram {
 		HashMap<String, String> testMap = new HashMap<String, String>();
 		testMap.put(readLine("key: "), readLine("valye: "));
 	//	testMap.put("dog", "woof");
-	//	println(testMap.get("dog"));
+		println(testMap.get(readLine("key: ")));
 	}
 }
