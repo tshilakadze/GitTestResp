@@ -16,7 +16,7 @@ public class Problem63 extends ConsoleProgram {
 			followers.put(person = readLine("key: "), follower = readLine("value: "));
 			if(person.equals("") || follower.equals("")){
 				followers.remove(followers.size());
-				personWithMostFollowers(followers);
+				println(personWithMostFollowers(followers));
 				break;
 			}
 		}
