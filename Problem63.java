@@ -2,18 +2,16 @@
  * ცარიელ სტრინგს. დაბეჭდეთ იმ ადამიანის სახელი, ვისაც ჰყავს ყველაზე მეტი გამომწერი.
  */
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 import acm.program.ConsoleProgram;
 
 public class Problem63 extends ConsoleProgram {
 	public void run() {
-		Map<String, String> followers = new HashMap<String, String>();
-		String person;
+		Map<String, ArrayList<String>> followers = new HashMap<String, ArrayList<String>>();
 		String follower;
 		while(true){
-			followers.put(person = readLine("key: "), follower = readLine("value: "));
+			String person = readLine("Enter person's name: ");
 			if(person.isEmpty()){
 				break;
 			}
