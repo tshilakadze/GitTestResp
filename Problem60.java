@@ -21,7 +21,3 @@ public class Problem60 extends ConsoleProgram{
 	}
 
 }
-
-
-
-//		1	2	3	4	5
