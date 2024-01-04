@@ -3,13 +3,14 @@
  */
 
 import java.util.HashMap;
+import java.util.Map;
 
 import acm.program.ConsoleProgram;
 
 public class Problem63 extends ConsoleProgram {
 	private String mostFollowed;
 	public void run() {
-		HashMap<String, String> followers = new HashMap<String, String>();
+		Map<String, String> followers = new HashMap<String, String>();
 		String person;
 		String follower;
 		while(true){
