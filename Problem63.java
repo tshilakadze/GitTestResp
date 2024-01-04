@@ -19,6 +19,7 @@ public class Problem63 extends ConsoleProgram {
 				followers.put(person, new ArrayList<String>());
 			}
 			ArrayList<String> myFollowers = followers.get(person);
+			myFollowers.add(follower);
 		}
 	}
 }
