@@ -1,7 +1,7 @@
 /* 63. კონსოლიდან შეგვყავს წყვილ-წყვილად ადამიანის და მისი გამომწერის სახელები, მანამ სანამ არ შევიყვანთ
  * ცარიელ სტრინგს. დაბეჭდეთ იმ ადამიანის სახელი, ვისაც ჰყავს ყველაზე მეტი გამომწერი.
  * 64. 63-ე ამოცანის გაგრძელება, დაბეჭდეთ თითოეული შეყვანილი სახელი და მის გასწვრივ
-მძიმით გამოყოფილი გამომწერების სია.
+ * მძიმით გამოყოფილი გამომწერების სია.
  */
 
 import java.util.*;
@@ -24,5 +24,11 @@ public class Problem63 extends ConsoleProgram {
 			myFollowers.add(follower);
 		}
 		println(followers);		//Problem64
+		
+		int maxFollowers = 0;
+		String mostPopular;
+		for(String person: followers.keySet()){
+			int followerCount = 
+		}
 	}
 }
