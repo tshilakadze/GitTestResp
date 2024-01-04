@@ -11,7 +11,7 @@ public class Problem61 extends ConsoleProgram {
 			myList.add(readInt("? "));
 		}
 		for(int i = 0; i < myList.size(); i++){
-			for(int l = 0; l < myList.size(); l++){
+			for(int l = i + 1; l < myList.size(); l++){
 				if(myList.get(i) + myList.get(l) == m){
 					println(myList.get(i) + " and " + myList.get(l));
 				}
