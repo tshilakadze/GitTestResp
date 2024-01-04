@@ -16,13 +16,13 @@ public class Problem63 extends ConsoleProgram {
 			followers.put(person = readLine("key: "), follower = readLine("value: "));
 			if(person.equals("") || follower.equals("")){
 				followers.remove(followers.size());
-				println(personWithMostFollowers(followers));
+				personWithMostFollowers(followers);
 				break;
 			}
 		}
 	}
 
-	private String personWithMostFollowers(HashMap<String, String> followers) {
+	private personWithMostFollowers(HashMap<String, String> followers) {
 		int mostFollowers = 0;
 		for(int i = 0; i < followers.size(); i++){
 			int currNum = countFollowers(followers, followers.get(i));
@@ -31,7 +31,7 @@ public class Problem63 extends ConsoleProgram {
 				mostFollowed = followers.get(i);
 			}
 		}
-		return mostFollowed;
+		println(mostFollowed);
 	}
 
 	private int countFollowers(HashMap<String, String> followers, String string) {
