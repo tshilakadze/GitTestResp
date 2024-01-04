@@ -28,7 +28,11 @@ public class Problem63 extends ConsoleProgram {
 		int maxFollowers = 0;
 		String mostPopular;
 		for(String person: followers.keySet()){
-			int followerCount = 
+			int followerCount = followers.get(person).size();
+			if(followerCount > maxFollowers){
+				maxFollowers = followerCount;
+				mostPopular = person;
+			}
 		}
 	}
 }
