@@ -6,7 +6,6 @@ public class Problem62 extends ConsoleProgram {
 	public void run() {
 		ArrayList<String> names = new ArrayList<String>();
 		String name;
-		int count = 0;
 		while(true){
 			names.add(name = readLine("? "));
 			if(name.equals("")){
