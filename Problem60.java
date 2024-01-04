@@ -9,8 +9,11 @@ public class Problem60 extends ConsoleProgram{
 	public void run() {
 		ArrayList<Integer> numbers = new ArrayList<Integer>();
 		while(true){
-			numbers.add(int n = readInt("? "));
-			if()
+			int n;
+			numbers.add(n = readInt("? "));
+			if(n == SENTINEL){
+				break;
+			}
 		}
 	}
 
