@@ -24,7 +24,7 @@ public class Problem63 extends ConsoleProgram {
 			ArrayList<String> myFollowers = followersMap.get(person);
 			myFollowers.add(follower);
 		}
-	//	println(followersMap);		//Problem64
+		println(followersMap);		//Problem64
 		
 		int maxFollowers = 0;
 		String mostPopular = null;
