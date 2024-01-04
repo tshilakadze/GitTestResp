@@ -18,6 +18,7 @@ public class Problem61 extends ConsoleProgram {
 				}
 				else{
 					println("There are no such numbers.");
+					break;
 				}
 			}
 		}
