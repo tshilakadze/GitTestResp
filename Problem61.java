@@ -16,6 +16,9 @@ public class Problem61 extends ConsoleProgram {
 				if(myList.get(i) + myList.get(l) == m){
 					println(myList.get(i) + " and " + myList.get(l));
 				}
+				else{
+					println("There are no such numbers.");
+				}
 			}
 		}
 	}
