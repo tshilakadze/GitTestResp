@@ -12,9 +12,16 @@ public class Problem60 extends ConsoleProgram{
 			int n;
 			numbers.add(n = readInt("? "));
 			if(n == SENTINEL){
+				for(int i = 0; i < numbers.size(); i++){
+					println(numbers.get(numbers.size() - i - 1));
+				}
 				break;
 			}
 		}
 	}
 
 }
+
+
+
+//		1	2	3	4	5
