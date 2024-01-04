@@ -14,9 +14,14 @@ public class Problem63 extends ConsoleProgram {
 		while(true){
 			followers.put(person = readLine("key: "), follower = readLine("value: "));
 			if(person.equals("") || follower.equals("")){
+				printStatistics(followers);
 				break;
 			}
 		}
+	}
+
+	private void printStatistics(HashMap<String, String> followers) {
+		
 	}
 
 }
