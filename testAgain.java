@@ -34,7 +34,7 @@ public class testAgain extends ConsoleProgram {
 		int maxFriends = 0;
 		String popularPerson = null;
 		
-		for(int i = 0; i < friendLists.size(); i++) {										// String person: friendLists.keySet()
+		for(String person: friendLists.keySet()) {
 			int friendCount = friendLists.get(person).size();
 			if(friendCount > maxFriends) {
 				maxFriends = friendCount;
