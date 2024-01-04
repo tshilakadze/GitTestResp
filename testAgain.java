@@ -8,7 +8,7 @@ public class testAgain extends ConsoleProgram {
 	private static final int SENTINEL = -1;
 	
 	public void run() {
-		
+		version1();
 	}
 	
 	private void version1() {
