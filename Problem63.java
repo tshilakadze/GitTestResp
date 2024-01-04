@@ -26,7 +26,7 @@ public class Problem63 extends ConsoleProgram {
 		println(followers);		//Problem64
 		
 		int maxFollowers = 0;
-		String mostPopular;
+		String mostPopular = null;
 		for(String person: followers.keySet()){
 			int followerCount = followers.get(person).size();
 			if(followerCount > maxFollowers){
@@ -34,5 +34,6 @@ public class Problem63 extends ConsoleProgram {
 				mostPopular = person;
 			}
 		}
+		println("Person with most followers is " + mostPopular);
 	}
 }
