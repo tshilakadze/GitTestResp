@@ -7,7 +7,8 @@ import acm.program.ConsoleProgram;
 public class testAgain extends ConsoleProgram {
 	public void run() {
 		HashMap<String, String> testMap = new HashMap<String, String>();
-		testMap.put("dog", "woof");
-		println(testMap.get("dog"));
+		testMap.put(readLine("key: "), readLine("valye: "));
+	//	testMap.put("dog", "woof");
+	//	println(testMap.get("dog"));
 	}
 }
