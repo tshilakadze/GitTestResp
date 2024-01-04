@@ -17,7 +17,11 @@ public class Problem62 extends ConsoleProgram {
 	}
 
 	private void printStatistics(ArrayList<String> names) {
-		
+		ArrayList<String> myList = new ArrayList<String>();
+		for(int i = 0; i < names.size(); i++){
+			String currName = names.get(i);
+			
+		}
 	}
 
 }
