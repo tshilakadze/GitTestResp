@@ -18,6 +18,7 @@ public class Problem63 extends ConsoleProgram {
 			if(!followers.containsKey(person)){
 				followers.put(person, new ArrayList<String>());
 			}
+			ArrayList<String> myFollowers = followers.get(person);
 		}
 	}
 }
