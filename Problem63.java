@@ -21,8 +21,8 @@ public class Problem63 extends ConsoleProgram {
 			if(!followersMap.containsKey(person)){
 				followersMap.put(person, new ArrayList<String>());
 			}
-	//		ArrayList<String> myFollowers = followersMap.get(person);
-	//		myFollowers.add(follower);
+			ArrayList<String> myFollowers = followersMap.get(person);
+			myFollowers.add(follower);
 		}
 	//	println(followersMap);		//Problem64
 		
