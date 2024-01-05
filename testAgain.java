@@ -15,7 +15,7 @@ public class testAgain extends ConsoleProgram {
 		addActionListeners();
 		
 		
-		JTextField field = new JTextField(5);
+		JTextField field = new JTextField(10);
 		add(field, SOUTH);
 		field.setText("rugby");
 		field.addActionListener(this);
