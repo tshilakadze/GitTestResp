@@ -1,6 +1,6 @@
 import java.util.*;
 
-import javax.swing.JTextField;
+import javax.swing.*;
 
 import acm.program.ConsoleProgram;
 
