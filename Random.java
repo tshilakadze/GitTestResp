@@ -19,50 +19,6 @@ public class Random extends GraphicsProgram {
 	private RandomGenerator rgen = RandomGenerator.getInstance();
 
 	public void run() {
-		drawBalls();
-		addMouseListeners();
-		
-	}
 	
-	
-	public void mouseClicked(MouseEvent e){
-		GObject obj = getElementAt(e.getX(), e.getY());
-		if((GOval)obj == ball){
-		//	a(GOval) = obj;
-		//	ball.setColor(Color.rgen.nextColor());
-		}
-		if(obj == null && a != null){
-			while(true){
-				a.move(0, V_Y);
-				pause(20);
-			}
-			
-		}
-	}
-	
-	
-	private void drawBalls() {
-		for(int i = 0; i < BALL_COUNT; i++){
-			radius = rgen.nextInt(MIN_RADIUS, MAX_RADIUS);
-			diameter = radius * 2;
-			x = rgen.nextInt(0, getWidth());
-			y = rgen.nextInt(0, getHeight());
-			ball = new GOval(diameter, diameter);
-			add(ball, x, y);
-			ball.setFilled(true);
-			if(x + diameter > getWidth()){
-				ball.setLocation(getWidth() - diameter, y);
-			}
-			if(x < 0){
-				ball.setLocation(0, y);
-			}
-			if(y + diameter > getHeight()){
-				ball.setLocation(x, getHeight() - diameter);
-			}
-			if(y < 0){
-				ball.setLocation(0, x);
-			}
-		}
-		
 	}
 }
