@@ -18,7 +18,7 @@ public class testAgain extends ConsoleProgram {
 		
 		field = new JTextField(10);
 		add(field, SOUTH);
-		
+		field.
 		field.addActionListener(this);
 		
 		addActionListeners();
@@ -28,7 +28,6 @@ public class testAgain extends ConsoleProgram {
 	public void actionPerformed(ActionEvent e){
 		if(e.getActionCommand().equals("Red")){
 			println(field.getText());
-			field.removeKeymap(field.getText());
 			
 		}
 	}
