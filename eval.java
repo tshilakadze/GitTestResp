@@ -4,6 +4,7 @@ public class eval extends ConsoleProgram{
 	public void run(){
 		String str = readLine("? ");
 		int answ = eval(str);
+		println(answ);
 	}
 
 	private int eval(String str) {
