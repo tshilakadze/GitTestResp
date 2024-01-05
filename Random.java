@@ -32,8 +32,8 @@ public class Random extends GraphicsProgram {
 	public void mouseClicked(MouseEvent e){
 		GObject obj = getElementAt(e.getX(), e.getY());
 		if((GOval)obj == ball){
-			(GOval)a = obj;
-			ball.setColor(Color.rgen.nextColor());
+		//	a(GOval) = obj;
+		//	ball.setColor(Color.rgen.nextColor());
 		}
 		if(obj == null && a != null){
 			while(true){
