@@ -9,6 +9,7 @@ public class testAgain extends ConsoleProgram {
 	public void run() {
 		JTextField field = new JTextField(5);
 		add(field, SOUTH);
+		field.setText("rugby");
 		println(field.getText());
 	}
 }
