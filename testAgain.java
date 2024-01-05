@@ -7,6 +7,7 @@ import acm.program.ConsoleProgram;
 
 public class testAgain extends ConsoleProgram {
 	private JButton redButton;
+	private JTextField field;
 //	private static final String SENTINEL = "";
 	public void run() {
 		
@@ -15,7 +16,7 @@ public class testAgain extends ConsoleProgram {
 		
 		
 		
-		JTextField field = new JTextField(10);
+		field = new JTextField(10);
 		add(field, SOUTH);
 		
 		field.addActionListener(this);
@@ -26,7 +27,7 @@ public class testAgain extends ConsoleProgram {
 	
 	public void actionPerformed(ActionEvent e){
 		if(e.getActionCommand().equals("Red")){
-			println("This happened.");
+			println(field.getText());
 			
 			
 		}
