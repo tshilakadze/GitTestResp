@@ -20,10 +20,6 @@ public class Random extends GraphicsProgram {
 
 	public void run() {
 		drawBalls();
-		radius = rgen.nextInt(MIN_RADIUS, MAX_RADIUS);
-		diameter = radius * 2;
-		x = rgen.nextInt(0, getWidth());
-		y = rgen.nextInt(0, getHeight());
 		addMouseListeners();
 		
 	}
@@ -47,6 +43,10 @@ public class Random extends GraphicsProgram {
 	
 	private void drawBalls() {
 		for(int i = 0; i < BALL_COUNT; i++){
+			radius = rgen.nextInt(MIN_RADIUS, MAX_RADIUS);
+			diameter = radius * 2;
+			x = rgen.nextInt(0, getWidth());
+			y = rgen.nextInt(0, getHeight());
 			ball = new GOval(diameter, diameter);
 			add(ball, x, y);
 			ball.setFilled(true);
