@@ -28,7 +28,7 @@ public class testAgain extends ConsoleProgram {
 	public void actionPerformed(ActionEvent e){
 		if(e.getActionCommand().equals("Red")){
 			println(field.getText());
-			
+			field.remove(field.getText());
 			
 		}
 	}
