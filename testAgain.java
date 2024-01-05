@@ -6,10 +6,11 @@ import javax.swing.*;
 import acm.program.ConsoleProgram;
 
 public class testAgain extends ConsoleProgram {
+	private JButton redButton;
 //	private static final String SENTINEL = "";
 	public void run() {
 		
-		JButton redButton = new JButton("Red");
+		redButton = new JButton("Red");
 		add(redButton, SOUTH);
 		addActionListeners();
 		
@@ -22,7 +23,7 @@ public class testAgain extends ConsoleProgram {
 	}
 	
 	public void actionPerformed(ActionEvent e){
-		if(e.equals("Red")){
+		if(e.equals(redButton)){
 			println("This happened.");
 			
 			
