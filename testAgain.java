@@ -23,7 +23,7 @@ public class testAgain extends ConsoleProgram {
 	}
 	
 	public void actionPerformed(ActionEvent e){
-		if(e.getActionCommand().equals("Red")){
+		if(e.getActionCommand().equals("Touch me daddy")){
 			println("Oh yes daddy...");
 		}
 	}
