@@ -11,6 +11,6 @@ public class testAgain extends ConsoleProgram {
 		add(field, SOUTH);
 		field.setText("rugby");
 		field.addActionListener(this);
-		println(field.getText());
+	//	println(field.getText());
 	}
 }
