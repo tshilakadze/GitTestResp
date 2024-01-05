@@ -9,10 +9,9 @@ public class testAgain extends ConsoleProgram {
 //	private static final String SENTINEL = "";
 	public void run() {
 		
-		JButton redButton = new JButton("Touch me daddy");
+		JButton redButton = new JButton("Red");
 		add(redButton, SOUTH);
 		addActionListeners();
-		
 		
 		
 /*		JTextField field = new JTextField(5);
@@ -23,9 +22,8 @@ public class testAgain extends ConsoleProgram {
 	}
 	
 	public void actionPerformed(ActionEvent e){
-		if(e.getActionCommand().equals("Touch me daddy")){
-			println("Oh yes daddy...");
-			println("ah");
+		if(e.getActionCommand().equals("Red")){
+			println("This happened.");
 			
 		}
 	}
