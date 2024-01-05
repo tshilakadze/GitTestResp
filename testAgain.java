@@ -12,13 +12,15 @@ public class testAgain extends ConsoleProgram {
 		
 		redButton = new JButton("Red");
 		add(redButton, SOUTH);
-		addActionListeners();
+		
 		
 		
 		JTextField field = new JTextField(10);
 		add(field, SOUTH);
 		
 		field.addActionListener(this);
+		
+		addActionListeners();
 	//	println(field.getText());
 	}
 	
