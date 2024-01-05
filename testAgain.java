@@ -18,7 +18,6 @@ public class testAgain extends ConsoleProgram {
 		
 		field = new JTextField(10);
 		add(field, SOUTH);
-		field.
 		field.addActionListener(this);
 		
 		addActionListeners();
