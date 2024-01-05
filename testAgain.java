@@ -24,7 +24,7 @@ public class testAgain extends ConsoleProgram {
 	
 	public void actionPerformed(ActionEvent e){
 		if(e.getActionCommand().equals("Red")){
-			println("Oh yes baby...");
+			println("Oh yes daddy...");
 		}
 	}
 	
