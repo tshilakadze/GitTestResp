@@ -10,6 +10,7 @@ public class testAgain extends ConsoleProgram {
 		JTextField field = new JTextField(5);
 		add(field, SOUTH);
 		field.setText("rugby");
-		println(field.getText());
+		field.addActionListener(this);
+	//	println(field.getText());
 	}
 }
