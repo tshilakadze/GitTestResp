@@ -9,6 +9,7 @@ public class testAgain extends ConsoleProgram {
 	public void run() {
 		
 		JButton redButton = new JButton("Red");
+		add(redButton, SOUTH);
 		
 		
 /*		JTextField field = new JTextField(5);
