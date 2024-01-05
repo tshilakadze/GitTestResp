@@ -1,3 +1,4 @@
+import java.awt.event.ActionEvent;
 import java.util.*;
 
 import javax.swing.*;
@@ -10,6 +11,8 @@ public class testAgain extends ConsoleProgram {
 		
 		JButton redButton = new JButton("Red");
 		add(redButton, SOUTH);
+		addActionListeners();
+		
 		
 		
 /*		JTextField field = new JTextField(5);
@@ -18,4 +21,11 @@ public class testAgain extends ConsoleProgram {
 		field.addActionListener(this);*/
 	//	println(field.getText());
 	}
+	
+	public void actionPerformed(ActionEvent e){
+		if(e.getActionCommand().equals("Red")){
+			println("Oh yes baby...");
+		}
+	}
+	
 }
