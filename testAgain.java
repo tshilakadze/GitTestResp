@@ -9,7 +9,7 @@ public class testAgain extends ConsoleProgram {
 //	private static final String SENTINEL = "";
 	public void run() {
 		
-		JButton redButton = new JButton("Red");
+		JButton redButton = new JButton("Touch me daddy");
 		add(redButton, SOUTH);
 		addActionListeners();
 		
