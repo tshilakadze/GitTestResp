@@ -56,8 +56,8 @@ public class Random extends GraphicsProgram {
 			if(x < 0){
 				ball.setLocation(0, y);
 			}
-			if(y + diameter > getHeight){
-				ball.setLocation(x, getHeght() - diameter);
+			if(y + diameter > getHeight()){
+				ball.setLocation(x, getHeight() - diameter);
 			}
 			if(y < 0){
 				ball.setLocation(0, x);
