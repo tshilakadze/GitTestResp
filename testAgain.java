@@ -10,25 +10,8 @@ public class testAgain extends ConsoleProgram {
 	private JTextField field;
 //	private static final String SENTINEL = "";
 	public void run() {
+		String text = "sam 34 55 43";
 		
-		redButton = new JButton("Red");
-		add(redButton, SOUTH);
-		
-		
-		
-		field = new JTextField(10);
-		add(field, SOUTH);
-		field.addActionListener(this);
-		
-		addActionListeners();
-	//	println(field.getText());
-	}
-	
-	public void actionPerformed(ActionEvent e){
-		if(e.getActionCommand().equals("Red")){
-			println(field.getText());
-			
-		}
 	}
 	
 }
