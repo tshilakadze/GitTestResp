@@ -11,6 +11,9 @@ public class Problem50 extends ConsoleProgram {
 			tokenizer.nextToken();
 			numOfWords += 1;
 		}
+		while(tokenizer.hasMoreTokens()){
+			println(tokenizer.nextToken());
+		}
 		println("There are " + numOfWords + " words in this string.");
 	}
 }
