@@ -7,9 +7,9 @@ public class Problem50 extends ConsoleProgram {
 		int numOfWords = 0;
 		String text = readLine("Enter the text: ");
 		StringTokenizer tokenizer = new StringTokenizer(text);
-		String word = tokenizer.nextToken();
-		println(word);
 		while(tokenizer.hasMoreTokens()){
+			String word = tokenizer.nextToken();
+			println(word);
 			numOfWords += 1;
 		}
 		println("There are " + numOfWords + " words in this string.");
