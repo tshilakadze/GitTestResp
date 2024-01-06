@@ -8,11 +8,9 @@ public class Problem50 extends ConsoleProgram {
 		String text = readLine("Enter the text: ");
 		StringTokenizer tokenizer = new StringTokenizer(text);
 		while(tokenizer.hasMoreTokens()){
-			tokenizer.nextToken();
+			String word = tokenizer.nextToken();
+			println(word);
 			numOfWords += 1;
-		}
-		while(tokenizer.hasMoreElements()){
-			System.out.println(tokenizer.nextElement());
 		}
 		println("There are " + numOfWords + " words in this string.");
 	}
