@@ -9,9 +9,9 @@ public class Problem50 extends ConsoleProgram {
 		StringTokenizer tokenizer = new StringTokenizer(text);
 		while(tokenizer.hasMoreTokens()){
 			tokenizer.nextToken();
+			println(tokenizer.nextElement());
 			numOfWords += 1;
 		}
-		println(tokenizer.nextToken());
 		println("There are " + numOfWords + " words in this string.");
 	}
 }
