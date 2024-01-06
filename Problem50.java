@@ -12,7 +12,7 @@ public class Problem50 extends ConsoleProgram {
 			numOfWords += 1;
 		}
 		while(tokenizer.hasMoreElements()){
-			println(tokenizer.nextElement());
+			System.out.println(tokenizer.nextElement());
 		}
 		println("There are " + numOfWords + " words in this string.");
 	}
