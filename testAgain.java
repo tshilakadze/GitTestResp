@@ -11,7 +11,8 @@ public class testAgain extends ConsoleProgram {
 //	private static final String SENTINEL = "";
 	public void run() {
 		String text = "sam 34 55 43";
-		Map<String, String> = new HashMap<String, String>();
+		Map<String, String> bla = new HashMap<String, String>();
+		bla.put(text, text);
 	}
 	
 }
