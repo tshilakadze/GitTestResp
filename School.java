@@ -61,7 +61,7 @@ public class School {
 			learning.add(subject);
 		}
 		pupilSubjects.put(pupil, learning);
-		
+		System.out.print(pupil);
 		
 	}
 	
@@ -71,6 +71,7 @@ public class School {
 //	დამატებული(სწავლობს). თუკი pupil სახელის მოსწავლე არ გვყავს მაშინ მეთოდმა
 //	უნდა დააბრუნოს null.
 	public Iterator<String> getTeachers(String pupil){
+		
 		return null;
 	}
 	
