@@ -74,7 +74,7 @@ public class School {
 //	უნდა დააბრუნოს null.
 	public Iterator<String> getTeachers(String pupil){
 		
-		
+		ArrayList<String> list = new ArrayList<String>();
 		
 		return null;
 	}
