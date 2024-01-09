@@ -13,6 +13,7 @@ public class School {
 	private Map<String, ArrayList<String>> teachingSubjects;
 	private Map<String, ArrayList<String>> pupilSubjects;
 	private ArrayList<String> allSubjects;
+	private ArrayList<String> learning;
 	
 	public School() {
 		teachingSubjects = new HashMap<String, ArrayList<String>>();
@@ -57,7 +58,7 @@ public class School {
 	public void addPupil(String pupil, String subject) {
 		// TIP:	you can use System.out.println() to print your structures for testing
 		
-		ArrayList<String> learning = new ArrayList<String>();
+		learning = new ArrayList<String>();
 		if(!learning.contains(subject)){
 			learning.add(subject);
 		}
