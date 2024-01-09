@@ -3,20 +3,25 @@
 //უნივერსიტეტის მართვას. კლასს უნდა ჰქონდეს კონსტრუქტორი და 5 public მეთოდი.
 
 import java.util.Iterator;
+import java.util.*;
 
 public class School {
 //	
 //	კონსტრუქტორს არაფერი არ გადაეცემა. აქ შეგიძლიათ ინიციალიზაცია გაუკეთოთ
 //	თქვენთვის საჭირო ცვლადებს.
+	
+	private Map<String, ArrayList<String>> teachingSubjects;
+	
 	public School() {
-		
+		teachingSubjects = new HashMap<String, ArrayList<String>>();
 	}
 	
 //	addTeacher მეთოდის საშუალებით შეგიძლიათ სკოლას დაამატოთ ახალი
 //	მასწავლებელი. მეთოდს გადაეცემა მასწავლებლის სახელი. შეგიძლიათ ჩათვალოთ,
 //	რომ მასწავლებლის სახელი უნიკალურია.
 	public void addTeacher(String teacher) {
-		// TIP:	you can use System.out.println() to print your structures for testing 
+		// TIP:	you can use System.out.println() to print your structures for testing
+		
 	}
 	
 //	addSubject მეთოდის საშუალებით შეგიძლიათ მასწავლებელს დაუმატოთ საგანი.
@@ -28,6 +33,9 @@ public class School {
 //	მეთოდმა არაფერი არ უნდა გააკეთოს.
 	public void addSubject(String teacher, String subject) {
 		// TIP:	you can use System.out.println() to print your structures for testing
+		
+		
+		
 	}
 	
 //	addPupil მეთოდის საშუალებით შეგიძლიათ საგანზე დაამატოთ მოსწავლე. ერთი და
