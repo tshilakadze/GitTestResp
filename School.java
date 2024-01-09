@@ -42,6 +42,9 @@ public class School {
 			System.out.println("No such teacher: " + teacher);
 			return;
 		}
+		ArrayList<String> allSubjects = new ArrayList<String>();
+		allSubjects.add(subject);
+		teachingSubjects.put(null, allSubjects);
 		
 		
 	}
@@ -50,6 +53,9 @@ public class School {
 //	იგივე მოსწავლე შეიძლება ერთ ან რამდენიმე საგანს სწავლობდეს.
 	public void addPupil(String pupil, String subject) {
 		// TIP:	you can use System.out.println() to print your structures for testing
+		
+		
+		
 	}
 	
 //	getTeachers მეთოდს გადაეცემა მოსწავლის სახელი და მან უნდა დააბრუნოს ამ
