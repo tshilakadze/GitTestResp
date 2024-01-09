@@ -56,6 +56,11 @@ public class School {
 	public void addPupil(String pupil, String subject) {
 		// TIP:	you can use System.out.println() to print your structures for testing
 		
+		ArrayList<String> learning = new ArrayList<String>();
+		if(!learning.contains(subject)){
+			learning.add(subject);
+		}
+		pupilSubjects.put(pupil, learning);
 		
 		
 	}
