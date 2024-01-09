@@ -81,6 +81,13 @@ public class School {
 		Iterator<String> it = list.iterator();
 		while(it.hasNext()){
 			String i = it.next();
+			Iterator<String> teach = teachSubjects.iterator();
+			while(teach.hasNext()){
+				String t = teach.next();
+				if(i.equals(t)){
+					
+				}
+			}
 		}
 		
 		return null;
