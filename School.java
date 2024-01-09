@@ -12,6 +12,7 @@ public class School {
 	
 	private Map<String, ArrayList<String>> teachingSubjects;
 	private Map<String, ArrayList<String>> pupilSubjects;
+	private ArrayList<String> allSubjects;
 	
 	public School() {
 		teachingSubjects = new HashMap<String, ArrayList<String>>();
@@ -44,7 +45,7 @@ public class School {
 			System.out.println("No such teacher: " + teacher);
 			return;
 		}
-		ArrayList<String> allSubjects = new ArrayList<String>();
+		allSubjects = new ArrayList<String>();
 		allSubjects.add(subject);
 		teachingSubjects.put(teacher, allSubjects);
 		
@@ -61,8 +62,6 @@ public class School {
 			learning.add(subject);
 		}
 		pupilSubjects.put(pupil, learning);
-	//	System.out.println(pupil);
-		//System.out.println(learning.toString());
 		System.out.println(pupilSubjects.toString());
 		
 	}
@@ -73,6 +72,8 @@ public class School {
 //	დამატებული(სწავლობს). თუკი pupil სახელის მოსწავლე არ გვყავს მაშინ მეთოდმა
 //	უნდა დააბრუნოს null.
 	public Iterator<String> getTeachers(String pupil){
+		
+		
 		
 		return null;
 	}
