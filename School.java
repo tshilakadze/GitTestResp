@@ -63,6 +63,7 @@ public class School {
 		pupilSubjects.put(pupil, learning);
 		System.out.println(pupil);
 		System.out.println(learning.toString());
+		System.out.println(pupilSubjects.toString());
 		
 	}
 	
