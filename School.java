@@ -22,6 +22,10 @@ public class School {
 	public void addTeacher(String teacher) {
 		// TIP:	you can use System.out.println() to print your structures for testing
 		
+		if(!teachingSubjects.containsKey(teacher)){
+			teachingSubjects.put(teacher, null);
+		}
+		
 	}
 	
 //	addSubject მეთოდის საშუალებით შეგიძლიათ მასწავლებელს დაუმატოთ საგანი.
