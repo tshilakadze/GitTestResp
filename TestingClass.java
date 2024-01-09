@@ -13,6 +13,8 @@ public class TestingClass extends ConsoleProgram {
 		println(obj.getScore("mberi15"));
 		
 		obj.setScore(15.5, "mberi15");
+		obj.setScore(15.5, "mberi1");
+
 	}
 
 }
