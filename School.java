@@ -11,9 +11,11 @@ public class School {
 //	თქვენთვის საჭირო ცვლადებს.
 	
 	private Map<String, ArrayList<String>> teachingSubjects;
+	private Map<String, ArrayList<String>> pupilSubjects;
 	
 	public School() {
 		teachingSubjects = new HashMap<String, ArrayList<String>>();
+		pupilSubjects = new HashMap<String, ArrayList<String>>();
 	}
 	
 //	addTeacher მეთოდის საშუალებით შეგიძლიათ სკოლას დაამატოთ ახალი
