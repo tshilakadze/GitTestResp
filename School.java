@@ -75,6 +75,7 @@ public class School {
 	public Iterator<String> getTeachers(String pupil){
 		
 		ArrayList<String> list = new ArrayList<String>();
+		list = pupilSubjects.get(pupil);
 		
 		return null;
 	}
