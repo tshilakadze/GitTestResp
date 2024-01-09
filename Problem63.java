@@ -9,6 +9,8 @@ import java.util.*;
 import acm.program.ConsoleProgram;
 
 public class Problem63 extends ConsoleProgram {
+	private String person;
+	private ArrayList<String> myFollowers;
 	public void run() {
 		Map<String, ArrayList<String>> followersMap = new HashMap<String, ArrayList<String>>();	
 		while(true){
@@ -20,11 +22,13 @@ public class Problem63 extends ConsoleProgram {
 			if(!followersMap.containsKey(person)){
 				followersMap.put(person, new ArrayList<String>());
 			}
-			ArrayList<String> myFollowers = followersMap.get(person);
+			myFollowers = followersMap.get(person);
 			myFollowers.add(follower);
 		}
 		println(followersMap);		//Problem64
-		println(notMutuals(person, followersMap));
+		if((notMutuals(person, followersMap))){
+			println(person);
+		}
 		
 		
 		int maxFollowers = 0;
@@ -38,5 +42,11 @@ public class Problem63 extends ConsoleProgram {
 		}
 		println("Person with most followers is " + mostPopular);
 		
+	}
+	private boolean notMutuals(String person2, Map<String, ArrayList<String>> followersMap) {
+		for(int i = 0; i < followersMap.size(); i++){
+			for(int j = 0; j < )
+		}
+		return true;
 	}
 }
