@@ -38,7 +38,9 @@ public class School {
 	public void addSubject(String teacher, String subject) {
 		// TIP:	you can use System.out.println() to print your structures for testing
 		
-		
+		if(!teachingSubjects.containsKey(teacher)){
+			System.out.println("No such teacher: " + teacher);
+		}
 		
 	}
 	
