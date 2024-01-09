@@ -32,4 +32,8 @@ public class TestClass {
 			}
 		studentScores.put(student,  score);
 	}
+	
+	public void addStudent(String student){
+		
+	}
 }
