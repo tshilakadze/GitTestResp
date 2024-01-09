@@ -44,7 +44,7 @@ public class School {
 		}
 		ArrayList<String> allSubjects = new ArrayList<String>();
 		allSubjects.add(subject);
-		teachingSubjects.put(null, allSubjects);
+		teachingSubjects.put(teacher, allSubjects);
 		
 		
 	}
