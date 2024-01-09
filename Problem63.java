@@ -21,7 +21,7 @@ public class Problem63 extends ConsoleProgram {
 				followersMap.put(person, new ArrayList<String>());
 			}
 			ArrayList<String> myFollowers = followersMap.get(person);
-			myFollowers.add(follower);
+	//		myFollowers.add(follower);
 		}
 		println(followersMap);		//Problem64
 		
