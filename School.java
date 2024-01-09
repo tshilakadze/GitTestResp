@@ -12,7 +12,7 @@ public class School {
 	
 	private Map<String, ArrayList<String>> teachingSubjects;
 	private Map<String, ArrayList<String>> pupilSubjects;
-	private ArrayList<String> allSubjects;
+	private ArrayList<String> teachSubjects;
 	private ArrayList<String> learning;
 	
 	public School() {
@@ -46,9 +46,9 @@ public class School {
 			System.out.println("No such teacher: " + teacher);
 			return;
 		}
-		allSubjects = new ArrayList<String>();
-		allSubjects.add(subject);
-		teachingSubjects.put(teacher, allSubjects);
+		teachSubjects = new ArrayList<String>();
+		teachSubjects.add(subject);
+		teachingSubjects.put(teacher, teachSubjects);
 		
 		
 	}
@@ -74,8 +74,14 @@ public class School {
 //	უნდა დააბრუნოს null.
 	public Iterator<String> getTeachers(String pupil){
 		
+		
+		
 		ArrayList<String> list = new ArrayList<String>();
 		list = pupilSubjects.get(pupil);
+		Iterator<String> it = list.iterator();
+		while(it.hasNext()){
+			String i = it.next();
+		}
 		
 		return null;
 	}
