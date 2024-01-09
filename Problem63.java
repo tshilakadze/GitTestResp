@@ -16,14 +16,16 @@ public class Problem63 extends ConsoleProgram {
 			if(follower.isEmpty()){
 				break;
 			}
-			String person = readLine("Enter person's name: ");
+			person = readLine("Enter person's name: ");
 			if(!followersMap.containsKey(person)){
 				followersMap.put(person, new ArrayList<String>());
 			}
 			ArrayList<String> myFollowers = followersMap.get(person);
-	//		myFollowers.add(follower);
+			myFollowers.add(follower);
 		}
 		println(followersMap);		//Problem64
+		println(notMutuals(person, followersMap));
+		
 		
 		int maxFollowers = 0;
 		String mostPopular = null;
