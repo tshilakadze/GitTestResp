@@ -17,6 +17,9 @@ public class TestingClass extends ConsoleProgram {
 		
 		println(obj.getScore("mberi15"));
 		println(obj.getScore("mberi1"));
+		
+		obj.addStudent("mberi1");
+		println(obj.getScore("mberi1"));
 
 	}
 
