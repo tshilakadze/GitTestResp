@@ -76,7 +76,7 @@ public class School {
 		
 		
 		
-		ArrayList<String> list = new ArrayList<String>();
+	/*	ArrayList<String> list = new ArrayList<String>();
 		list = pupilSubjects.get(pupil);
 		Iterator<String> it = list.iterator();
 		while(it.hasNext()){
@@ -88,7 +88,7 @@ public class School {
 					
 				}
 			}
-		}
+		}*/
 		
 		return null;
 	}
