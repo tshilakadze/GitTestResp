@@ -19,9 +19,13 @@ public class TestClass {
 	
 	public Double getScore(String student){
 		if(!studentScores.containsKey(student)){
-			System.out.println("No such student: " + student)
+			System.out.println("No such student: " + student);
 				return null;
 			}
 		return studentScores.get(student);
+	}
+	
+	public void setScore(double score){
+		
 	}
 }
