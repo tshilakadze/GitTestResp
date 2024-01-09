@@ -6,7 +6,11 @@ public class TestingClass extends ConsoleProgram {
 	
 	public void run() {
 		ArrayList<String> students = new ArrayList<>();
-		TestClass obj = new TestClass();
+		students.add("mberi15");
+		students.add("aberi20");
+//		TestClass obj = new TestClass();
+		TestClass obj = new TestClass(students);
+		println(obj.getScore("mberi15"));
 	}
 
 }
