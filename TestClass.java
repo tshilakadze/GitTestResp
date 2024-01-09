@@ -34,6 +34,8 @@ public class TestClass {
 	}
 	
 	public void addStudent(String student){
-		
+		if(!studentScores.containsKey(student)){
+			studentScores.put(student, null);
+		}
 	}
 }
