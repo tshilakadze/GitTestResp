@@ -61,7 +61,7 @@ public class School {
 			learning.add(subject);
 		}
 		pupilSubjects.put(pupil, learning);
-		System.out.print(pupil);
+		System.out.println(pupil);
 		
 	}
 	
