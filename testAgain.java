@@ -12,6 +12,7 @@ public class testAgain extends ConsoleProgram {
 		for(int i = 5; i > 0; i--){
 			nums.add(i);
 		}
+		println(nums.toString());
 		println(nums.get(3));
 	}
 	
