@@ -27,7 +27,7 @@ public class School {
 		// TIP:	you can use System.out.println() to print your structures for testing
 		
 		if(!teachingSubjects.containsKey(teacher)){
-			teachingSubjects.put(teacher, null);
+			teachingSubjects.put(teacher, null);		// new hashset da ara null
 		}
 		
 	}
