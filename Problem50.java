@@ -13,6 +13,7 @@ public class Problem50 extends ConsoleProgram {
 			String word = tokenizer.nextToken();
 			println(word);
 			num = Integer.parseInt(word);
+			println(num);
 			numOfWords += 1;
 		}
 		for(int i = 0; i < numOfWords; i++){
