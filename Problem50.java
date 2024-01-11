@@ -13,12 +13,13 @@ public class Problem50 extends ConsoleProgram {
 			String word = tokenizer.nextToken();
 			println(word);
 			num = Integer.parseInt(word);
+			for(int i = 0; i < numOfWords; i++){
+				nums[i] = num;
+			}
 			println(num);
 			numOfWords += 1;
 		}
-		for(int i = 0; i < numOfWords; i++){
-			nums[i] = num;
-		}
+		
 		println(Arrays.toString(nums));
 		println("There are " + numOfWords + " words in this string.");
 	}
