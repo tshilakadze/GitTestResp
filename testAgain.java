@@ -13,7 +13,7 @@ public class testAgain extends ConsoleProgram {
 			nums.add(i);
 		}
 		println(nums.toString());
-		println(nums.get(3));
+		println(nums.get(4));
 	}
 	
 }
