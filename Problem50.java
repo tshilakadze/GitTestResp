@@ -12,7 +12,11 @@ public class Problem50 extends ConsoleProgram {
 		while(tokenizer.hasMoreTokens()){
 			String word = tokenizer.nextToken();
 			println(word);
+			num = Integer.parseInt(word);
 			numOfWords += 1;
+		}
+		for(int i = 0; i < numOfWords; i++){
+			nums[i] = num;
 		}
 		println("There are " + numOfWords + " words in this string.");
 	}
