@@ -8,7 +8,7 @@ import acm.program.ConsoleProgram;
 public class testAgain extends ConsoleProgram {
 //	private static final String SENTINEL = "";
 	public void run() {
-		String text = "sam 34 55 43";
+		ArrayList<Integer> nums = new ArrayList<Integer>();
 	}
 	
 }
