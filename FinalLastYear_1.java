@@ -19,12 +19,12 @@ public class FinalLastYear_1 extends ConsoleProgram {
 				part1 = text.substring(0,  i);
 				text = text.substring(i);
 				num = part1.length();
+				String numStr = num + "";
+				line = part1.charAt(0) + numStr;
 			}
 			
 			
 			
-			String numStr = num + "";
-			line = part1.charAt(0) + numStr;
 		}
 		return line;
 	}
