@@ -15,6 +15,7 @@ public class Problem48 extends ConsoleProgram {
 				String a = num + "";
 				print(ch + a);
 				used += ch;
+				
 			}
 		}
 	}
