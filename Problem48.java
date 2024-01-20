@@ -12,7 +12,8 @@ public class Problem48 extends ConsoleProgram {
 			char ch = text.charAt(i);
 			if(!used.contains("" + ch)){
 				int num = countSymbols(text, ch);
-				print(ch + "num");
+				String a = num + "";
+				print(ch + a);
 				used += ch;
 			}
 		}
