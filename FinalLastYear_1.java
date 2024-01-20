@@ -16,9 +16,9 @@ public class FinalLastYear_1 extends ConsoleProgram {
 			if(text.charAt(i - 1) != text.charAt(i)){
 				String part1 = text.substring(0,  i);
 				text = text.substring(i);
+				num = part1.length();
 			}
 		}
 		return line;
 	}
-
 }
