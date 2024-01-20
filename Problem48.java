@@ -12,7 +12,7 @@ public class Problem48 extends ConsoleProgram {
 			char ch = text.charAt(i);
 			if(!used.contains("" + ch)){
 				int num = countSymbols(text, ch);
-				println(ch + ": " + num);
+				print(ch + num);
 				used += ch;
 			}
 		}
