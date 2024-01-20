@@ -4,6 +4,7 @@ public class FinalLastYear_1 extends ConsoleProgram {
 	public void run() {
 		String text = readLine("Enter String: ");
 		String result = compressedString(text);
+		println(result);
 	}
 
 	private String compressedString(String text) {
