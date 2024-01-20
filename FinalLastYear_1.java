@@ -23,8 +23,8 @@ public class FinalLastYear_1 extends ConsoleProgram {
 			
 			
 			
-			/*String numStr = num + "";
-			line = part1.charAt(1) + numStr;*/
+	//		String numStr = num + "";
+			line = part1.charAt(1) + numStr;
 		}
 		return line;
 	}
