@@ -17,7 +17,7 @@ public class FinalLastYear_1 extends ConsoleProgram {
 		for(int i = 1; i < text.length(); i++){
 			if(text.charAt(i - 1) != text.charAt(i)){
 				part1 = text.substring(0, i);
-				System.out.println(text);
+				System.out.println(part1);
 				num = part1.length();
 				String numStr = num + "";
 				line = part1.charAt(0) + numStr;
