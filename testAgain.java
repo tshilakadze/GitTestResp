@@ -22,7 +22,12 @@ public class testAgain extends ConsoleProgram {
 //		555 244 676
 
 
-
+/*
+ * 244
+ * 121
+ * 74
+ * 148
+ */
 
 
 
