@@ -12,7 +12,7 @@ public class testAgain extends ConsoleProgram {
 		bla.add("bla bla bla");
 		bla.add("nfncimeci");
 		println(bla.toString());
-		bla.remove("bla bla bla");
+		bla.remove("bla  bla");
 		println(bla.toString());
 	}
 	
