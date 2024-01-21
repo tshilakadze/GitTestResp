@@ -13,6 +13,7 @@ public class testAgain extends ConsoleProgram {
 		bla.add("nfncimeci");
 		println(bla.toString());
 		bla.remove("bla bla bla");
+		println(bla.toString());
 	}
 	
 }
