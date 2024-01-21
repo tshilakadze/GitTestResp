@@ -8,12 +8,10 @@ import acm.program.ConsoleProgram;
 public class testAgain extends ConsoleProgram {
 //	private static final String SENTINEL = "";
 	public void run() {
-		ArrayList<Integer> nums = new ArrayList<Integer>();
-		for(int i = 5; i > 0; i--){
-			nums.add(i);
-		}
-		println(nums.toString());
-		println(nums.get(4));
+		Map<String, String> bla = new HashMap<String, String>();
+		bla.put("key1", "value2");
+		bla.put("key2", "value2");
+		println(bla.size());
 	}
 	
 }
