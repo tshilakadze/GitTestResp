@@ -34,9 +34,9 @@ public class FinalLastYear_1 extends ConsoleProgram {
 				symCount += 1;
 			}
 		}
-	/*	if(line.length() >= text.length()){
+		if(line.length() >= text.length()){
 			return text;
-		}*/
+		}
 		return line;
 	}
 }
