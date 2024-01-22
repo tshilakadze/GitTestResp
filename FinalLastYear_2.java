@@ -20,6 +20,7 @@ import acm.program.ConsoleProgram;
 import acm.util.RandomGenerator;
 
 public class FinalLastYear_2 extends ConsoleProgram {
+	private int tmp;
 	public void run() {
 		int[][] before = { { 1, 0, 3, 4 }, 
 						   { 5, 6, 7, 8 }, 
@@ -39,6 +40,7 @@ public class FinalLastYear_2 extends ConsoleProgram {
 	}
 	
 	private void zeroMatrix(int[][] mat) {
+		tmp = tempNum(mat);
 		for(int r = 0; r < mat.length; r++){
 			for(int c = 0; c < mat[0].length; c++){
 				if(mat[r][c] == 0){
@@ -56,7 +58,6 @@ public class FinalLastYear_2 extends ConsoleProgram {
 	}
 
 	private void changeRowNums(int[][] mat, int r) {
-		int tmp = tempNum(mat);
 		for(int i = 0; i < mat[r].length; i++){
 			mat[r][i] = tmp;
 		}
