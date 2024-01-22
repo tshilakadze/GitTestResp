@@ -72,6 +72,6 @@ public class FinalLastYear_3 extends ConsoleProgram {
 				}
 			}
 		}
-		System.out.println(numsStr);
+		
 	}
 }
