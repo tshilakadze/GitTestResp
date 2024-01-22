@@ -25,6 +25,6 @@ import java.util.*;
 import acm.program.*;
 public class FinalLastYear_3 extends ConsoleProgram {
 	public void run() {
-		ArrayList<Integer> test = new ArrayList<>(Arrays.asList(2, 3, 4, 5)));
+		ArrayList<Integer> test = new ArrayList<>(Arrays.asList(2, 3, 4, 5));
 	}
 }
