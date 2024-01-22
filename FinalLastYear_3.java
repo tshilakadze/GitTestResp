@@ -31,8 +31,8 @@ public class FinalLastYear_3 extends ConsoleProgram {
 		println(sorted(test2));
 	}
 
-	private String sorted(ArrayList<Integer> test) {
-		// TODO Auto-generated method stub
-		return null;
+	private boolean sorted(ArrayList<Integer> test) {
+		
+		return false;
 	}
 }
