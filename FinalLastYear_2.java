@@ -58,12 +58,9 @@ public class FinalLastYear_2 extends ConsoleProgram {
 	}
 
 	private void changeRowNums(int[][] mat, int r) {
-		for(int r1 = 0; r1 < mat.length; r1++){
-			for(int i = 0; i < mat[r].length; i++){
-				mat[r][i] = tmp;
-			}
+		for(int i = 0; i < mat[r].length; i++){
+			mat[r][i] = tmp;
 		}
-		
 		/*for(int r1 = 0; r1 < mat.length; r1++){
 			for(int c = 0; c < mat[0].length; c++){
 				if(mat[r1][c] == 0 && r1 != r){
