@@ -57,7 +57,7 @@ public class FinalLastYear_2 extends ConsoleProgram {
 		for(int r = 0; r < mat.length; r++){
 			for(int c = 0; c < mat[0].length; c++){
 				if(mat[r][c] == tmp){
-					mat[r][c] = 0;
+	//				mat[r][c] = 0;
 				}
 			}
 		}
