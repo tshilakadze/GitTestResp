@@ -41,6 +41,15 @@ public class FinalLastYear_3 extends ConsoleProgram {
 				test.set(j, a);
 			}
 		}
+		reverseArrayList(test);
+		
 		return false;
+	}
+
+
+
+	private void reverseArrayList(ArrayList<Integer> test) {
+		
+		
 	}
 }
