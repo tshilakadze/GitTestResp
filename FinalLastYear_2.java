@@ -26,8 +26,14 @@ public class FinalLastYear_2 extends ConsoleProgram {
 		printMatrix(before);
 		println("Expected: ");
 		printMatrix(after);
+		println("Actual:");
+		zero(before);
 	}
 	
+	private void zero(int[][] mat) {
+		
+	}
+
 	private void printMatrix(int[][] matrix) {
 		for (int[] arr : matrix) {
 			println(Arrays.toString(arr));
