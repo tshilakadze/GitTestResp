@@ -39,11 +39,11 @@ public class FinalLastYear_3 extends ConsoleProgram {
 				int a = test.get(i);
 				test.set(i, test.get(j));
 				test.set(j, a);
+				reverseArrayList(test);
+				if(isSorted(test)){
+					return true;
+				}
 			}
-		}
-		reverseArrayList(test);
-		if(isSorted(test)){
-			return true;
 		}
 		
 		return false;
