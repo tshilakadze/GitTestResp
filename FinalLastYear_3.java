@@ -42,8 +42,22 @@ public class FinalLastYear_3 extends ConsoleProgram {
 			}
 		}
 		reverseArrayList(test);
+		if(isSorted(test)){
+			return true;
+		}
 		
 		return false;
+	}
+
+
+
+	private boolean isSorted(ArrayList<Integer> test) {
+		for(int i = 1; i < test.size(); i++){
+			if(test.get(i - 1) > test.get(i)){
+				return false;
+			}
+		}
+		return true;
 	}
 
 
