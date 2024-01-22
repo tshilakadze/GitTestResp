@@ -14,8 +14,12 @@ import acm.program.ConsoleProgram;
 
 public class FinalLastYear_1 extends ConsoleProgram {
 	public void run() {
-		String text = readLine("Enter String: ");
-		println(compressedString(text));
+		while(true){
+			String text = readLine("Enter String: ");
+			println(compressedString(text));
+			if(text.equals(""));
+			break;
+		}
 	}
 
 	private String compressedString(String text) {
