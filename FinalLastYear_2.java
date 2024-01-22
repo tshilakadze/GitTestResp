@@ -17,6 +17,7 @@
 import java.util.Arrays;
 
 import acm.program.ConsoleProgram;
+import acm.util.RandomGenerator;
 
 public class FinalLastYear_2 extends ConsoleProgram {
 	public void run() {
@@ -61,8 +62,18 @@ public class FinalLastYear_2 extends ConsoleProgram {
 	}
 
 	private int randNum(int[][] mat) {
+		RandomGenerator rgen = RandomGenerator.getInstance();
+		while(true){
+			int num = rgen.nextInt();
+			if(!contains(mat, num)){
+				return num;
+			}
+		}
+	}
+
+	private boolean contains(int[][] mat, int num) {
 		// TODO Auto-generated method stub
-		return 0;
+		return false;
 	}
 
 	private void printMatrix(int[][] matrix) {
