@@ -59,6 +59,11 @@ public class FinalLastYear_2 extends ConsoleProgram {
 		}
 	}
 
+	private int randNum(int[][] mat) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 	private void printMatrix(int[][] matrix) {
 		for (int[] arr : matrix) {
 			println(Arrays.toString(arr));
