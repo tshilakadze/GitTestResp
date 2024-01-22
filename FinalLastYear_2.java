@@ -27,10 +27,10 @@ public class FinalLastYear_2 extends ConsoleProgram {
 		println("Expected: ");
 		printMatrix(after);
 		println("Actual:");
-		zero(before);
+		zeroMatrix(before);
 	}
 	
-	private void zero(int[][] mat) {
+	private void zeroMatrix(int[][] mat) {
 		
 	}
 
