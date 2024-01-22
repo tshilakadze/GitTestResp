@@ -72,8 +72,14 @@ public class FinalLastYear_2 extends ConsoleProgram {
 	}
 
 	private boolean contains(int[][] mat, int num) {
-		// TODO Auto-generated method stub
-		return false;
+		for(int i = 0; i < mat.length; i++){
+			for(int j = 0; j < mat[0].length; j++){
+				if(num == mat[i][j]){
+					return false;
+				}
+			}
+		}
+		return true;
 	}
 
 	private void printMatrix(int[][] matrix) {
