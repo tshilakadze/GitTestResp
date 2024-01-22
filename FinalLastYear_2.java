@@ -46,10 +46,10 @@ public class FinalLastYear_2 extends ConsoleProgram {
 				if(mat[r][c] == 0){
 					changeRowNums(mat, r);
 					changeColNums(mat, c);
-					changeToZero(mat);
 				}
 			}
 		}
+		changeToZero(mat);
 		printMatrix(mat);
 	}
 
