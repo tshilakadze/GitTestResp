@@ -26,6 +26,7 @@ public class FinalLastYear_2 extends ConsoleProgram {
 		int[][] after = { { 0, 0, 0, 0 },
 				          { 5, 0, 7, 8 }, 
 				          { 0, 0, 0, 0 } };
+		
 		println(before.length);
 		println(before[0].length);
 		
@@ -38,8 +39,23 @@ public class FinalLastYear_2 extends ConsoleProgram {
 	
 	private void zeroMatrix(int[][] mat) {
 		for(int r = 0; r < mat.length; r++){
-			
+			for(int c = 0; c < mat[0].length; c++){
+				if(mat[r][c] == 0){
+					changeRowNums(mat, r);
+					changeColNums(mat[c]);
+				}
+			}
 		}
+	}
+
+	private void changeColNums(int[][] mat, int r) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void changeRowNums(int[] is) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	private void printMatrix(int[][] matrix) {
