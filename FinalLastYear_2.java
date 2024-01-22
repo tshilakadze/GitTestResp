@@ -42,13 +42,13 @@ public class FinalLastYear_2 extends ConsoleProgram {
 			for(int c = 0; c < mat[0].length; c++){
 				if(mat[r][c] == 0){
 					changeRowNums(mat, r);
-					changeColNums(mat[c]);
+					changeColNums(mat, r, c);
 				}
 			}
 		}
 	}
 
-	private void changeColNums(int[][] mat, int r) {
+	private void changeColNums(int[][] mat, int r, int c) {
 		// TODO Auto-generated method stub
 		
 	}
