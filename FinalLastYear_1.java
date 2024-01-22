@@ -20,21 +20,20 @@ public class FinalLastYear_1 extends ConsoleProgram {
 
 	private String compressedString(String text) {
 		String line = "";
-		String part1 = "";
+		int symCount = 1;
 		if(text.length() == 0){
 			return line;
 		}
-		int num = 0;
+		line += text.charAt(0);
+		String countStr = symCount + "";
 		for(int i = 1; i < text.length(); i++){
 			if(text.charAt(i - 1) != text.charAt(i)){
-				part1 = text.substring(0, i);
-				System.out.println(part1);
-				num = part1.length();
-				String numStr = num + "";
-				line = part1.charAt(0) + numStr;
-				text = text.substring(i);
+				line += countStr;
+			} else{
+				symmCount += 1;
 			}
 		}
+		
 		return line;
 	}
 }
