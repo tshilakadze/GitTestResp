@@ -61,7 +61,7 @@ public class FinalLastYear_2 extends ConsoleProgram {
 		}
 	}
 
-	/*private int randNum(int[][] mat) {
+	private int randNum(int[][] mat) {
 		RandomGenerator rgen = RandomGenerator.getInstance();
 		while(true){
 			int num = rgen.nextInt();
@@ -80,7 +80,7 @@ public class FinalLastYear_2 extends ConsoleProgram {
 			}
 		}
 		return true;
-	}*/
+	}
 
 	private void printMatrix(int[][] matrix) {
 		for (int[] arr : matrix) {
