@@ -62,7 +62,7 @@ public class FinalLastYear_2 extends ConsoleProgram {
 	}
 
 	private int tempNum(int[][] mat) {
-		for(int i = 0; i < mat.length * mat[0].length + 1; i++){
+		for(int i = 0; i <= mat.length * mat[0].length; i++){
 				if(!contains(mat, i)){
 					return i;
 				}
