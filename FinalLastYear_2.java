@@ -66,10 +66,11 @@ public class FinalLastYear_2 extends ConsoleProgram {
 			for(int j = 0; j < mat[0].length; j++){
 				if(!contains(mat, i)){
 					return i;
+				} else{
+					return -1;
 				}
 			}
 		}
-		return -1;
 	}
 
 	private boolean contains(int[][] mat, int num) {
