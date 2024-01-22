@@ -25,6 +25,14 @@ import java.util.*;
 import acm.program.*;
 public class FinalLastYear_3 extends ConsoleProgram {
 	public void run() {
-		ArrayList<Integer> test = new ArrayList<>(Arrays.asList(2, 3, 4, 5));
+		ArrayList<Integer> test1 = new ArrayList<>(Arrays.asList(2, 3, 4, 5));
+		ArrayList<Integer> test2 = new ArrayList<>(Arrays.asList(4, 1, 3, 2));
+		println(sorted(test1));
+		println(sorted(test2));
+	}
+
+	private String sorted(ArrayList<Integer> test) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
