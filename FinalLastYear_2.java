@@ -22,6 +22,7 @@ public class FinalLastYear_2 extends ConsoleProgram {
 	public void run() {
 		int[][] before = { { 1, 0, 3, 4 }, { 5, 6, 7, 8 }, { 9, 0, 1, 2 } };
 		int[][] after = { { 0, 0, 0, 0 }, { 5, 0, 7, 8 }, { 0, 0, 0, 0 } };
+		println(before.length);
 		
 		printMatrix(before);
 		println("Expected: ");
@@ -31,7 +32,9 @@ public class FinalLastYear_2 extends ConsoleProgram {
 	}
 	
 	private void zeroMatrix(int[][] mat) {
-		
+		for(int r = 0; r < mat.length; r++){
+			
+		}
 	}
 
 	private void printMatrix(int[][] matrix) {
