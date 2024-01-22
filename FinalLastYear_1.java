@@ -24,7 +24,7 @@ public class FinalLastYear_1 extends ConsoleProgram {
 		if(text.length() == 0){
 			return line;
 		}
-//		line += text.charAt(0);
+		line += text.charAt(0);
 		for(int i = 1; i < text.length(); i++){
 			if(text.charAt(i - 1) != text.charAt(i)){
 				String countStr = symCount + "";
