@@ -13,7 +13,6 @@
 import acm.program.ConsoleProgram;
 
 public class FinalLastYear_1 extends ConsoleProgram {
-	private String countStr;
 	public void run() {
 		String text = readLine("Enter String: ");
 		println(compressedString(text));
@@ -28,14 +27,13 @@ public class FinalLastYear_1 extends ConsoleProgram {
 		line += text.charAt(0);
 		for(int i = 1; i < text.length(); i++){
 			if(text.charAt(i - 1) != text.charAt(i)){
-				countStr = symCount + "";
-				line = line + countStr + text.charAt(i);
+				line = line + symCount + text.charAt(i);
 				symCount = 1;
 			} else{
 				symCount += 1;
 			}
 		}
-		line = line + countStr;
+		line = line + symCount;
 		if(line.length() > text.length()){
 			return text;
 		}
