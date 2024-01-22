@@ -20,8 +20,12 @@ import acm.program.ConsoleProgram;
 
 public class FinalLastYear_2 extends ConsoleProgram {
 	public void run() {
-		int[][] before = { { 1, 0, 3, 4 }, { 5, 6, 7, 8 }, { 9, 0, 1, 2 } };
-		int[][] after = { { 0, 0, 0, 0 }, { 5, 0, 7, 8 }, { 0, 0, 0, 0 } };
+		int[][] before = { { 1, 0, 3, 4 }, 
+						   { 5, 6, 7, 8 }, 
+						   { 9, 0, 1, 2 } };
+		int[][] after = { { 0, 0, 0, 0 },
+				          { 5, 0, 7, 8 }, 
+				          { 0, 0, 0, 0 } };
 		println(before.length);
 		println(before[0].length);
 		
