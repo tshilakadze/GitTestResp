@@ -53,7 +53,7 @@ public class FinalLastYear_2 extends ConsoleProgram {
 		
 	}
 
-	private void changeRowNums(int[] is) {
+	private void changeRowNums(int[][] mat, int r) {
 		// TODO Auto-generated method stub
 		
 	}
