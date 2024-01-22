@@ -46,6 +46,7 @@ public class FinalLastYear_2 extends ConsoleProgram {
 				}
 			}
 		}
+		printMatrix(mat);
 	}
 
 	private void changeColNums(int[][] mat, int r, int c) {
