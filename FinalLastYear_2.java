@@ -57,17 +57,19 @@ public class FinalLastYear_2 extends ConsoleProgram {
 
 	private void changeRowNums(int[][] mat, int r, int c) {
 		for(int i = 0; i < mat[r].length; i++){
-			mat[r][i] = randNum(mat);
+			mat[r][i] = tempNum(mat);
 		}
 	}
 
-	private int randNum(int[][] mat) {
-		RandomGenerator rgen = RandomGenerator.getInstance();
-		int num = rgen.nextInt();
-		while(contains(mat, num)){
-			num = rgen.nextInt();
+	private int tempNum(int[][] mat) {
+		for(int i = 0; i < mat.length; i++){
+			for(int j = 0; j < mat[0].length; j++){
+				if(!contains(mat, i)){
+					return i;
+				}
+			}
 		}
-		return num;
+		return -1;
 	}
 
 	private boolean contains(int[][] mat, int num) {
