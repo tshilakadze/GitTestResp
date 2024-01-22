@@ -34,7 +34,13 @@ public class FinalLastYear_3 extends ConsoleProgram {
 	
 	
 	private boolean sorted(ArrayList<Integer> test) {
-		
+		for(int i = 0; i < test.size(); i++){
+			for(int j = i + 1; j < test.size(); j++){
+				int a = test.get(i);
+				test.set(i, test.get(j));
+				test.set(j, a);
+			}
+		}
 		return false;
 	}
 }
