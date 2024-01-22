@@ -75,11 +75,11 @@ public class FinalLastYear_2 extends ConsoleProgram {
 		for(int i = 0; i < mat.length; i++){
 			for(int j = 0; j < mat[0].length; j++){
 				if(num == mat[i][j]){
-					return false;
+					return true;
 				}
 			}
 		}
-		return true;
+		return false;
 	}
 
 	private void printMatrix(int[][] matrix) {
