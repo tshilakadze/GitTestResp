@@ -63,12 +63,11 @@ public class FinalLastYear_2 extends ConsoleProgram {
 
 	private int randNum(int[][] mat) {
 		RandomGenerator rgen = RandomGenerator.getInstance();
-		while(true){
-			int num = rgen.nextInt();
-			if(!contains(mat, num)){
-				return num;
-			}
+		int num = rgen.nextInt();
+		while(contains(mat, num)){
+			num = rgen.nextInt();
 		}
+		return num;
 	}
 
 	private boolean contains(int[][] mat, int num) {
