@@ -54,7 +54,9 @@ public class FinalLastYear_2 extends ConsoleProgram {
 	}
 
 	private void changeRowNums(int[][] mat, int r, int c) {
-		
+		for(int i = 0; i < mat[r].length; i++){
+			mat[r][i] = randNum(mat);
+		}
 	}
 
 	private void printMatrix(int[][] matrix) {
