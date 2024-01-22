@@ -65,7 +65,7 @@ public class FinalLastYear_2 extends ConsoleProgram {
 		RandomGenerator rgen = RandomGenerator.getInstance();
 		while(true){
 			int num = rgen.nextInt();
-			if(!contains(mat, num)){
+			if(!contains(mat, num) && num != 0){
 				return num;
 			}
 		}
