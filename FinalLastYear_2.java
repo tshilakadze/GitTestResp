@@ -53,8 +53,11 @@ public class FinalLastYear_2 extends ConsoleProgram {
 	}
 
 	private void changeColNums(int[][] mat, int c) {
-		// TODO Auto-generated method stub
-		
+		for(int i = 0; i < mat.length; i++){
+			if(mat[i][c] != 0){
+				mat[i][c] = tmp;
+			}
+		}
 	}
 
 	private void changeRowNums(int[][] mat, int r) {
