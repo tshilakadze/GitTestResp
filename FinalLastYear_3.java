@@ -63,7 +63,14 @@ public class FinalLastYear_3 extends ConsoleProgram {
 
 
 	private void reverseArrayList(ArrayList<Integer> test) {
-		
-		
+		String numsStr = "";
+		for(int i = 0; i < test.size(); i++){
+			for(int j = i + 1; j < test.size(); j++){
+				int a = j - i;
+				for(int k = 0; k < a; k++){
+					numsStr = numsStr + test.get(k);
+				}
+			}
+		}
 	}
 }
