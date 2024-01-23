@@ -70,13 +70,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		while(tokenizer.hasMoreTokens()){
 			String word = tokenizer.nextToken();
 			System.out.println(word);
-			GLabel wordLab = new GLabel(word);
-			rowWords.add(word);
-			for(int i = 0; i < rowWords.size(); i++){
-				x = x + COLUMN_STEP*i;
-				y = y + ROW_STEP*i;
-				add(wordLab, x, y);
-			}
+			
 		}
 	}
 
