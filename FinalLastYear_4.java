@@ -38,6 +38,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		add(filterButton, SOUTH);
 		
 		columnNames = new ArrayList<String>();
+		rowWords = new ArrayList<String>();
 		addActionListeners();
 	}
 	
@@ -62,6 +63,8 @@ public class FinalLastYear_4 extends GraphicsProgram{
 	private void addNewRow(String text) {
 		StringTokenizer tokenizer = new StringTokenizer(text, ";");
 		while(tokenizer.hasMoreTokens()){
+			String word = tokenizer.nextToken();
+			rowWords.add(word);
 			int x = COLUMN_START_X + COLUMN_STEP * 
 		}
 	}
