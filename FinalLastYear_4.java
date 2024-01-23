@@ -83,6 +83,10 @@ public class FinalLastYear_4 extends GraphicsProgram{
 	private void displayNewRows() {
 		removeAll();
 		addNewColumn(columnNames);
+		int y = COLUMN_START_Y + ROW_STEP;
+		for(ArrayList<String> row: rows){
+			displayRow(row, y);
+		}
 	}
 
 
