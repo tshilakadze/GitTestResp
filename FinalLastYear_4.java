@@ -35,4 +35,5 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		add(filter, SOUTH);
 		add(filterButton, SOUTH);
 	}
+	
 }
