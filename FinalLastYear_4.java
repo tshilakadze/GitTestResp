@@ -67,10 +67,10 @@ public class FinalLastYear_4 extends GraphicsProgram{
 
 	private void addNewRow(String text) {
 		ArrayList<String> rowWords = new ArrayList<String>();
-		String key = "";
+		String keyWord = "";
 		for(int i = 0; i < text.length(); i++){
 			if(text.charAt(i) == ';'){
-				key = text.substring(0, i);
+				keyWord = text.substring(0, i);
 				break;
 			}
 		}
@@ -80,16 +80,25 @@ public class FinalLastYear_4 extends GraphicsProgram{
 			rowWords.add(word);
 		}
 		int y = COLUMN_START_Y + ROW_STEP;
+		showGrid(null);
 		displayRow(rowWords, y);
-		rows.put(key, rowWords);
+		rows.put(keyWord, rowWords);
 		System.out.println(rows.toString());
 	}
 
 
-	private void displayRow(ArrayList<String> rowWords, int y) {
-		for(int l = 0; l < rows.size(); l++){
-			y += ROW_STEP;
+	private void showGrid(String searchWord) {
+		int y = COLUMN_START_Y;
+		for(int i = 0; i < rows.size(); i++){
+			if(searchWord == null || rows.containsKey(searchWord)){
+				y += ROW_STEP;
+				displayRow(rows.get(searchWord), y);
+			}
 		}
+	}
+
+
+	private void displayRow(ArrayList<String> rowWords, int y) {
 			for(int i = 0; i < rowWords.size(); i++){
 				GLabel theWord = new GLabel(rowWords.get(i));
 				int x = COLUMN_START_X + COLUMN_STEP*i;
