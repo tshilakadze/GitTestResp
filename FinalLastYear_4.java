@@ -95,7 +95,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		int x = COLUMN_START_X + COLUMN_STEP * columnNames2.indexOf(column.getText());
 		int y = COLUMN_START_Y;
 		displayRow(columnNames, y);
-		GLine line = new GLine(x, COLUMN_START_Y, COLUMN_START_X + COLUMN_STEP * columnNames.size(), COLUMN_START_Y);
+		GLine line = new GLine(COLUMN_START_X, COLUMN_START_Y, COLUMN_START_X + COLUMN_STEP * columnNames.size(), COLUMN_START_Y);
 		add(line);
 	}
 
