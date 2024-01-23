@@ -70,7 +70,7 @@ public class FinalLastYear_3 extends ConsoleProgram {
 	private void reverseArrayList(ArrayList<Integer> test) {
 		for(int i = 0; i < test.size(); i++){
 			for(int j = i + 1; j < test.size(); j++){
-				int a = (j - i  + 1);
+				int a = (j - i  + 1)/2;
 				for(int l = 0; l < a; l++){
 					swapNums(test, l - i, j - l);
 				}
