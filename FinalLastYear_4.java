@@ -34,6 +34,13 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		add(rowButton, SOUTH);
 		add(filter, SOUTH);
 		add(filterButton, SOUTH);
+		
+		addActionListeners();
+	}
+	
+	
+	public void actionPerformed(ActionEvent e) {
+		
 	}
 	
 }
