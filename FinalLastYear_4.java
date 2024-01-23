@@ -70,8 +70,8 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		StringTokenizer tokenizer = new StringTokenizer(text, ";");
 		while(tokenizer.hasMoreTokens()){
 			String word = tokenizer.nextToken();
-			System.out.println(word);
 			words.add(word);
+			System.out.println(words);
 		}
 	}
 
