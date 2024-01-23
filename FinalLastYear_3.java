@@ -42,7 +42,6 @@ public class FinalLastYear_3 extends ConsoleProgram {
 					return true;
 				}
 				swapNums(test, i, j);
-				reverseArrayList(test);
 			}
 		}
 		return false;
