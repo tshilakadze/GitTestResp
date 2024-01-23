@@ -82,7 +82,6 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		}
 		showGrid(null);
 		rows.put(keyWord, rowWords);
-		System.out.println(rows.toString());
 	}
 
 
@@ -104,8 +103,6 @@ public class FinalLastYear_4 extends GraphicsProgram{
 			for(int i = 0; i < rowWords.size(); i++){
 				GLabel theWord = new GLabel(rowWords.get(i));
 				int x = COLUMN_START_X + COLUMN_STEP*i;
-				System.out.println(x);
-				System.out.println(y);
 				add(theWord, x, y);
 			}
 	}
