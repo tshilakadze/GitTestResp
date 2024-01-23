@@ -84,7 +84,10 @@ public class FinalLastYear_4 extends GraphicsProgram{
 	}
 
 
-	private void displayRow(ArrayList<String> columnNames2, int y) {
-		
+	private void displayRow(ArrayList<String> row, int y) {
+		int x = COLUMN_START_X;
+		for(int i  = 0; i < row.size(); i++){
+			GLabel label = new GLabel(row.get(i));
+		}
 	}
 }
