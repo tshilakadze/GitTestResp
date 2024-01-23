@@ -36,8 +36,8 @@ public class FinalLastYear_3 extends ConsoleProgram {
 	private boolean sorted(ArrayList<Integer> test) {
 		for(int i = 0; i < test.size(); i++){
 			for(int j = i + 1; j < test.size(); j++){
-				swapNums(test, i, j);
-	//			reverseArrayList(test);
+	//			swapNums(test, i, j);
+				reverseArrayList(test);
 				if(isSorted(test)){
 					return true;
 				}
