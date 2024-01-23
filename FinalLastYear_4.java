@@ -71,6 +71,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		for(int i = 0; i < text.length(); i++){
 			if(text.charAt(i) == ';'){
 				key = text.substring(0, i);
+				break;
 			}
 		}
 		StringTokenizer tokenizer = new StringTokenizer(text, ";");
