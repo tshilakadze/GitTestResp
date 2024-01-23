@@ -41,7 +41,7 @@ public class FinalLastYear_3 extends ConsoleProgram {
 				if(isSorted(test)){
 					return true;
 				}
-				swapNums(test, i, j);
+	//			swapNums(test, i, j);
 			}
 		}
 		return false;
