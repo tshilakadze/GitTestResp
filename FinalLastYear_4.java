@@ -23,8 +23,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 	private JButton rowButton;
 	private JButton filterButton;
 	private ArrayList<String> columnNames;
-	private ArrayList<String> rowWords;
-	private Map<String, ArrayList<String>> rows;
+	private ArrayList<String> rows;
 	
 	public void init() {
 		column = new JTextField(10);
@@ -41,7 +40,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		add(filterButton, SOUTH);
 		
 		columnNames = new ArrayList<String>();
-		rows = new HashMap<String, ArrayList<String>>();
+		rows = new ArrayList<String>();
 		addActionListeners();
 	}
 	
@@ -56,7 +55,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		}
 		
 		if(e.getActionCommand().equals("Add row")){
-			
+			addRow(row.getText());
 		}
 		
 		if(e.getActionCommand().equals("Filter")){
@@ -66,6 +65,12 @@ public class FinalLastYear_4 extends GraphicsProgram{
 
 
 
+
+
+	private void addRow(String text) {
+		// TODO Auto-generated method stub
+		
+	}
 
 
 	private void displayRow(ArrayList<String> rowWords, int y) {
