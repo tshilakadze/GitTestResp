@@ -53,11 +53,10 @@ public class FinalLastYear_4 extends GraphicsProgram{
 				columnNames.add(column.getText());
 				addNewColumn(columnNames);
 			}
-			System.out.println(columnNames.toString());
 		}
 		
 		if(e.getActionCommand().equals("Add row")){
-			addNewRow(row.getText());
+			
 		}
 		
 		if(e.getActionCommand().equals("Filter")){
@@ -66,37 +65,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 	}
 
 
-	private void addNewRow(String text) {
-		rowWords = new ArrayList<String>();
-		String keyWord = "";
-		for(int i = 0; i < text.length(); i++){
-			if(text.charAt(i) == ';'){
-				keyWord = text.substring(0, i);
-				break;
-			}
-		}
-		StringTokenizer tokenizer = new StringTokenizer(text, ";");
-		while(tokenizer.hasMoreTokens()){
-			String word = tokenizer.nextToken();
-			rowWords.add(word);
-		}
-		showGrid(null);
-		rows.put(keyWord, rowWords);
-	}
 
-
-	private void showGrid(String searchWord) {
-		int y = COLUMN_START_Y;
-		for(int i = 0; i < rows.size(); i++){
-			if(rows.containsKey(searchWord)){
-				y += ROW_STEP;
-				displayRow(rows.get(searchWord), y);
-			}
-			else if(searchWord == null ){
-				displayRow(rowWords, y);
-			}
-		}
-	}
 
 
 	private void displayRow(ArrayList<String> rowWords, int y) {
