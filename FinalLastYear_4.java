@@ -40,6 +40,8 @@ public class FinalLastYear_4 extends GraphicsProgram{
 	
 	
 	public void actionPerformed(ActionEvent e) {
+		int colCount = 0;
+		int rowCount = 0;
 		
 	}
 	
