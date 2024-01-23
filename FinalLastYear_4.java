@@ -92,6 +92,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 				int x = COLUMN_START_X + COLUMN_STEP*i;
 				int y = COLUMN_START_Y + ROW_STEP + ROW_STEP*l;
 				System.out.println(x);
+				System.out.println(y);
 				add(theWord, x, y);
 			}
 		}
