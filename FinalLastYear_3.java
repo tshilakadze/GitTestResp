@@ -76,6 +76,5 @@ public class FinalLastYear_3 extends ConsoleProgram {
 				}
 			}
 		}
-		
 	}
 }
