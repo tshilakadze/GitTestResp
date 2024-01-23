@@ -66,6 +66,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 	private void addNewRow(String text) {
 		int x = COLUMN_START_X;
 		int y = COLUMN_START_Y;
+		ArrayList<String> words = new ArrayList<String>();
 		StringTokenizer tokenizer = new StringTokenizer(text, ";");
 		while(tokenizer.hasMoreTokens()){
 			String word = tokenizer.nextToken();
