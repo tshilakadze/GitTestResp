@@ -61,11 +61,17 @@ public class FinalLastYear_4 extends GraphicsProgram{
 
 
 	private void addNewRow(String text) {
+		int x = COLUMN_START_X;
+		int y = COLUMN_START_Y;
 		StringTokenizer tokenizer = new StringTokenizer(text, ";");
 		while(tokenizer.hasMoreTokens()){
 			String word = tokenizer.nextToken();
+			GLabel wordLab = new GLabel(word);
 			rowWords.add(word);
-			int x = COLUMN_START_X + COLUMN_STEP * 
+			for(int i = 0; i < rowWords.size(); i++){
+				x = x + COLUMN_STEP*i;
+				y = y + ROW_STEP*i;
+			}
 		}
 	}
 
