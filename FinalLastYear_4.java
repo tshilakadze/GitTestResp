@@ -21,7 +21,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 	private JButton rowButton;
 	private JButton filterButton;
 	private ArrayList<String> columnNames;
-	private ArrayList<String> rowNames;
+	private ArrayList<String> rowWords;
 	
 	public void init() {
 		column = new JTextField(10);
