@@ -78,8 +78,9 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		while(tokenizer.hasMoreTokens()){
 			String word = tokenizer.nextToken();
 			rowWords.add(word);
-			displayRow(rowWords);
+			
 		}
+		displayRow(rowWords);
 		rows.put(key, rowWords);
 		System.out.println(rows.toString());
 	}
