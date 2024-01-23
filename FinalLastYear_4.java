@@ -21,6 +21,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 	private JButton rowButton;
 	private JButton filterButton;
 	private ArrayList<String> columnNames;
+	private ArrayList<String> rowNames;
 	
 	public void init() {
 		column = new JTextField(10);
@@ -59,7 +60,10 @@ public class FinalLastYear_4 extends GraphicsProgram{
 
 
 	private void addNewRow(String text) {
-		
+		StringTokenizer tokenizer = new StringTokenizer(text, ";");
+		while(tokenizer.hasMoreTokens()){
+			int x = COLUMN_START_X + COLUMN_STEP * 
+		}
 	}
 
 
