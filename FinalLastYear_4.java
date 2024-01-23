@@ -31,7 +31,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		search = new JTextField(10);
 		colButton = new JButton("Add column");
 		rowButton = new JButton("Add row");
-		filterButton = new JButton("Filter");
+		filterButton = new JButton("Search");
 		add(column, SOUTH);
 		add(colButton, SOUTH);
 		add(row, SOUTH);
@@ -58,8 +58,8 @@ public class FinalLastYear_4 extends GraphicsProgram{
 			addRow(row.getText());
 		}
 		
-		if(e.getActionCommand().equals("Filter")){
-			
+		if(e.getActionCommand().equals("Search")){
+			findSearchedWord(search.getText());
 		}
 	}
 
