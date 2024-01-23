@@ -14,8 +14,25 @@ public class FinalLastYear_4 extends GraphicsProgram{
 	private static final int ROW_STEP = 20;
 	private static final int COLUMN_STEP = 100;
 	
+	private JTextField column;
+	private JTextField row;
+	private JTextField filter;
+	private JButton colButton;
+	private JButton rowButton;
+	private JButton filterButton;
 	
 	public void run() {
-		
+		column = new JTextField(10);
+		row = new JTextField(10);
+		filter = new JTextField(10);
+		colButton = new JButton("Add column");
+		rowButton = new JButton("Add row");
+		filterButton = new JButton("Filter");
+		add(column, SOUTH);
+		add(colButton, SOUTH);
+		add(row, SOUTH);
+		add(rowButton, SOUTH);
+		add(filter, SOUTH);
+		add(filterButton, SOUTH);
 	}
 }
