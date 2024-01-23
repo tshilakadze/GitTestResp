@@ -32,7 +32,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		add(colButton, SOUTH);
 		add(row, SOUTH);
 		add(rowButton, SOUTH);
-		add(filter, SOUTH);
+		add(search, SOUTH);
 		add(filterButton, SOUTH);
 		
 		addActionListeners();
