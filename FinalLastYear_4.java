@@ -66,6 +66,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		StringTokenizer tokenizer = new StringTokenizer(text, ";");
 		while(tokenizer.hasMoreTokens()){
 			String word = tokenizer.nextToken();
+			System.out.println(word);
 			GLabel wordLab = new GLabel(word);
 			rowWords.add(word);
 			for(int i = 0; i < rowWords.size(); i++){
