@@ -47,6 +47,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		
 		if(e.getActionCommand().equals("Add column")){
 			columnNames.add(column.getText());
+			addNewColumn(columnNames);
 		}
 		
 		if(e.getActionCommand().equals("Add row")){
