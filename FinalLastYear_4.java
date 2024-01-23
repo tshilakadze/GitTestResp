@@ -23,7 +23,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 	private JButton rowButton;
 	private JButton filterButton;
 	private ArrayList<String> columnNames;
-	private ArrayList<String> rows;
+	private ArrayList<ArrayList<String>> rows;
 	
 	public void init() {
 		column = new JTextField(10);
@@ -40,7 +40,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		add(filterButton, SOUTH);
 		
 		columnNames = new ArrayList<String>();
-		rows = new ArrayList<String>();
+		rows = new ArrayList<ArrayList<String>>();
 		addActionListeners();
 	}
 	
