@@ -20,7 +20,7 @@ public class testAgain extends ConsoleProgram {
 				if (sortedWithRiverse(a)) {
 					return true;
 				}
-				swapElems(a, i, j);
+	//			swapElems(a, i, j);
 			}
 		}
 		return false;
