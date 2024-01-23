@@ -74,9 +74,16 @@ public class FinalLastYear_4 extends GraphicsProgram{
 			rowWords.add(tokenizer.nextToken());
 		}
 		rows.add(rowWords);
+		displayNewRows();
 	}
 
 
+
+
+	private void displayNewRows() {
+		removeAll();
+		addNewColumn(columnNames);
+	}
 
 
 	private void addNewColumn(ArrayList<String> columnNames2) {
