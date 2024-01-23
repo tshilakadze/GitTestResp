@@ -46,7 +46,7 @@ public class testAgain extends ConsoleProgram {
 				if (reallySorted(a)) {
 					return true;
 				}
-				reverseElems(a, i, j);
+	//			reverseElems(a, i, j);
 			}
 		}
 		return false;
