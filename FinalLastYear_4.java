@@ -1,5 +1,7 @@
 import java.awt.event.ActionEvent;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.StringTokenizer;
 
 import javax.swing.*;
@@ -64,9 +66,13 @@ public class FinalLastYear_4 extends GraphicsProgram{
 
 
 	private void addNewRow(String text) {
-		int x = COLUMN_START_X;
-		int y = COLUMN_START_Y;
 		ArrayList<String> rowWords = new ArrayList<String>();
+		String key = "";
+		for(int i = 0; i < text.length(); i++){
+			if(text.charAt(i) == ';'){
+				key = text.substring(0, i);
+			}
+		}
 		StringTokenizer tokenizer = new StringTokenizer(text, ";");
 		while(tokenizer.hasMoreTokens()){
 			String word = tokenizer.nextToken();
@@ -78,6 +84,8 @@ public class FinalLastYear_4 extends GraphicsProgram{
 
 
 	private void displayRow(ArrayList<String> rowWords) {
+		int x = COLUMN_START_X;
+		int y = COLUMN_START_Y;
 		
 	}
 
