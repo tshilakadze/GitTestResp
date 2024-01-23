@@ -87,11 +87,10 @@ public class FinalLastYear_4 extends GraphicsProgram{
 
 
 	private void displayRow(ArrayList<String> rowWords) {
-		int x = COLUMN_START_X;
 		int y = COLUMN_START_Y + ROW_STEP;
 		for(int i = 0; i < rowWords.size(); i++){
 			GLabel theWord = new GLabel(rowWords.get(i));
-			x = COLUMN_START_X + COLUMN_STEP*i;
+			int x = COLUMN_START_X + COLUMN_STEP*i;
 			System.out.println(x);
 			add(theWord, x, y);
 		}
