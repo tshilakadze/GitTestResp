@@ -49,12 +49,17 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		}
 		
 		if(e.getActionCommand().equals("Add row")){
-			
+			addNewRow(row.getText());
 		}
 		
 		if(e.getActionCommand().equals("Filter")){
 			
 		}
+	}
+
+
+	private void addNewRow(String text) {
+		
 	}
 
 
