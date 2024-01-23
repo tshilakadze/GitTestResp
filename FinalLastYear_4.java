@@ -68,7 +68,13 @@ public class FinalLastYear_4 extends GraphicsProgram{
 
 
 	private void findSearchedWord(String text) {
-		
+		int y = COLUMN_START_Y + ROW_STEP;
+		for(ArrayList<String> row: rows){
+			if(row.contains(text)){
+				displayRow(row, y);
+				y += ROW_STEP;
+			}
+		}
 	}
 
 
