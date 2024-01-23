@@ -68,7 +68,6 @@ public class FinalLastYear_4 extends GraphicsProgram{
 
 
 	private void addRow(String text) {
-		// TODO Auto-generated method stub
 		
 	}
 
