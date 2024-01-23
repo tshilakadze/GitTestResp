@@ -42,7 +42,19 @@ public class FinalLastYear_4 extends GraphicsProgram{
 	public void actionPerformed(ActionEvent e) {
 		int colCount = 0;
 		int rowCount = 0;
-		
+		if(e.getActionCommand().equals("Add column")){
+			colCount += 1;
+			drawNewCol(colCount);
+		}
+	}
+
+
+	private void drawNewCol(int colCount) {
+		GLabel colName = new GLabel(column.getText());
+		for(int i = 0; i < colCount; i++){
+			int x = COLUMN_START_X * i;
+			add(colName, x, COLUMN_START_Y);
+		}
 	}
 	
 }
