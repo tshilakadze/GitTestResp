@@ -71,6 +71,8 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		int y = COLUMN_START_Y + ROW_STEP;
 		for(ArrayList<String> row: rows){
 			if(row.contains(text)){
+				removeAll();
+				addNewColumn(columnNames);
 				displayRow(row, y);
 				y += ROW_STEP;
 			}
