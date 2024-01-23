@@ -45,22 +45,25 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		
 		if(e.getActionCommand().equals("Add column")){
 			columnNames.add(column.getText());
-			drawNewCol(columnNames);
-			System.out.println(columnNames.size());
+			addNewColumn(columnNames);
+		}
+		
+		if(e.getActionCommand().equals("Add row")){
+			
+		}
+		
+		if(e.getActionCommand().equals("Filter")){
+			
 		}
 	}
 
 
-	private void drawNewCol(ArrayList<String> columnNames) {
-		double x = COLUMN_START_X + ROW_STEP * (columnNames.size() - 1);
-	//	System.out.println(x);
+	private void addNewColumn(ArrayList<String> columnNames2) {
+		int x = COLUMN_START_X;
 		GLabel colName = new GLabel(column.getText());
-//		add(colName, x, COLUMN_START_Y);
-		for(int i = 0; i < columnNames.size(); i++){
+		for(int i = 0; i < columnNames2.size(); i++){
+			x = x + COLUMN_STEP*i;
 			add(colName, x, COLUMN_START_Y);
-			x = x + ROW_STEP + colName.getWidth();
-			System.out.println(x);
 		}
 	}
-	
 }
