@@ -37,7 +37,7 @@ public class FinalLastYear_3 extends ConsoleProgram {
 		for(int i = 0; i < test.size(); i++){
 			for(int j = i + 1; j < test.size(); j++){
 				swapNums(test, i, j);
-				reverseArrayList(test);
+	//			reverseArrayList(test);
 				if(isSorted(test)){
 					return true;
 				}
