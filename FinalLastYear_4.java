@@ -71,6 +71,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 			for(int i = 0; i < rowWords.size(); i++){
 				x = x + COLUMN_STEP*i;
 				y = y + ROW_STEP*i;
+				add(wordLab, x, y);
 			}
 		}
 	}
