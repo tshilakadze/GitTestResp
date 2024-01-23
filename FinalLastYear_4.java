@@ -23,6 +23,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 	private JButton rowButton;
 	private JButton filterButton;
 	private ArrayList<String> columnNames;
+	private ArrayList<String> rowWords;
 	private Map<String, ArrayList<String>> rows;
 	
 	public void init() {
@@ -66,7 +67,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 
 
 	private void addNewRow(String text) {
-		ArrayList<String> rowWords = new ArrayList<String>();
+		rowWords = new ArrayList<String>();
 		String keyWord = "";
 		for(int i = 0; i < text.length(); i++){
 			if(text.charAt(i) == ';'){
@@ -88,9 +89,12 @@ public class FinalLastYear_4 extends GraphicsProgram{
 	private void showGrid(String searchWord) {
 		int y = COLUMN_START_Y;
 		for(int i = 0; i < rows.size(); i++){
-			if(searchWord == null || rows.containsKey(searchWord)){
+			if(rows.containsKey(searchWord)){
 				y += ROW_STEP;
 				displayRow(rows.get(searchWord), y);
+			}
+			else if(searchWord == null ){
+				displayRow(rowWords, y);
 			}
 		}
 	}
