@@ -20,6 +20,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 	private JButton colButton;
 	private JButton rowButton;
 	private JButton filterButton;
+	private ArrayList<String> columnNames;
 	
 	public void init() {
 		column = new JTextField(10);
@@ -35,25 +36,25 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		add(search, SOUTH);
 		add(filterButton, SOUTH);
 		
+		columnNames = new ArrayList<String>();
 		addActionListeners();
 	}
 	
 	
 	public void actionPerformed(ActionEvent e) {
-		int colCount = 0;
-		int rowCount = 0;
+		
 		if(e.getActionCommand().equals("Add column")){
-			colCount += 1;
-			drawNewCol(colCount);
-			System.out.println(colCount);
+			columnNames.add(column.getText());
+			drawNewCol(columnNames);
+			System.out.println(columnNames.size());
 		}
 	}
 
 
-	private void drawNewCol(int colCount) {
+	private void drawNewCol(ArrayList<String> columnNames) {
 		int x = COLUMN_START_X;
 		GLabel colName = new GLabel(column.getText());
-		for(int i = 0; i < colCount; i++){
+		for(int i = 0; i < columnNames.size(); i++){
 			add(colName, x, COLUMN_START_Y);
 			x = x + ROW_STEP * i;
 		}
