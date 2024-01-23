@@ -75,6 +75,9 @@ public class FinalLastYear_3 extends ConsoleProgram {
 				for(int l = 0; l < a; l++){
 					swapNums(test, l + i, j - l);
 				}
+				for(int l = 0; l < a; l++){
+					swapNums(test, l + i, j - l);
+				}
 			}
 		}
 		
