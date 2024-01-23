@@ -88,6 +88,8 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		int x = COLUMN_START_X;
 		for(int i  = 0; i < row.size(); i++){
 			GLabel label = new GLabel(row.get(i));
+			add(label, x, y);
+			x += COLUMN_STEP;
 		}
 	}
 }
