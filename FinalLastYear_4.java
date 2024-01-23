@@ -91,6 +91,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		for(int i = 0; i < rowWords.size(); i++){
 			GLabel theWord = new GLabel(rowWords.get(i));
 			x = x + COLUMN_STEP*i;
+			System.out.println(x);
 			add(theWord, x, y);
 		}
 	}
