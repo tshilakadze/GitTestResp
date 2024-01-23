@@ -61,6 +61,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 	private void addNewColumn(ArrayList<String> columnNames2) {
 		int x = COLUMN_START_X + COLUMN_STEP * columnNames2.indexOf(column.getText());
 		GLabel colName = new GLabel(column.getText());
+		GLine line = new GLine(x, COLUMN_START_Y, x + COLUMN_STEP, COLUMN_START_Y);
 		add(colName, x, COLUMN_START_Y);
 		
 		for(int i = 0; i < columnNames2.size(); i++){
