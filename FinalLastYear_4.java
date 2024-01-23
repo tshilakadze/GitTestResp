@@ -50,8 +50,8 @@ public class FinalLastYear_4 extends GraphicsProgram{
 				columnNames.add(column.getText());
 			} else{
 				String a = column.getText() + " ";
+				columnNames.add(a);
 			}
-			columnNames.add(column.getText());
 			addNewColumn(columnNames);
 		}
 		
