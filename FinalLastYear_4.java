@@ -95,13 +95,13 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		int x = COLUMN_START_X + COLUMN_STEP * columnNames2.indexOf(column.getText());
 		int y = COLUMN_START_Y;
 		displayRow(columnNames, y);
-		GLine line = new GLine(x, COLUMN_START_Y, x + COLUMN_STEP, COLUMN_START_Y);
-		add(line);
 	}
 
 
 	private void displayRow(ArrayList<String> row, int y) {
 		int x = COLUMN_START_X;
+		GLine line = new GLine(x, COLUMN_START_Y, x + COLUMN_STEP, COLUMN_START_Y);
+		add(line);
 		for(int i  = 0; i < row.size(); i++){
 			GLabel label = new GLabel(row.get(i));
 			add(label, x, y);
