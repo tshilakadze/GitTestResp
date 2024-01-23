@@ -80,6 +80,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 			System.out.println(rowWords.toString());
 			displayRow(rowWords);
 		}
+		rows.put(key, rowWords);
 	}
 
 
