@@ -58,7 +58,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 //		add(colName, x, COLUMN_START_Y);
 		for(int i = 0; i < columnNames.size(); i++){
 			add(colName, x, COLUMN_START_Y);
-			x = x + ROW_STEP * (i + 1) + colName.getWidth();
+			x = x + ROW_STEP + colName.getWidth();
 			System.out.println(x);
 		}
 	}
