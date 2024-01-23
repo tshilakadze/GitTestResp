@@ -79,15 +79,16 @@ public class FinalLastYear_4 extends GraphicsProgram{
 			String word = tokenizer.nextToken();
 			rowWords.add(word);
 		}
-		displayRow(rowWords);
+		int y = COLUMN_START_Y + ROW_STEP;
+		y += ROW_STEP;
+		displayRow(rowWords, y);
 		rows.put(key, rowWords);
 		System.out.println(rows.toString());
 	}
 
 
-	private void displayRow(ArrayList<String> rowWords) {
+	private void displayRow(ArrayList<String> rowWords, int y) {
 		for(int l = 0; l < rows.size(); l++){
-			int y = COLUMN_START_Y + ROW_STEP + ROW_STEP*l;
 			for(int i = 0; i < rowWords.size(); i++){
 				GLabel theWord = new GLabel(rowWords.get(i));
 				int x = COLUMN_START_X + COLUMN_STEP*i;
