@@ -55,7 +55,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		GLabel colName = new GLabel(column.getText());
 		for(int i = 0; i < colCount; i++){
 			add(colName, x, COLUMN_START_Y);
-			x = x + ROW_STEP * (i + 1);
+			x = x + ROW_STEP * i;
 		}
 	}
 	
