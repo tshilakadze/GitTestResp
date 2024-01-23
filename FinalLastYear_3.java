@@ -25,10 +25,9 @@ import java.util.*;
 import acm.program.*;
 public class FinalLastYear_3 extends ConsoleProgram {
 	public void run() {
-		ArrayList<Integer> test1 = new ArrayList<>(Arrays.asList(2, 3, 4, 5));
-		ArrayList<Integer> test2 = new ArrayList<>(Arrays.asList(4, 1, 3, 2));
-		println(sorted(test1));
-		println(sorted(test2));
+		println("sorted({2,3,4,5}) -> true: " + sorted(new ArrayList<>(Arrays.asList(2, 3, 4, 5))));
+		println("sorted({4,1,3,2}) -> true: " + sorted(new ArrayList<>(Arrays.asList(4, 1, 3, 2))));
+		println("sorted({3,1,5,2,4}) -> false: " + sorted(new ArrayList<>(Arrays.asList(3, 1, 5, 2, 4))));
 	}
 
 	
