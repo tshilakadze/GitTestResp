@@ -49,7 +49,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 			if(!columnNames.contains(column.getText())){
 				columnNames.add(column.getText());
 			} else{
-				column.getText() = column.getText() + " ";
+				String a = column.getText() + " ";
 			}
 			columnNames.add(column.getText());
 			addNewColumn(columnNames);
