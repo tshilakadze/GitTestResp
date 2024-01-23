@@ -21,7 +21,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 	private JButton rowButton;
 	private JButton filterButton;
 	private ArrayList<String> columnNames;
-	private ArrayList<String> rowWords;
+	private Map<String, ArrayList<String>> rows;
 	
 	public void init() {
 		column = new JTextField(10);
@@ -38,7 +38,7 @@ public class FinalLastYear_4 extends GraphicsProgram{
 		add(filterButton, SOUTH);
 		
 		columnNames = new ArrayList<String>();
-		rowWords = new ArrayList<String>();
+		rows = new HashMap<String, ArrayList<String>>();
 		addActionListeners();
 	}
 	
@@ -66,13 +66,19 @@ public class FinalLastYear_4 extends GraphicsProgram{
 	private void addNewRow(String text) {
 		int x = COLUMN_START_X;
 		int y = COLUMN_START_Y;
-		ArrayList<String> words = new ArrayList<String>();
+		ArrayList<String> rowWords = new ArrayList<String>();
 		StringTokenizer tokenizer = new StringTokenizer(text, ";");
 		while(tokenizer.hasMoreTokens()){
 			String word = tokenizer.nextToken();
-			words.add(word);
-			System.out.println(words.toString());
+			rowWords.add(word);
+			System.out.println(rowWords.toString());
+			displayRow(rowWords);
 		}
+	}
+
+
+	private void displayRow(ArrayList<String> rowWords) {
+		
 	}
 
 
