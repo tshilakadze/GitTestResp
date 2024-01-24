@@ -23,7 +23,10 @@ public class FinalLastYear_5 implements Footballer{
 
 	@Override
 	public Iterator<String> getPlayers(String club, int n) {
-		
+		ArrayList<String> goodPlayers = new ArrayList<String>();
+		for(String player: playerClub.keySet()){
+			
+		}
 		return null;
 	}
 
