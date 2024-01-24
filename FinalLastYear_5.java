@@ -1,5 +1,3 @@
-//import java.util.HashMap;
-//import java.util.Iterator;
 import java.util.*;
 
 public class FinalLastYear_5 implements Footballer{
