@@ -5,7 +5,8 @@ public class FinalLastYear_5 implements Footballer{
 	private Map<String, String> playerClub = new HashMap<String, String>();
 	@Override
 	public void addFootballPlayer(String club, String player) {
-		
+		clubPlayer.put(club, player);
+		playerClub.put(player, club);
 	}
 
 	@Override
