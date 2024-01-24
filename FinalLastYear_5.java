@@ -41,7 +41,7 @@ public class FinalLastYear_5 implements Footballer{
 	}
 
 	private ArrayList<String> getBadClubs() {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
