@@ -50,7 +50,7 @@ public class FinalLastYear_5 implements Footballer{
 				}
 			}
 		}
-		return null;
+		return badClubs;
 	}
 
 }
