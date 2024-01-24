@@ -24,9 +24,24 @@ public class FinalLastYear_5 implements Footballer{
 	@Override
 	public Iterator<String> getPlayers(String club, int n) {
 		ArrayList<String> goodPlayers = new ArrayList<String>();
+		ArrayList<String> badClubs = getBadClubs();
 		for(String player: playerClub.keySet()){
-			
+			boolean add = true;
+			for(String theClub: playerClub.get(player)){
+				if(badClubs.contains(theClub)){
+					add = false;
+					break;
+				}
+			}
+			if(add){
+				goodPlayers.add(player);
+			}
 		}
+		return goodPlayers.iterator();
+	}
+
+	private ArrayList<String> getBadClubs() {
+		// TODO Auto-generated method stub
 		return null;
 	}
 
