@@ -15,7 +15,7 @@ public class FinalLastYear_5 implements Footballer{
 
 	@Override
 	public Iterator<String> getClubs(String player) {
-		
+		Iterator<String> It = playerClub.get(player);
 		return null;
 	}
 
