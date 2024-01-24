@@ -43,7 +43,12 @@ public class FinalLastYear_5 implements Footballer{
 	private ArrayList<String> getBadClubs() {
 		ArrayList<String> badClubs = new ArrayList<String>();
 		for(String club: clubPlayer.keySet()){
-			
+			for(String player: clubPlayer.get(club)){
+				if(playerClub.get(player).size() > 3){
+					badClubs.add(club);
+					break;
+				}
+			}
 		}
 		return null;
 	}
