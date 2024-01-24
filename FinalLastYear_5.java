@@ -15,7 +15,9 @@ public class FinalLastYear_5 implements Footballer{
 
 	@Override
 	public Iterator<String> getClubs(String player) {
-		
+		if(!playerClub.containsKey(player)){
+			return null;
+		}
 		return null;
 	}
 
