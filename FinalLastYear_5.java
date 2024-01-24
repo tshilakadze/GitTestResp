@@ -18,7 +18,7 @@ public class FinalLastYear_5 implements Footballer{
 		if(!playerClub.containsKey(player)){
 			return null;
 		}
-		return null;
+		return playerClub.get(player).iterator();
 	}
 
 	@Override
