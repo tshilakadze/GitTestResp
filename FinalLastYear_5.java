@@ -41,7 +41,10 @@ public class FinalLastYear_5 implements Footballer{
 	}
 
 	private ArrayList<String> getBadClubs() {
-		
+		ArrayList<String> badClubs = new ArrayList<String>();
+		for(String club: clubPlayer.keySet()){
+			
+		}
 		return null;
 	}
 
