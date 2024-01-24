@@ -9,7 +9,7 @@ public class FinalLastYear_5 implements Footballer{
 
 	@Override
 	public Iterator<String> getClubs(String player) {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
