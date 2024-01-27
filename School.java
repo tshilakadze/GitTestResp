@@ -125,7 +125,7 @@ public class School {
 		}
 		
 		
-		return null;
+		return pupilList.iterator();
 	}
 	
 //	მეთოდმა უნდა წაშალოს მასწავლებლის შესახებ ყველა ინფორმაცია. ამ მეთოდის
