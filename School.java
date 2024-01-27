@@ -55,6 +55,8 @@ public class School {
 			teacherSubjects.get(teacher).add(subject);
 			SubjectTeachers.put(subject, new ArrayList<String>());
 			SubjectTeachers.get(subject).add(teacher);
+			System.out.println(teacherSubjects.toString());
+			System.out.println(SubjectTeachers.toString());
 		}
 		
 		
@@ -64,7 +66,6 @@ public class School {
 //	იგივე მოსწავლე შეიძლება ერთ ან რამდენიმე საგანს სწავლობდეს.
 	public void addPupil(String pupil, String subject) {
 		// TIP:	you can use System.out.println() to print your structures for testing
-		
 		
 	}
 	
