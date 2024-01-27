@@ -121,7 +121,7 @@ public class School {
 			}
 		}*/
 		
-		return null;
+		return teacherList.iterator();
 	}
 	
 //	getPupils მეთოდს გადაეცემა მასწავლებლის სახელი და მან უნდა დააბრუნოს ამ
