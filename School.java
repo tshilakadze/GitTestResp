@@ -17,6 +17,7 @@ public class School {
 	
 	public School() {
 		teacherSubjects = new HashMap<String, ArrayList<String>>();
+		SubjectTeachers = new HashMap<String, ArrayList<String>>();
 		pupilSubjects = new HashMap<String, ArrayList<String>>();
 	}
 	
