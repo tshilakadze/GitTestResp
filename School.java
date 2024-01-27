@@ -140,6 +140,8 @@ public class School {
 	public void removeTeacher(String teacher) {
 		// TIP: you can use System.out.println() to print your structures for
 		// testing
+		
+		
 	}
 
 }
