@@ -61,7 +61,7 @@ public class School {
 			return;
 		}
 		teacherSubjects.get(teacher).add(subject);
-		SubjectTeachers.put(subject, new ArrayList<String>());
+		SubjectTeachers.putIfAbsent(subject, new ArrayList<String>());
 		SubjectTeachers.get(subject).add(teacher);
 		System.out.println(teacherSubjects.toString());
 		System.out.println(SubjectTeachers.toString());
