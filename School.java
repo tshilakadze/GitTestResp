@@ -48,7 +48,7 @@ public class School {
 			System.out.println("No such teacher: " + teacher);
 			return;
 		}
-		else if(teacherSubjects.get(teacher).contains(subject)){
+		if(teacherSubjects.get(teacher).contains(subject)){
 			System.out.println("This subject is already added.");
 			return;
 		}
