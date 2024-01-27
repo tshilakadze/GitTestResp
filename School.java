@@ -19,6 +19,7 @@ public class School {
 		teacherSubjects = new HashMap<String, ArrayList<String>>();
 		SubjectTeachers = new HashMap<String, ArrayList<String>>();
 		pupilSubjects = new HashMap<String, ArrayList<String>>();
+		subjectPupils = new HashMap<String, ArrayList<String>>();;
 	}
 	
 //	addTeacher მეთოდის საშუალებით შეგიძლიათ სკოლას დაამატოთ ახალი
@@ -66,7 +67,12 @@ public class School {
 //	იგივე მოსწავლე შეიძლება ერთ ან რამდენიმე საგანს სწავლობდეს.
 	public void addPupil(String pupil, String subject) {
 		// TIP:	you can use System.out.println() to print your structures for testing
-		if()
+		if(!pupilSubjects.containsKey(pupil)){
+			pupilSubjects.put(pupil, new ArrayList<String>());
+			if(!pupilSubjects.get(pupil).contains(subject)){
+				pupilSubjects.get(pupil).add(subject);
+			}
+		}
 	}
 	
 //	getTeachers მეთოდს გადაეცემა მოსწავლის სახელი და მან უნდა დააბრუნოს ამ
