@@ -85,6 +85,8 @@ public class School {
 				subjectPupils.get(subject).add(pupil);
 			}
 		}
+		System.out.println(pupilSubjects.toString());
+		System.out.println(subjectPupils.toString());
 		
 	}
 	
