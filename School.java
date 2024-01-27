@@ -53,7 +53,8 @@ public class School {
 		}
 		else if(!teacherSubjects.get(teacher).contains(subject)){
 			teacherSubjects.get(teacher).add(subject);
-			
+			SubjectTeachers.put(subject, new ArrayList<String>());
+			SubjectTeachers.get(subject).add(teacher);
 		}
 		
 		
