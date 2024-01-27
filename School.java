@@ -100,6 +100,14 @@ public class School {
 		if(!pupilSubjects.containsKey(pupil)){
 			return null;
 		}
+		ArrayList<String> result = new ArrayList<String>();
+		ArrayList<String> subList = new ArrayList<String>();
+		subList = pupilSubjects.get(pupil);
+		Iterator<String> it = subList.iterator();
+		while(it.hasNext()){
+			String subj = it.next();
+			
+		}
 		
 	/*	ArrayList<String> list = new ArrayList<String>();
 		list = pupilSubjects.get(pupil);
