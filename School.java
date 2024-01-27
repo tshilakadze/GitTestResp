@@ -97,7 +97,9 @@ public class School {
 //	უნდა დააბრუნოს null.
 	public Iterator<String> getTeachers(String pupil){
 		
-		
+		if(!pupilSubjects.containsKey(pupil)){
+			return null;
+		}
 		
 	/*	ArrayList<String> list = new ArrayList<String>();
 		list = pupilSubjects.get(pupil);
