@@ -114,6 +114,17 @@ public class School {
 //	სახელები, რომლებიც მის რომელიმე საგანს სწავლობენ. თუკი teacher სახელის მქონე
 //	ლექტორი არ გვყავს მაშინ მეთოდმა უნდა დააბრუნოს null.
 	public Iterator<String> getPupils(String teacher){
+		if(!teacherSubjects.containsKey(teacher)){
+			return null;
+		}
+		ArrayList<String> pupilList = new ArrayList<String>();
+		for(String subj: teacherSubjects.get(teacher)){
+			if(subjectPupils.containsKey(subj)){
+				pupilList.addAll(subjectPupils.get(subj));
+			}
+		}
+		
+		
 		return null;
 	}
 	
