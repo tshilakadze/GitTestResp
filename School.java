@@ -67,12 +67,22 @@ public class School {
 //	იგივე მოსწავლე შეიძლება ერთ ან რამდენიმე საგანს სწავლობდეს.
 	public void addPupil(String pupil, String subject) {
 		// TIP:	you can use System.out.println() to print your structures for testing
+		if(!SubjectTeachers.containsKey(subject)){
+			System.out.println("No such subject.");
+			return;
+		}
 		if(!pupilSubjects.containsKey(pupil)){
 			pupilSubjects.put(pupil, new ArrayList<String>());
 			if(!pupilSubjects.get(pupil).contains(subject)){
 				pupilSubjects.get(pupil).add(subject);
 			}
 		}
+		
+		
+		if(!subjectPupils.containsKey(subject)){
+			
+		}
+		
 	}
 	
 //	getTeachers მეთოდს გადაეცემა მოსწავლის სახელი და მან უნდა დააბრუნოს ამ
