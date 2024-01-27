@@ -100,13 +100,11 @@ public class School {
 		if(!pupilSubjects.containsKey(pupil)){
 			return null;
 		}
-		ArrayList<String> result = new ArrayList<String>();
-		ArrayList<String> subList = new ArrayList<String>();
-		subList = pupilSubjects.get(pupil);
-		Iterator<String> it = subList.iterator();
-		while(it.hasNext()){
-			String subj = it.next();
-			
+		ArrayList<String> teacherList = new ArrayList<String>();
+		for(String subj: pupilSubjects.get(pupil)){
+			if(SubjectTeachers.containsKey(subj)){
+				teacherList.addAll(SubjectTeachers.get(subj));
+			}
 		}
 		
 	/*	ArrayList<String> list = new ArrayList<String>();
