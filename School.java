@@ -12,7 +12,7 @@ public class School {
 	
 	private Map<String, ArrayList<String>> teacherSubjects;
 	private Map<String, ArrayList<String>> pupilSubjects;
-	private ArrayList<String> SubjectTeachers;
+	private Map<String, ArrayList<String>> SubjectTeachers;
 	private ArrayList<String> learning;
 	
 	public School() {
@@ -52,6 +52,7 @@ public class School {
 		}
 		else if(!teacherSubjects.get(teacher).contains(subject)){
 			teacherSubjects.get(teacher).add(subject);
+			
 		}
 		
 		
