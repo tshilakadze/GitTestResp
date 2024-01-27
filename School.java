@@ -106,21 +106,6 @@ public class School {
 				teacherList.addAll(SubjectTeachers.get(subj));
 			}
 		}
-		
-	/*	ArrayList<String> list = new ArrayList<String>();
-		list = pupilSubjects.get(pupil);
-		Iterator<String> it = list.iterator();
-		while(it.hasNext()){
-			String i = it.next();
-			Iterator<String> teach = teachSubjects.iterator();
-			while(teach.hasNext()){
-				String t = teach.next();
-				if(i.equals(t)){
-					
-				}
-			}
-		}*/
-		
 		return teacherList.iterator();
 	}
 	
