@@ -13,7 +13,7 @@ public class School {
 	private Map<String, ArrayList<String>> teacherSubjects;
 	private Map<String, ArrayList<String>> pupilSubjects;
 	private Map<String, ArrayList<String>> SubjectTeachers;
-	private ArrayList<String> subjectPupils;
+	private Map<String, ArrayList<String>> subjectPupils;
 	
 	public School() {
 		teacherSubjects = new HashMap<String, ArrayList<String>>();
@@ -66,7 +66,7 @@ public class School {
 //	იგივე მოსწავლე შეიძლება ერთ ან რამდენიმე საგანს სწავლობდეს.
 	public void addPupil(String pupil, String subject) {
 		// TIP:	you can use System.out.println() to print your structures for testing
-		
+		if()
 	}
 	
 //	getTeachers მეთოდს გადაეცემა მოსწავლის სახელი და მან უნდა დააბრუნოს ამ
