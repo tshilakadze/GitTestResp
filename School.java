@@ -13,7 +13,7 @@ public class School {
 	private Map<String, ArrayList<String>> teacherSubjects;
 	private Map<String, ArrayList<String>> pupilSubjects;
 	private Map<String, ArrayList<String>> SubjectTeachers;
-	private ArrayList<String> learning;
+	private ArrayList<String> subjectPupils;
 	
 	public School() {
 		teacherSubjects = new HashMap<String, ArrayList<String>>();
