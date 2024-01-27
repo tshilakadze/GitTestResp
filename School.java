@@ -10,13 +10,13 @@ public class School {
 //	კონსტრუქტორს არაფერი არ გადაეცემა. აქ შეგიძლიათ ინიციალიზაცია გაუკეთოთ
 //	თქვენთვის საჭირო ცვლადებს.
 	
-	private Map<String, ArrayList<String>> teachingSubjects;
+	private Map<String, ArrayList<String>> teacherSubjects;
 	private Map<String, ArrayList<String>> pupilSubjects;
-	private ArrayList<String> teachSubjects;
+	private ArrayList<String> SubjectTeachers;
 	private ArrayList<String> learning;
 	
 	public School() {
-		teachingSubjects = new HashMap<String, ArrayList<String>>();
+		teacherSubjects = new HashMap<String, ArrayList<String>>();
 		pupilSubjects = new HashMap<String, ArrayList<String>>();
 	}
 	
@@ -26,8 +26,8 @@ public class School {
 	public void addTeacher(String teacher) {
 		// TIP:	you can use System.out.println() to print your structures for testing
 		
-		if(!teachingSubjects.containsKey(teacher)){
-			teachingSubjects.put(teacher, null);		// new hashset da ara null
+		if(!teacherSubjects.containsKey(teacher)){
+			teacherSubjects.put(teacher, new ArrayList<String>());		// new hashset da ara null
 		}
 		
 	}
@@ -42,13 +42,17 @@ public class School {
 	public void addSubject(String teacher, String subject) {
 		// TIP:	you can use System.out.println() to print your structures for testing
 		
-		if(!teachingSubjects.containsKey(teacher)){
+		if(!teacherSubjects.containsKey(teacher)){
 			System.out.println("No such teacher: " + teacher);
 			return;
 		}
-		teachSubjects = new ArrayList<String>();
-		teachSubjects.add(subject);
-		teachingSubjects.put(teacher, teachSubjects);
+		else if(teacherSubjects.get(teacher).contains(subject)){
+			System.out.println("This subject is already added.");
+			return;
+		}
+		else if(!teacherSubjects.get(teacher).contains(subject)){
+			teacherSubjects.get(teacher).add(subject);
+		}
 		
 		
 	}
