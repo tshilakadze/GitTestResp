@@ -22,10 +22,14 @@ public class Problem68 extends GraphicsProgram {
 	
 	public void actionPerformed(ActionEvent e){
 		if(e.getActionCommand().equals("Enter") || e.getSource() == message){
+			int y = 20;
 			ArrayList<String> list = new ArrayList<String>();
 			list.add(message.getText());
 			GLabel mas = new GLabel(message.getText());
 			mas.setFont("Dialog-16-bold");
+			for(int i = 0; i < list.size(); i++){
+				y = y + mas.getHeight() * (i + 1);
+			}
 			add(mas, 0, 20);
 			message.setText("");
 		}
