@@ -31,10 +31,10 @@ public class School {
 		// TIP: you can use System.out.println() to print your structures for
 		// testing
 
-		if (!teacherSubjects.containsKey(teacher)) {
-			teacherSubjects.put(teacher, new ArrayList<String>()); 
+//		if (!teacherSubjects.containsKey(teacher)) {
+			teacherSubjects.putIfAbsent(teacher, new ArrayList<String>()); 
 			
-		}
+	//	}
 
 	}
 
