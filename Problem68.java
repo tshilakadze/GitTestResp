@@ -7,5 +7,6 @@ public class Problem68 extends GraphicsProgram {
 		JTextField message = new JTextField(20);
 		add(message, SOUTH);
 		JButton ent = new JButton("Enter");
+		add(ent, SOUTH);
 	}
 }
