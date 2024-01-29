@@ -77,9 +77,7 @@ public class School {
 		}
 		if (!pupilSubjects.containsKey(pupil)) {
 			pupilSubjects.put(pupil, new ArrayList<String>());
-			if (!pupilSubjects.get(pupil).contains(subject)) {
-				pupilSubjects.get(pupil).add(subject);
-			}
+			pupilSubjects.get(pupil).add(subject);
 		}
 
 		if (!subjectPupils.containsKey(subject)) {
