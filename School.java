@@ -54,10 +54,10 @@ public class School {
 			System.out.println("No such teacher: " + teacher);
 			return;
 		}
-		if (teacherSubjects.get(teacher).contains(subject)) {
+		/*if (teacherSubjects.get(teacher).contains(subject)) {
 			System.out.println("This subject is already added.");
 			return;
-		}
+		}*/
 		teacherSubjects.get(teacher).add(subject);
 		SubjectTeachers.putIfAbsent(subject, new ArrayList<String>());
 		SubjectTeachers.get(subject).add(teacher);
