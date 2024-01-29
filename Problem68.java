@@ -2,6 +2,7 @@ import java.awt.event.ActionEvent;
 
 import javax.swing.*;
 
+import acm.graphics.*;
 import acm.program.*;
 
 public class Problem68 extends GraphicsProgram {
@@ -20,6 +21,7 @@ public class Problem68 extends GraphicsProgram {
 	
 	public void actionPerformed(ActionEvent e){
 		if(e.getActionCommand().equals("Enter") || e.getSource() == message){
+			GLabel mas = new GLabel(message.getText())l
 			message.setText("");
 		}
 	}
