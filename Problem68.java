@@ -29,8 +29,8 @@ public class Problem68 extends GraphicsProgram {
 			mas.setFont("Dialog-16-bold");
 			for(int i = 0; i < list.size(); i++){
 				y = y + mas.getHeight() * (i + 1);
+				add(mas, 0, y);
 			}
-			add(mas, 0, 20);
 			message.setText("");
 		}
 	}
