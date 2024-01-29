@@ -1,4 +1,5 @@
 import java.awt.event.ActionEvent;
+import java.util.*;
 
 import javax.swing.*;
 
@@ -21,6 +22,7 @@ public class Problem68 extends GraphicsProgram {
 	
 	public void actionPerformed(ActionEvent e){
 		if(e.getActionCommand().equals("Enter") || e.getSource() == message){
+			ArrayList<String> list = new ArrayList<String>();
 			GLabel mas = new GLabel(message.getText());
 			mas.setFont("Dialog-16-bold");
 			add(mas, 0, 20);
