@@ -137,7 +137,10 @@ public class School {
 		// TIP: you can use System.out.println() to print your structures for
 		// testing
 		
-		
+		teacherSubjects.remove(teacher);
+		for(String subj: SubjectTeachers.keySet()){
+			SubjectTeachers.get(subj).remove(teacher);
+		}
 		
 	}
 }
