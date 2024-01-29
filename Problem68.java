@@ -1,6 +1,6 @@
-import acm.program.ConsoleProgram;
+import acm.program.*;
 
-public class Problem68 extends ConsoleProgram {
+public class Problem68 extends GraphicsProgram {
 	public void run() {
 		
 	}
