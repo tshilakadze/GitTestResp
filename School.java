@@ -75,15 +75,17 @@ public class School {
 			System.out.println("No such subject.");
 			return;
 		}
+		
+		if (!subjectPupils.containsKey(subject)) {
+			subjectPupils.put(subject, new ArrayList<String>());
+			subjectPupils.get(subject).add(pupil);
+		}
+		
 		if (!pupilSubjects.containsKey(pupil)) {
 			pupilSubjects.put(pupil, new ArrayList<String>());
 			pupilSubjects.get(pupil).add(subject);
 		}
 
-		if (!subjectPupils.containsKey(subject)) {
-			subjectPupils.put(subject, new ArrayList<String>());
-			subjectPupils.get(subject).add(pupil);
-		}
 		System.out.println(pupilSubjects.toString());
 		System.out.println(subjectPupils.toString());
 
