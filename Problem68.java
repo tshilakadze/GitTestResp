@@ -22,7 +22,7 @@ public class Problem68 extends GraphicsProgram {
 	
 	public void actionPerformed(ActionEvent e){
 		if(e.getActionCommand().equals("Enter") || e.getSource() == message){
-			double y = 20;
+			double y = 0;
 			ArrayList<String> list = new ArrayList<String>();
 			list.add(message.getText());
 			GLabel mas = new GLabel(message.getText());
