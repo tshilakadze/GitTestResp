@@ -23,7 +23,7 @@ public class Problem68 extends GraphicsProgram {
 		if(e.getActionCommand().equals("Enter") || e.getSource() == message){
 			GLabel mas = new GLabel(message.getText());
 			mas.setFont("Dialog-16-bold");
-			add(mas, 20, 20);
+			add(mas, 0, 20);
 			message.setText("");
 		}
 	}
