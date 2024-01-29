@@ -32,10 +32,8 @@ public class School {
 		// testing
 
 		if (!teacherSubjects.containsKey(teacher)) {
-			teacherSubjects.put(teacher, new ArrayList<String>()); // new
-																	// hashset
-																	// da ara
-																	// null
+			teacherSubjects.put(teacher, new ArrayList<String>()); 
+			
 		}
 
 	}
@@ -142,6 +140,6 @@ public class School {
 		// testing
 		
 		
+		
 	}
-
 }
