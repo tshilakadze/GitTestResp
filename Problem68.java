@@ -1,3 +1,5 @@
+import java.awt.event.ActionEvent;
+
 import javax.swing.*;
 
 import acm.program.*;
@@ -8,5 +10,13 @@ public class Problem68 extends GraphicsProgram {
 		add(message, SOUTH);
 		JButton ent = new JButton("Enter");
 		add(ent, SOUTH);
+		
+		addActionListeners();
+	}
+	
+	
+	
+	public void actionPerformed(ActionEvent e){
+		
 	}
 }
