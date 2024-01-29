@@ -82,9 +82,7 @@ public class School {
 
 		if (!subjectPupils.containsKey(subject)) {
 			subjectPupils.put(subject, new ArrayList<String>());
-			if (!subjectPupils.get(subject).contains(pupil)) {
-				subjectPupils.get(subject).add(pupil);
-			}
+			subjectPupils.get(subject).add(pupil);
 		}
 		System.out.println(pupilSubjects.toString());
 		System.out.println(subjectPupils.toString());
