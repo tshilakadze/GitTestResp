@@ -5,8 +5,9 @@ import javax.swing.*;
 import acm.program.*;
 
 public class Problem68 extends GraphicsProgram {
+	private JTextField message;
 	public void init() {
-		JTextField message = new JTextField(20);
+		message = new JTextField(20);
 		add(message, SOUTH);
 		message.addActionListener(this);
 		JButton ent = new JButton("Enter");
@@ -18,6 +19,8 @@ public class Problem68 extends GraphicsProgram {
 	
 	
 	public void actionPerformed(ActionEvent e){
-		
+		if(e.getActionCommand().equals("Enter") || e.getSource() == message){
+			
+		}
 	}
 }
