@@ -1,4 +1,5 @@
 import java.awt.event.ActionEvent;
+import java.awt.event.*;
 import java.util.*;
 
 import javax.swing.*;
@@ -33,5 +34,10 @@ public class Problem68 extends GraphicsProgram {
 			y += 20;
 			message.setText("");
 		}
+	}
+	
+	
+	public void mousePressed(MouseEvent e){
+		
 	}
 }
