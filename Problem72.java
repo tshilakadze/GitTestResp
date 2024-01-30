@@ -53,6 +53,10 @@ public class Problem72 extends GraphicsProgram {
 	public void actionListeners(ActionEvent e){
 		if(e.getActionCommand().equals("Add Teach") && !teach.getText().equals("")){
 			school.addTeacher(teach.getText());
+			teach.setText("");
+		}
+		if(e.getActionCommand().equals("Add subject") && !subj.getText().equals("") && !teach.getText().equals("")){
+			school.addSubject(teach.getText(), subj.getText());
 		}
 	}
 
