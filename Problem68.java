@@ -37,7 +37,7 @@ public class Problem68 extends GraphicsProgram {
 			compMess.add(mes, 2, y);
 			y += 20;
 			GLabel bla = new GLabel(compMess.getHeight() + "");
-			add(bla, 2, y - 20);
+			add(bla, 2, y);
 			message.setText("");
 		}
 	}
