@@ -52,7 +52,10 @@ public class Problem68 extends GraphicsProgram {
 	
 	
 	public void mousePressed(MouseEvent e){
-		prevY = e.getY();
+		obj = getElementAt(e.getX(), e.getY());
+		if(obj == scroll){
+			prevY = e.getY();
+		}
 	}
 	
 	public void mouseDragged(MouseEvent e){
