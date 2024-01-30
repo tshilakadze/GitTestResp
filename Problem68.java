@@ -25,7 +25,7 @@ public class Problem68 extends GraphicsProgram {
 		
 		compMess = new GCompound();
 		add(compMess);
-		scroll = new GRect(40, 40);
+		scroll = new GRect(20, 40);
 		add(scroll);
 		
 		addActionListeners();
