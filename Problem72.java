@@ -78,7 +78,6 @@ public class Problem72 extends GraphicsProgram {
 
 
 	private void displayIterator(Iterator<String> pupils) {
-		// TODO Auto-generated method stub
 		
 	}
 
