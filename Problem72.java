@@ -22,6 +22,13 @@ public class Problem72 extends GraphicsProgram {
 		teach = new JTextField(5);
 		subj = new JTextField(5);
 		pupil = new JTextField(5);
+		
+		JButton addTeach = new JButton("Add Teach");
+		JButton addSubj = new JButton("Add subject");
+		JButton addPupil = new JButton("Add Pupil");
+		JButton disPupil = new JButton("Display Pupil");
+		JButton disTeach = new JButton("Display Teachers");
+		
 		JLabel a = new JLabel("Name:");
 		JLabel b = new JLabel("Subj:");
 		JLabel c = new JLabel("Pupil:");
