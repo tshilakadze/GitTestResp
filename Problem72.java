@@ -51,7 +51,7 @@ public class Problem72 extends GraphicsProgram {
 	
 	
 	public void actionPerformed(ActionEvent e){
-		if(e.getActionCommand().equals("Add Teach") && !teach.getText().equals("")){
+		if(e.getActionCommand().equals("Add Teach") && !teach.getText().equals("") && teach.getText() != null){
 			school.addTeacher(teach.getText());
 			pupil.setText("");
 			subj.setText("");
