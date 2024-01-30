@@ -74,7 +74,9 @@ public class Problem72 extends GraphicsProgram {
 			school.getPupils(teach.getText());
 			displayIterator(school.getPupils(teach.getText()));
 		}
-		if()
+		if(e.getActionCommand().equals("Display Teachers")){
+			school.getTeachers(pupil.getText());
+		}
 	}
 
 
