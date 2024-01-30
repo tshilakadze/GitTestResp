@@ -14,7 +14,7 @@ public class Problem72 extends GraphicsProgram {
 	private JTextField teach;
 	private JTextField subj;
 	private JTextField pupil;
-	
+	private JButton addTeach;
 	
 	private School school;
 	
@@ -23,7 +23,7 @@ public class Problem72 extends GraphicsProgram {
 		subj = new JTextField(8);
 		pupil = new JTextField(8);
 		
-		JButton addTeach = new JButton("Add Teach");
+		addTeach = new JButton("Add Teach");
 		JButton addSubj = new JButton("Add subject");
 		JButton addPupil = new JButton("Add Pupil");
 		JButton disPupil = new JButton("Display Pupil");
