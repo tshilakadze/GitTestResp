@@ -11,7 +11,7 @@ public class Problem68 extends GraphicsProgram {
 	
 	private JTextField message;
 	private static final int SPACE = 20;
-	private double y = 20;
+	private double y = SPACE;
 	private int prevY;
 	private GCompound compMess;
 	
