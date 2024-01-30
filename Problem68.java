@@ -59,6 +59,6 @@ public class Problem68 extends GraphicsProgram {
 	
 	private double startingY() {
 		double result = getHeight() - compMess.getHeight() - SPACE;
-		return 0;
+		return result;
 	}
 }
