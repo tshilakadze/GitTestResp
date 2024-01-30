@@ -36,6 +36,7 @@ public class Problem68 extends GraphicsProgram {
 			mes.setFont("Dialog-16-bold");
 			compMess.add(mes, 2, y);
 			y += 20;
+			GLabel bla = new GLabel(compMess.getHeight() + "");
 			message.setText("");
 		}
 	}
