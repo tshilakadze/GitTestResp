@@ -50,7 +50,7 @@ public class Problem72 extends GraphicsProgram {
 	}
 	
 	
-	public void actionListeners(ActionEvent e){
+	public void actionPerformed(ActionEvent e){
 		if(e.getActionCommand().equals("Add Teach") && !teach.getText().equals("")){
 			school.addTeacher(teach.getText());
 			pupil.setText("");
@@ -74,7 +74,7 @@ public class Problem72 extends GraphicsProgram {
 			school.getPupils(teach.getText());
 			displayIterator(school.getPupils(teach.getText()));
 		}
-		
+		if()
 	}
 
 
