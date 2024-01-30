@@ -51,9 +51,7 @@ public class Problem72 extends GraphicsProgram {
 	
 	
 	public void actionListeners(ActionEvent e){
-		if(e.getActionCommand().equals("Add Teach")){
-			GLabel a = new GLabel("Fuck eclipse");
-			add(a, 100, 100);
+		if(e.getActionCommand().equals("Add Teach") && !teach.getText().equals("")){
 			school.addTeacher(teach.getText());
 			pupil.setText("");
 			subj.setText("");
