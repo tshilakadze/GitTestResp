@@ -48,5 +48,12 @@ public class Problem72 extends GraphicsProgram {
 		
 		addActionListeners();
 	}
+	
+	
+	public void actionListeners(ActionEvent e){
+		if(e.getActionCommand().equals("Add Teach") && !teach.getText().equals("")){
+			
+		}
+	}
 
 }
