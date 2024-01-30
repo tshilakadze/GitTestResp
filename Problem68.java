@@ -11,7 +11,7 @@ public class Problem68 extends GraphicsProgram {
 	
 	private JTextField message;
 	private double y = 20;
-	private double prevY;
+	private int prevY;
 	
 	public void init() {
 		message = new JTextField(20);
@@ -38,6 +38,6 @@ public class Problem68 extends GraphicsProgram {
 	
 	
 	public void mousePressed(MouseEvent e){
-		
+		prevY = e.getY();
 	}
 }
