@@ -82,6 +82,7 @@ public class Problem72 extends GraphicsProgram {
 	private void displayIterator(Iterator<String> pupils) {
 		removeAll();
 		int x = RESULT_X;
+		int y = LINE_H;
 	}
 
 }
