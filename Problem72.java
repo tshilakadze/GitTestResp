@@ -52,10 +52,7 @@ public class Problem72 extends GraphicsProgram {
 	
 	public void actionListeners(ActionEvent e){
 		if(e.getSource() == addTeach && !teach.getText().equals("")){
-			school.addTeacher(teach.getText());
-			pupil.setText("");
-			subj.setText("");
-			teach.setText("");
+			addTeacher(teach.getText());
 		}
 		if(e.getActionCommand().equals("Add subject") && !subj.getText().equals("") && !teach.getText().equals("")){
 			school.addSubject(teach.getText(), subj.getText());
@@ -74,6 +71,12 @@ public class Problem72 extends GraphicsProgram {
 			school.getPupils(teach.getText());
 			displayIterator(school.getPupils(teach.getText()));
 		}
+	}
+
+
+	private void addTeacher(String text) {
+		// TODO Auto-generated method stub
+		
 	}
 
 
