@@ -33,13 +33,15 @@ public class Problem68 extends GraphicsProgram {
 	
 	public void actionPerformed(ActionEvent e){
 		if(e.getActionCommand().equals("Enter") || e.getSource() == message){
-			GLabel mes = new GLabel(message.getText());
-			mes.setFont("Dialog-16-bold");
-			compMess.add(mes, 2, y);
-			y += SPACE;
-			/*GLabel bla = new GLabel(compMess.getY() + "");
-			add(bla, 2, y);*/
-			message.setText("");
+			if(message.getText().equals("")){
+				GLabel mes = new GLabel(message.getText());
+				mes.setFont("Dialog-16-bold");
+				compMess.add(mes, 2, y);
+				y += SPACE;
+				/*GLabel bla = new GLabel(compMess.getY() + "");
+				add(bla, 2, y);*/
+				message.setText("");
+			}
 		}
 	}
 	
