@@ -19,9 +19,9 @@ public class Problem72 extends GraphicsProgram {
 	private School school;
 	
 	public void init() {
-		teach = new JTextField(5);
-		subj = new JTextField(5);
-		pupil = new JTextField(5);
+		teach = new JTextField(10);
+		subj = new JTextField(10);
+		pupil = new JTextField(10);
 		
 		JButton addTeach = new JButton("Add Teach");
 		JButton addSubj = new JButton("Add subject");
