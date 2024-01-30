@@ -39,6 +39,7 @@ public class Problem72 extends GraphicsProgram {
 		add(subj, SOUTH);
 		add(c, SOUTH);
 		add(pupil, SOUTH);
+		add(addTeach, SOUTH);
 	}
 
 }
