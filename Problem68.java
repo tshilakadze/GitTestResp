@@ -31,8 +31,7 @@ public class Problem68 extends GraphicsProgram {
 		if(e.getActionCommand().equals("Enter") || e.getSource() == message){
 			GLabel mes = new GLabel(message.getText());
 			mes.setFont("Dialog-16-bold");
-			compMess.add(mes);
-			add(mes, 2, y);
+			compMess.add(mes, 2, y);
 			y += 20;
 			message.setText("");
 		}
