@@ -7,8 +7,10 @@ import acm.graphics.*;
 import acm.program.*;
 
 public class Problem68 extends GraphicsProgram {
+	
 	private JTextField message;
 	private double y = 20;
+	private double prevY;
 	
 	public void init() {
 		message = new JTextField(20);
