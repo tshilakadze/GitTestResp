@@ -54,6 +54,10 @@ public class Problem68 extends GraphicsProgram {
 		}
 		compMess.move(0, e.getY() - prevY);
 		prevY = e.getY();
+		
+		if(compMess.getY() < startingY()){
+			compMess.setLocation(2, startingY());
+		}
 	}
 	
 	
