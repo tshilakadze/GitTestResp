@@ -14,6 +14,7 @@ public class Problem68 extends GraphicsProgram {
 	private double y = SPACE;
 	private int prevY;
 	private GCompound compMess;
+	private GRect scroll;
 	
 	public void init() {
 		message = new JTextField(20);
@@ -24,6 +25,7 @@ public class Problem68 extends GraphicsProgram {
 		
 		compMess = new GCompound();
 		add(compMess);
+		scroll = new GRect(40, 40);
 		
 		addActionListeners();
 		addMouseListeners();
