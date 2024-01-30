@@ -37,8 +37,8 @@ public class Problem68 extends GraphicsProgram {
 			mes.setFont("Dialog-16-bold");
 			compMess.add(mes, 2, y);
 			y += SPACE;
-		/*	GLabel bla = new GLabel(compMess.getHeight() + "");
-			add(bla, 2, y);*/
+			GLabel bla = new GLabel(compMess.getY() + "");
+			add(bla, 2, y);
 			message.setText("");
 		}
 	}
@@ -58,7 +58,7 @@ public class Problem68 extends GraphicsProgram {
 		if(compMess.getY() < startingY()){
 			compMess.setLocation(2, startingY());
 		}
-		if(compMess.getY() > compMess.getHeight()){
+		if(compMess.getY() > 0){
 			compMess.setLocation(2, compMess.getHeight());
 		}
 	}
