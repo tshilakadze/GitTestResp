@@ -12,6 +12,7 @@ public class Problem68 extends GraphicsProgram {
 	private JTextField message;
 	private double y = 20;
 	private int prevY;
+	private GCompound compMess;
 	
 	public void init() {
 		message = new JTextField(20);
@@ -28,9 +29,9 @@ public class Problem68 extends GraphicsProgram {
 	
 	public void actionPerformed(ActionEvent e){
 		if(e.getActionCommand().equals("Enter") || e.getSource() == message){
-			GLabel mas = new GLabel(message.getText());
-			mas.setFont("Dialog-16-bold");
-			add(mas, 2, y);
+			GLabel mes = new GLabel(message.getText());
+			mes.setFont("Dialog-16-bold");
+			add(mes, 2, y);
 			y += 20;
 			message.setText("");
 		}
@@ -39,5 +40,9 @@ public class Problem68 extends GraphicsProgram {
 	
 	public void mousePressed(MouseEvent e){
 		prevY = e.getY();
+	}
+	
+	public void mouseDragged(MouseEvent e){
+		
 	}
 }
