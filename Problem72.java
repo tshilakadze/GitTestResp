@@ -98,5 +98,4 @@ public class Problem72 extends GraphicsProgram {
 			add(lab, x, y);
 		}
 	}
-
 }
