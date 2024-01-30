@@ -59,7 +59,7 @@ public class Problem68 extends GraphicsProgram {
 			compMess.setLocation(2, startingY());
 		}
 		if(compMess.getY() > 0){
-			compMess.setLocation(2, compMess.getHeight());
+			compMess.setLocation(2, 0);
 		}
 	}
 	
