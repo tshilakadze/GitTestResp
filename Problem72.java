@@ -77,8 +77,6 @@ public class Problem72 extends GraphicsProgram {
 	}
 
 
-	private void addTeacher(String text) {
-	}
 
 
 	private void displayIterator(Iterator<String> pupils) {
