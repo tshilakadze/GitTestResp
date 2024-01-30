@@ -45,6 +45,8 @@ public class Problem72 extends GraphicsProgram {
 		add(disPupil, NORTH);		// Because it took too much space
 		add(disTeach, NORTH);
 		
+		
+		addActionListeners();
 	}
 
 }
