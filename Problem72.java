@@ -29,10 +29,16 @@ public class Problem72 extends GraphicsProgram {
 		JButton disPupil = new JButton("Display Pupil");
 		JButton disTeach = new JButton("Display Teachers");
 		
-		JLabel a = new JLabel("Name:");
+		JLabel a = new JLabel("Teach:");
 		JLabel b = new JLabel("Subj:");
 		JLabel c = new JLabel("Pupil:");
+		
 		add(a, SOUTH);
+		add(teach, SOUTH);
+		add(b, SOUTH);
+		add(subj, SOUTH);
+		add(c, SOUTH);
+		add(pupil, SOUTH);
 	}
 
 }
