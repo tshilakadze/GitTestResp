@@ -64,6 +64,7 @@ public class Problem68 extends GraphicsProgram {
 		}
 		if(obj == scroll){
 			compMess.move(0, e.getY() - prevY);
+			scroll.move(0, e.getY() - prevY);
 			prevY = e.getY();
 			
 			if(compMess.getY() < startingY()){
