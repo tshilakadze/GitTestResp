@@ -21,6 +21,9 @@ public class Problem68 extends GraphicsProgram {
 		JButton ent = new JButton("Enter");
 		add(ent, SOUTH);
 		
+		compMess = new GCompound();
+		add(compMess);
+		
 		addActionListeners();
 		addMouseListeners();
 	}
