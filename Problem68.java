@@ -20,6 +20,7 @@ public class Problem68 extends GraphicsProgram {
 		add(ent, SOUTH);
 		
 		addActionListeners();
+		addMouseListeners();
 	}
 	
 	
