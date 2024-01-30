@@ -58,6 +58,9 @@ public class Problem68 extends GraphicsProgram {
 		if(compMess.getY() < startingY()){
 			compMess.setLocation(2, startingY());
 		}
+		if(compMess.getY() > compMess.getHeight()){
+			compMess.setLocation(2, compMess.getHeight());
+		}
 	}
 	
 	
