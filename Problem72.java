@@ -85,6 +85,10 @@ public class Problem72 extends GraphicsProgram {
 		int y = LINE_H;
 		GLabel res = new GLabel("Result: ");
 		add(res, x, y);
+		if(pupils == null){
+			return;
+		}
+		while()
 	}
 
 }
