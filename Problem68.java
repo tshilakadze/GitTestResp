@@ -10,6 +10,7 @@ import acm.program.*;
 public class Problem68 extends GraphicsProgram {
 	
 	private JTextField message;
+	private static final int SPACE = 20;
 	private double y = 20;
 	private int prevY;
 	private GCompound compMess;
@@ -57,7 +58,7 @@ public class Problem68 extends GraphicsProgram {
 	
 	
 	private double startingY() {
-		
+		double result = getHeight() - compMess.getHeight() - 20;
 		return 0;
 	}
 }
