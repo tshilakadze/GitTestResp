@@ -71,7 +71,7 @@ public class Problem72 extends GraphicsProgram {
 		}
 		
 		if(e.getActionCommand().equals("Display Pupil") && !teach.getText().equals("")){
-			
+			school.getPupils(teach.getText());
 		}
 	}
 
