@@ -88,7 +88,11 @@ public class Problem72 extends GraphicsProgram {
 		if(pupils == null){
 			return;
 		}
-		while()
+		while(pupils.hasNext()){
+			y = y + LINE_H;
+			GLabel lab = new GLabel(pupils.next());
+			add(lab, x, y);
+		}
 	}
 
 }
