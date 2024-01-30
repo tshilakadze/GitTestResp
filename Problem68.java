@@ -15,6 +15,7 @@ public class Problem68 extends GraphicsProgram {
 	private int prevY;
 	private GCompound compMess;
 	private GRect scroll;
+	private GObject obj;
 	
 	public void init() {
 		message = new JTextField(20);
