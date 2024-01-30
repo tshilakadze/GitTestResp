@@ -62,14 +62,16 @@ public class Problem68 extends GraphicsProgram {
 		if(compMess.getHeight() <= getHeight()){
 			return;
 		}
-		compMess.move(0, e.getY() - prevY);
-		prevY = e.getY();
-		
-		if(compMess.getY() < startingY()){
-			compMess.setLocation(2, startingY());
-		}
-		if(compMess.getY() > 0){
-			compMess.setLocation(2, 0);
+		if(obj == scroll){
+			compMess.move(0, e.getY() - prevY);
+			prevY = e.getY();
+			
+			if(compMess.getY() < startingY()){
+				compMess.setLocation(2, startingY());
+			}
+			if(compMess.getY() > 0){
+				compMess.setLocation(2, 0);
+			}
 		}
 	}
 	
