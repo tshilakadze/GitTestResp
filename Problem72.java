@@ -56,7 +56,7 @@ public class Problem72 extends GraphicsProgram {
 			pupil.setText("");
 			subj.setText("");
 			teach.setText("");
-		} else
+		}
 		if(e.getActionCommand().equals("Add subject") && !subj.getText().equals("") && !teach.getText().equals("")){
 			school.addSubject(teach.getText(), subj.getText());
 			pupil.setText("");
