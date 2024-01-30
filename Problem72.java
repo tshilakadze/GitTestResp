@@ -69,6 +69,10 @@ public class Problem72 extends GraphicsProgram {
 			subj.setText("");
 			teach.setText("");
 		}
+		
+		if(e.getActionCommand().equals("Display Pupil") && !teach.getText().equals("")){
+			
+		}
 	}
 
 }
