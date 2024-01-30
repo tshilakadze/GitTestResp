@@ -22,6 +22,8 @@ public class Problem72 extends GraphicsProgram {
 		teach = new JTextField(5);
 		subj = new JTextField(5);
 		pupil = new JTextField(5);
+		JLabel a = new JLabel("Name");
+		add(a, SOUTH);
 	}
 
 }
