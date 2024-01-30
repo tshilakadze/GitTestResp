@@ -42,8 +42,8 @@ public class Problem72 extends GraphicsProgram {
 		add(addTeach, SOUTH);
 		add(addSubj, SOUTH);
 		add(addPupil, SOUTH);
-		add(disPupil, SOUTH);
-		add(disTeach, SOUTH);
+		add(disPupil, NORTH);
+		add(disTeach, NORTH);
 		
 	}
 
