@@ -42,7 +42,7 @@ public class Problem72 extends GraphicsProgram {
 		add(addTeach, SOUTH);
 		add(addSubj, SOUTH);
 		add(addPupil, SOUTH);
-		add(disPupil, NORTH);
+		add(disPupil, NORTH);		// Because it took too much space
 		add(disTeach, NORTH);
 		
 	}
