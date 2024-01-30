@@ -75,8 +75,10 @@ public class Problem72 extends GraphicsProgram {
 
 
 	private void addTeacher(String text) {
-		// TODO Auto-generated method stub
-		
+		school.addTeacher(teach.getText());
+		pupil.setText("");
+		subj.setText("");
+		teach.setText("");
 	}
 
 
